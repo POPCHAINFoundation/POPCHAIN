@@ -59,7 +59,7 @@ public:
     enum Unit {
         PCH,
         mPCH,
-        uPIV
+        uPCH
     };
 
     enum SeparatorStyle {
