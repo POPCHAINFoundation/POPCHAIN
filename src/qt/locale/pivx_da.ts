@@ -176,7 +176,7 @@
         <translation>Bekræft, og tegnebogen krypteres.</translation>
     </message>
     <message>
-        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
+        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PCHs from being stolen by malware infecting your computer.</source>
         <translation>PIVX vil lukke ned for at færdiggøre kryptograferingsprocesserne. Husk at kryptering alene ikke sikrer mod tyveri af mønterne fra malware eller virus på computeren.</translation>
     </message>
     <message>
@@ -184,8 +184,8 @@
         <translation>Er du sikker på, at du vil kryptere din tegnebog?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
-        <translation>Advarsel! Hvis du krypterer din tegnebog og mister dit password vil du &lt;b&gt;MISTE ALLE DINE PIV&lt;/b&gt;. Passworded kan ikke genskabes.</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PCH&lt;/b&gt;!</source>
+        <translation>Advarsel! Hvis du krypterer din tegnebog og mister dit password vil du &lt;b&gt;MISTE ALLE DINE PCH&lt;/b&gt;. Passworded kan ikke genskabes.</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>Vis transaktionshistorik</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>Beskyttelse af personlige oplysninger for zPIV</translation>
+        <source>Privacy Actions for zPCH</source>
+        <translation>Beskyttelse af personlige oplysninger for zPCH</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1646,8 +1646,8 @@ Vær tålmodig efter at du har klikket på import.</translation>
         <translation>Adresse / Beløb:</translation>
     </message>
     <message>
-        <source>Add destinations to send PIV to</source>
-        <translation>Tilføj destinationer for at sende PIV til</translation>
+        <source>Add destinations to send PCH to</source>
+        <translation>Tilføj destinationer for at sende PCH til</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1846,28 +1846,28 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>MAP port ved hjælp af UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Aktivér automatisk mintning af PIV-enheder til zPIV</translation>
+        <source>Enable automatic minting of PCH units to zPCH</source>
+        <translation>Aktivér automatisk mintning af PCH-enheder til zPCH</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Aktivér zPIV Automint</translation>
+        <source>Enable zPCH Automint</source>
+        <translation>Aktivér zPCH Automint</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procentdelen af indkommende PIV, som automatisk konverteres til zPIV via Zerocoin Protocol (min: 10%)</translation>
+        <source>Percentage of incoming PCH which get automatically converted to zPCH via Zerocoin Protocol (min: 10%)</source>
+        <translation>Procentdelen af indkommende PCH, som automatisk konverteres til zPCH via Zerocoin Protocol (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Procentdel af automatiseret zPIV</translation>
+        <source>Percentage of autominted zPCH</source>
+        <translation>Procentdel af automatiseret zPCH</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>Vent med automatisk konvertering til Zerocoin, indtil nok PIV til denne betegnelse er tilgængelig</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough PCH for this denomination is available</source>
+        <translation>Vent med automatisk konvertering til Zerocoin, indtil nok PCH til denne betegnelse er tilgængelig</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Foretrukket Automint zPIV Denomination</translation>
+        <source>Preferred Automint zPCH Denomination</source>
+        <translation>Foretrukket Automint zPCH Denomination</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2025,8 +2025,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Samlet saldo, inklusive alle utilgængelige mønter.</translation>
     </message>
     <message>
-        <source>PIV Balance</source>
-        <translation>PIV Balance</translation>
+        <source>PCH Balance</source>
+        <translation>PCH Balance</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2053,14 +2053,14 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Din nuværende PIVX-saldo, ubekræftede og umodne transaktioner inkluderet</translation>
     </message>
     <message>
-        <source>zPIV Balance</source>
-        <translation>zPIV-saldo</translation>
+        <source>zPCH Balance</source>
+        <translation>zPCH-saldo</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zPIV are spendable.</source>
+These zPCH are spendable.</source>
         <translation>Ældre: mere end 20 bekræftelser og mere end 1 minutter med samme betegnelse, efter at den blev minted
-Disse zPIV kan bruges.</translation>
+Disse zPCH kan bruges.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2113,8 +2113,8 @@ Uplettet: bekræftet, men mindre end 1 minutter med samme betegnelse, efter at d
         <translation>Brugbare:</translation>
     </message>
     <message>
-        <source>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</source>
-        <translation>Låste PIV eller Masternode collaterals. Disse er udelukket fra zPIV-mintning.</translation>
+        <source>Locked PCH or Masternode collaterals. These are excluded from zPCH minting.</source>
+        <translation>Låste PCH eller Masternode collaterals. Disse er udelukket fra zPCH-mintning.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2125,8 +2125,8 @@ Uplettet: bekræftet, men mindre end 1 minutter med samme betegnelse, efter at d
         <translation>Ubekræftet:</translation>
     </message>
     <message>
-        <source>Your current zPIV balance, unconfirmed and immature zPIV included.</source>
-        <translation>Din nuværende zPIV-saldo, ubekræftede og umodne zPIV inkluderet.</translation>
+        <source>Your current zPCH balance, unconfirmed and immature zPCH included.</source>
+        <translation>Din nuværende zPCH-saldo, ubekræftede og umodne zPCH inkluderet.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2137,7 +2137,7 @@ Uplettet: bekræftet, men mindre end 1 minutter med samme betegnelse, efter at d
         <translation>Ude af synk</translation>
     </message>
     <message>
-        <source>Current percentage of zPIV.
+        <source>Current percentage of zPCH.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
         <translation>Nuværende procentdel af zPIV
@@ -2283,8 +2283,8 @@ For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' 
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zPCH</source>
+        <translation>zPCH</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2311,12 +2311,12 @@ For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' 
         <translation>PRIVATLIV</translation>
     </message>
     <message>
-        <source>zPIV Control</source>
-        <translation>zPIV Control</translation>
+        <source>zPCH Control</source>
+        <translation>zPCH Control</translation>
     </message>
     <message>
-        <source>zPIV Selected:</source>
-        <translation>zPIV Selected:</translation>
+        <source>zPCH Selected:</source>
+        <translation>zPCH Selected:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2331,24 +2331,24 @@ For at aktivere AutoMint-ændring 'enablezeromint = 0' til 'enablezeromint = 1' 
         <translation>Tilbring Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending</source>
-        <translation>Tilgængelig (moden og brugt) zPIV for udgifter</translation>
+        <source>Available (mature and spendable) zPCH for spending</source>
+        <translation>Tilgængelig (moden og brugt) zPCH for udgifter</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Disponibel saldo:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending
+        <source>Available (mature and spendable) zPCH for spending
 
-zPIV are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Tilgængelig (moden og brugt) zPIV for spending
+zPCH are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Tilgængelig (moden og brugt) zPCH for spending
 
-zPIV er modne, når de har mere end 20 bekræftelser OG mere end 2 minutter med samme betegnelse, efter at de blev præsenteret</translation>
+zPCH er modne, når de har mere end 20 bekræftelser OG mere end 2 minutter med samme betegnelse, efter at de blev præsenteret</translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zPCH</source>
+        <translation>0 zPCH</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2407,8 +2407,8 @@ zPIV er modne, når de har mere end 20 bekræftelser OG mere end 2 minutter med 
         <translation>Zerocoin Stats:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zPIV</source>
-        <translation>Samlet saldo inklusive ubekræftede og umodne zPIV</translation>
+        <source>Total Balance including unconfirmed and immature zPCH</source>
+        <translation>Samlet saldo inklusive ubekræftede og umodne zPCH</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2429,7 +2429,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Uplettet: bekræftet, men mindre end 1 minutter med samme betegnelse, efter at den blev mønnet</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zPIV minting.
+        <source>Show the current status of automatic zPCH minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to pivx.conf
@@ -2439,7 +2439,7 @@ To change the percentage (no restart required):
 - menu Settings-&gt;Options-&gt;Percentage of autominted zPIV
 
 </source>
-        <translation>Vis den aktuelle status for automatisk zPIV minting.øj
+        <translation>Vis den aktuelle status for automatisk zPCH minting.øj
 
 For at ændre status (genstart kræves):.
 - aktiver: tilføj 'enablezeromint = 1' til pivx.conf
@@ -2620,12 +2620,12 @@ Please be patient...</source>
 Vær tålmodig...</translation>
     </message>
     <message>
-        <source>zPIV Spend #: </source>
-        <translation>zPIV Spend #: </translation>
+        <source>zPCH Spend #: </source>
+        <translation>zPCH Spend #: </translation>
     </message>
     <message>
-        <source>zPIV Mint</source>
-        <translation>zPIV Mint</translation>
+        <source>zPCH Mint</source>
+        <translation>zPCH Mint</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2640,12 +2640,12 @@ Vær tålmodig...</translation>
         <translation>Konfigureret målprocent:&lt;b&gt;</translation>
     </message>
     <message>
-        <source>zPIV is currently disabled due to maintenance.</source>
-        <translation>zPIV er i øjeblikket deaktiveret på grund af vedligeholdelse.</translation>
+        <source>zPCH is currently disabled due to maintenance.</source>
+        <translation>zPCH er i øjeblikket deaktiveret på grund af vedligeholdelse.</translation>
     </message>
     <message>
-        <source>zPIV is currently undergoing maintenance.</source>
-        <translation>zPIV er i øjeblikket under opretholdelse.</translation>
+        <source>zPCH is currently undergoing maintenance.</source>
+        <translation>zPCH er i øjeblikket under opretholdelse.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -3090,8 +3090,8 @@ Vær tålmodig...</translation>
         <translation>Brugerdefineret Backup-sti:</translation>
     </message>
     <message>
-        <source>Custom zPIV Backup Path:</source>
-        <translation>Brugerdefineret zPIV Backup-sti:</translation>
+        <source>Custom zPCH Backup Path:</source>
+        <translation>Brugerdefineret zPCH Backup-sti:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3542,8 +3542,8 @@ Vær tålmodig...</translation>
         <translation>UTXO størrelse:</translation>
     </message>
     <message>
-        <source>0 PIV</source>
-        <translation>0 PIV</translation>
+        <source>0 PCH</source>
+        <translation>0 PCH</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3598,12 +3598,12 @@ Vær tålmodig...</translation>
         <translation>Mønter vælges automatisk</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uPIVs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uPIV i gebyr, &lt;br /&gt; mens "mindst" udbetaler 1000 uPIVs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
+        <source>If the custom fee is set to 1000 uPCHs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPCHs in fee,&lt;br /&gt;while "at least" pays 1000 uPCHs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uPCHs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uPCH i gebyr, &lt;br /&gt; mens "mindst" udbetaler 1000 uPCHs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "total at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uPIVs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uPIV i gebyr, &lt;br /&gt; mens "Total-mindst" udbetaler 1000 uPIVs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
+        <source>If the custom fee is set to 1000 uPCHs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPCHs in fee,&lt;br /&gt;while "total at least" pays 1000 uPCHs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Hvis den brugerfastsatte gebyrbetaling er sat til 1000 uPCHs og transaktionen kun fylder 250 bytes, så vil "pr. kilobyte" kun udbetale 250 uPCH i gebyr, &lt;br /&gt; mens "Total-mindst" udbetaler 1000 uPCHs. For transaktioner større end en kilobyte betales i begge tilfælde i forhold til antallet af kilobytes </translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for PIVX transactions than the network can process.</source>
@@ -3654,8 +3654,8 @@ Vær tålmodig...</translation>
         <translation>Tilføj &amp;Modtager</translation>
     </message>
     <message>
-        <source>Anonymized PIV</source>
-        <translation>Tilsløret PIV</translation>
+        <source>Anonymized PCH</source>
+        <translation>Tilsløret PCH</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -4298,12 +4298,12 @@ Vær tålmodig...</translation>
         <translation>Modtaget via tilsløring</translation>
     </message>
     <message>
-        <source>PIV Stake</source>
-        <translation>PIV Stake</translation>
+        <source>PCH Stake</source>
+        <translation>PCH Stake</translation>
     </message>
     <message>
-        <source>zPIV Stake</source>
-        <translation>zPIV Stake</translation>
+        <source>zPCH Stake</source>
+        <translation>zPCH Stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4322,32 +4322,32 @@ Vær tålmodig...</translation>
         <translation>Opret tilsløret designering</translation>
     </message>
     <message>
-        <source>Converted PIV to zPIV</source>
-        <translation>Konverteret PIV til zPIV</translation>
+        <source>Converted PCH to zPCH</source>
+        <translation>Konverteret PCH til zPCH</translation>
     </message>
     <message>
-        <source>Spent zPIV</source>
+        <source>Spent zPCH</source>
         <translation>Brugt zPiv</translation>
     </message>
     <message>
-        <source>Received PIV from zPIV</source>
+        <source>Received PCH from zPCH</source>
         <translation>Modtaget Piv fra zPiv</translation>
     </message>
     <message>
-        <source>Minted Change as zPIV from zPIV Spend</source>
-        <translation>Minted Change som zPIV fra zPIV Spend</translation>
+        <source>Minted Change as zPCH from zPCH Spend</source>
+        <translation>Minted Change som zPCH fra zPCH Spend</translation>
     </message>
     <message>
-        <source>Converted zPIV to PIV</source>
-        <translation>Konverteret PIV til zPIV</translation>
+        <source>Converted zPCH to PCH</source>
+        <translation>Konverteret PCH til zPCH</translation>
     </message>
     <message>
-        <source>Anonymous (zPIV Transaction)</source>
-        <translation>Anonym (zPIV Transaction)</translation>
+        <source>Anonymous (zPCH Transaction)</source>
+        <translation>Anonym (zPCH Transaction)</translation>
     </message>
     <message>
-        <source>Anonymous (zPIV Stake)</source>
-        <translation>Anonym (zPIV Stake)</translation>
+        <source>Anonymous (zPCH Stake)</source>
+        <translation>Anonym (zPCH Stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4557,12 +4557,12 @@ Vær tålmodig...</translation>
         <translation>Eksporteret!</translation>
     </message>
     <message>
-        <source>Received PIV from zPIV</source>
+        <source>Received PCH from zPCH</source>
         <translation>Modtaget Piv fra zPiv</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zPIV</source>
-        <translation>Zerocoin Spend, Ændring i zPIV</translation>
+        <source>Zerocoin Spend, Change in zPCH</source>
+        <translation>Zerocoin Spend, Ændring i zPCH</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4598,8 +4598,8 @@ Vær tålmodig...</translation>
         <translation>Send mønter</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 PIV.</source>
-        <translation>SwiftTx understøtter ikke afsendelse af så store beløb endnu. Transaktioner er for tiden begrænsede til %1PIV.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 PCH.</source>
+        <translation>SwiftTx understøtter ikke afsendelse af så store beløb endnu. Transaktioner er for tiden begrænsede til %1PCH.</translation>
     </message>
 </context>
 <context>
@@ -4632,8 +4632,8 @@ Vær tålmodig...</translation>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zPIV to Spend</source>
-        <translation>Vælg zPIV for at bruge</translation>
+        <source>Select zPCH to Spend</source>
+        <translation>Vælg zPCH for at bruge</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4644,8 +4644,8 @@ Vær tålmodig...</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zPCH</source>
+        <translation>zPCH</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4708,16 +4708,16 @@ Vær tålmodig...</translation>
 &lt;http://www.opensource.org/licenses/mit-license.php&gt;. </translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zPIV minting (0-1, default: %u)</source>
+        <source>Enable automatic wallet backups triggered after each zPCH minting (0-1, default: %u)</source>
         <translation>Aktivér automatiske wallet-sikkerhedskopier udløst efter hver zPiv-mintning (0-1, standard: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for PIV inputs (0-1, default: %u)</source>
-        <translation>Aktiver eller deaktiver staking-funktionalitet for PIV-indgange (0-1, standard: %u)</translation>
+        <source>Enable or disable staking functionality for PCH inputs (0-1, default: %u)</source>
+        <translation>Aktiver eller deaktiver staking-funktionalitet for PCH-indgange (0-1, standard: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zPIV inputs (0-1, default: %u)</source>
-        <translation>Aktiver eller deaktiver staking-funktionalitet for zPIV-indgange (0-1, standard: %u)</translation>
+        <source>Enable or disable staking functionality for zPCH inputs (0-1, default: %u)</source>
+        <translation>Aktiver eller deaktiver staking-funktionalitet for zPCH-indgange (0-1, standard: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -4752,12 +4752,12 @@ Vær tålmodig...</translation>
         <translation>Udfør en kommando når den bedste blok ændres (%s in cmd erstattes med blok hashen)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Gebyrer (in PIV/kb) lavere end dette betragtes som et nul-gebyr for at videresende (default: %s)</translation>
+        <source>Fees (in PCH/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Gebyrer (in PCH/kb) lavere end dette betragtes som et nul-gebyr for at videresende (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Gebyrer (in PIV/kb) lavere end dette betragtes som et nul-gebyr for at oprette en transaktion (default: %s)</translation>
+        <source>Fees (in PCH/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Gebyrer (in PCH/kb) lavere end dette betragtes som et nul-gebyr for at oprette en transaktion (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4860,12 +4860,12 @@ Vær tålmodig...</translation>
         <translation>Det er ikke muligt at allokere tilstrækkeligt med tilsløret designeret indestående for at gennemføre denne transaktion.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 PIV.</source>
-        <translation>Det er ikke muligt at allokere tilstrækkeligt med tilsløret  ikke-designeret indestående for at gennemføre denne transaktion, der ikke ækvivalerer 10000 PIV.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 PCH.</source>
+        <translation>Det er ikke muligt at allokere tilstrækkeligt med tilsløret  ikke-designeret indestående for at gennemføre denne transaktion, der ikke ækvivalerer 10000 PCH.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 PIV.</source>
-        <translation>Det var ikke muligt at allokere tilstrækkelige midler til denne transaktion som er forskellig fra 10000 PIV.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 PCH.</source>
+        <translation>Det var ikke muligt at allokere tilstrækkelige midler til denne transaktion som er forskellig fra 10000 PCH.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5148,8 +5148,8 @@ Vær tålmodig...</translation>
         <translation>Læsning af blokken mislykkedes</translation>
     </message>
     <message>
-        <source>Fee (in PIV/kB) to add to transactions you send (default: %s)</source>
-        <translation>Gebyr (i PIV/kB) som skal tilføjes transaktionen der sendes (default: %s)</translation>
+        <source>Fee (in PCH/kB) to add to transactions you send (default: %s)</source>
+        <translation>Gebyr (i PCH/kB) som skal tilføjes transaktionen der sendes (default: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5252,8 +5252,8 @@ Vær tålmodig...</translation>
         <translation>Procentdel af automatisk mintede Zerocoin (10-100, standard: %u)</translation>
     </message>
     <message>
-        <source>Reindex the PIV and zPIV money supply statistics</source>
-        <translation>Reindex PIV og zPIV pengemængde statistikker</translation>
+        <source>Reindex the PCH and zPCH money supply statistics</source>
+        <translation>Reindex PCH og zPCH pengemængde statistikker</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5328,8 +5328,8 @@ Vær tålmodig...</translation>
         <translation>Foretrukken Betegnelse for automatisk mintede Zerocoin (1/5/10/50/100/500/1000/5000), 0 uden præference. standard: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zPIV backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Angiv brugerdefineret backup-vej for at tilføje en kopi af enhver zPIV-backup. Hvis det er angivet som dig, genererer hver backup en tidsstempelet fil. Hvis den er angivet som fil, ønsker man at omskrive til den pågældende fil hver backup. Hvis backupath er indstillet, vil der ske 4 sikkerhedskopier</translation>
+        <source>Specify custom backup path to add a copy of any automatic zPCH backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Angiv brugerdefineret backup-vej for at tilføje en kopi af enhver zPCH-backup. Hvis det er angivet som dig, genererer hver backup en tidsstempelet fil. Hvis den er angivet som fil, ønsker man at omskrive til den pågældende fil hver backup. Hvis backupath er indstillet, vil der ske 4 sikkerhedskopier</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -5740,8 +5740,8 @@ Vær tålmodig...</translation>
         <translation>Synkroniserer sporks...</translation>
     </message>
     <message>
-        <source>Syncing zPIV wallet...</source>
-        <translation>Syncing zPIV wallet ..</translation>
+        <source>Syncing zPCH wallet...</source>
+        <translation>Syncing zPCH wallet ..</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -5848,8 +5848,8 @@ Vær tålmodig...</translation>
         <translation>Brugernavn til JSON-RPC forbindelser</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zPIV</source>
-        <translation>Værdien er under den mindste tilgængelige værdi (= 1) for zPIV</translation>
+        <source>Value is below the smallest available denomination (= 1) of zPCH</source>
+        <translation>Værdien er under den mindste tilgængelige værdi (= 1) for zPCH</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

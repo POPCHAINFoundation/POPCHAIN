@@ -176,16 +176,16 @@
         <translation>Confirm wallet encryption</translation>
     </message>
     <message>
-        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</translation>
+        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PCHs from being stolen by malware infecting your computer.</source>
+        <translation>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PCHs from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Are you sure you wish to encrypt your wallet?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
-        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PCH&lt;/b&gt;!</source>
+        <translation>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PCH&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>Browse transaction history</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>Privacy Actions for zPIV</translation>
+        <source>Privacy Actions for zPCH</source>
+        <translation>Privacy Actions for zPCH</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1702,8 +1702,8 @@ Please be patient after clicking import.</translation>
         <translation>Address / Amount:</translation>
     </message>
     <message>
-        <source>Add destinations to send PIV to</source>
-        <translation>Add destinations to send PIV to</translation>
+        <source>Add destinations to send PCH to</source>
+        <translation>Add destinations to send PCH to</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1902,28 +1902,28 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Map port using &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Enable automatic minting of PIV units to zPIV</translation>
+        <source>Enable automatic minting of PCH units to zPCH</source>
+        <translation>Enable automatic minting of PCH units to zPCH</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Enable zPIV Automint</translation>
+        <source>Enable zPCH Automint</source>
+        <translation>Enable zPCH Automint</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</translation>
+        <source>Percentage of incoming PCH which get automatically converted to zPCH via Zerocoin Protocol (min: 10%)</source>
+        <translation>Percentage of incoming PCH which get automatically converted to zPCH via Zerocoin Protocol (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Percentage of autominted zPIV</translation>
+        <source>Percentage of autominted zPCH</source>
+        <translation>Percentage of autominted zPCH</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough PCH for this denomination is available</source>
+        <translation>Wait with automatic conversion to Zerocoin until enough PCH for this denomination is available</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Preferred Automint zPIV Denomination</translation>
+        <source>Preferred Automint zPCH Denomination</source>
+        <translation>Preferred Automint zPCH Denomination</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2089,8 +2089,8 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Total Balance, including all unavailable coins.</translation>
     </message>
     <message>
-        <source>PIV Balance</source>
-        <translation>PIV Balance</translation>
+        <source>PCH Balance</source>
+        <translation>PCH Balance</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2117,14 +2117,14 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
         <translation>Your current PIVX balance, unconfirmed and immature transactions included</translation>
     </message>
     <message>
-        <source>zPIV Balance</source>
-        <translation>zPIV Balance</translation>
+        <source>zPCH Balance</source>
+        <translation>zPCH Balance</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zPIV are spendable.</source>
+These zPCH are spendable.</source>
         <translation>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zPIV are spendable.</translation>
+These zPCH are spendable.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2177,8 +2177,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>Spendable:</translation>
     </message>
     <message>
-        <source>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</source>
-        <translation>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</translation>
+        <source>Locked PCH or Masternode collaterals. These are excluded from zPCH minting.</source>
+        <translation>Locked PCH or Masternode collaterals. These are excluded from zPCH minting.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2189,8 +2189,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>Unconfirmed:</translation>
     </message>
     <message>
-        <source>Your current zPIV balance, unconfirmed and immature zPIV included.</source>
-        <translation>Your current zPIV balance, unconfirmed and immature zPIV included.</translation>
+        <source>Your current zPCH balance, unconfirmed and immature zPCH included.</source>
+        <translation>Your current zPCH balance, unconfirmed and immature zPCH included.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2201,10 +2201,10 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>out of sync</translation>
     </message>
     <message>
-        <source>Current percentage of zPIV.
+        <source>Current percentage of zPCH.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Current percentage of zPIV.
+        <translation>Current percentage of zPCH.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </translation>
     </message>
@@ -2348,8 +2348,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in pivx.conf<
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zPCH</source>
+        <translation>zPCH</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2376,12 +2376,12 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in pivx.conf<
         <translation>PRIVACY</translation>
     </message>
     <message>
-        <source>zPIV Control</source>
-        <translation>zPIV Control</translation>
+        <source>zPCH Control</source>
+        <translation>zPCH Control</translation>
     </message>
     <message>
-        <source>zPIV Selected:</source>
-        <translation>zPIV Selected:</translation>
+        <source>zPCH Selected:</source>
+        <translation>zPCH Selected:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2396,24 +2396,24 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in pivx.conf<
         <translation>Spend Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending</source>
-        <translation>Available (mature and spendable) zPIV for spending</translation>
+        <source>Available (mature and spendable) zPCH for spending</source>
+        <translation>Available (mature and spendable) zPCH for spending</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Available Balance:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending
+        <source>Available (mature and spendable) zPCH for spending
 
-zPIV are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Available (mature and spendable) zPIV for spending
+zPCH are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Available (mature and spendable) zPCH for spending
 
-zPIV are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</translation>
+zPCH are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zPCH</source>
+        <translation>0 zPCH</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2472,8 +2472,8 @@ zPIV are mature when they have more than 20 confirmations AND more than 2 mints 
         <translation>Zerocoin Stats:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zPIV</source>
-        <translation>Total Balance including unconfirmed and immature zPIV</translation>
+        <source>Total Balance including unconfirmed and immature zPCH</source>
+        <translation>Total Balance including unconfirmed and immature zPCH</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2494,7 +2494,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Immature: confirmed, but less than 1 mint of the same denomination after it was minted</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zPIV minting.
+        <source>Show the current status of automatic zPCH minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to pivx.conf
@@ -2504,7 +2504,7 @@ To change the percentage (no restart required):
 - menu Settings-&gt;Options-&gt;Percentage of autominted zPIV
 
 </source>
-        <translation>Show the current status of automatic zPIV minting.
+        <translation>Show the current status of automatic zPCH minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to pivx.conf
@@ -2560,8 +2560,8 @@ To change the percentage (no restart required):
         <translation>0 x</translation>
     </message>
     <message>
-        <source>Show zPIV denominations list</source>
-        <translation>Show zPIV denominations list</translation>
+        <source>Show zPCH denominations list</source>
+        <translation>Show zPCH denominations list</translation>
     </message>
     <message>
         <source>Show Denominations</source>
@@ -2698,12 +2698,12 @@ Please be patient...</source>
 Please be patient...</translation>
     </message>
     <message>
-        <source>zPIV Spend #: </source>
-        <translation>zPIV Spend #: </translation>
+        <source>zPCH Spend #: </source>
+        <translation>zPCH Spend #: </translation>
     </message>
     <message>
-        <source>zPIV Mint</source>
-        <translation>zPIV Mint</translation>
+        <source>zPCH Mint</source>
+        <translation>zPCH Mint</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2718,12 +2718,12 @@ Please be patient...</translation>
         <translation> Configured target percentage: &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zPIV is currently disabled due to maintenance.</source>
-        <translation>zPIV is currently disabled due to maintenance.</translation>
+        <source>zPCH is currently disabled due to maintenance.</source>
+        <translation>zPCH is currently disabled due to maintenance.</translation>
     </message>
     <message>
-        <source>zPIV is currently undergoing maintenance.</source>
-        <translation>zPIV is currently undergoing maintenance.</translation>
+        <source>zPCH is currently undergoing maintenance.</source>
+        <translation>zPCH is currently undergoing maintenance.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -3168,8 +3168,8 @@ Please be patient...</translation>
         <translation>Custom Backup Path:</translation>
     </message>
     <message>
-        <source>Custom zPIV Backup Path:</source>
-        <translation>Custom zPIV Backup Path:</translation>
+        <source>Custom zPCH Backup Path:</source>
+        <translation>Custom zPCH Backup Path:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3636,12 +3636,12 @@ Please be patient...</translation>
         <translation>UTXO Size:</translation>
     </message>
     <message>
-        <source>0 PIV</source>
-        <translation>0 PIV</translation>
+        <source>0 PCH</source>
+        <translation>0 PCH</translation>
     </message>
     <message>
-        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 PIV applies</source>
-        <translation>SwiftX technology allows for near instant transactions - A flat fee of 0.01 PIV applies</translation>
+        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 PCH applies</source>
+        <translation>SwiftX technology allows for near instant transactions - A flat fee of 0.01 PCH applies</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3696,12 +3696,12 @@ Please be patient...</translation>
         <translation>Coins automatically selected</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uPCHs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPCHs in fee,&lt;br /&gt;while "at least" pays 1000 uPCHs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>If the custom fee is set to 1000 uPCHs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPCHs in fee,&lt;br /&gt;while "at least" pays 1000 uPCHs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "total at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "total at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uPCHs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPCHs in fee,&lt;br /&gt;while "total at least" pays 1000 uPCHs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>If the custom fee is set to 1000 uPCHs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPCHs in fee,&lt;br /&gt;while "total at least" pays 1000 uPCHs. For transactions bigger than a kilobyte both pay by kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for PIVX transactions than the network can process.</source>
@@ -3752,8 +3752,8 @@ Please be patient...</translation>
         <translation>Add &amp;Recipient</translation>
     </message>
     <message>
-        <source>Anonymized PIV</source>
-        <translation>Anonymised PIV</translation>
+        <source>Anonymized PCH</source>
+        <translation>Anonymised PCH</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -4400,12 +4400,12 @@ Please be patient...</translation>
         <translation>Received via Obfuscation</translation>
     </message>
     <message>
-        <source>PIV Stake</source>
-        <translation>PIV Stake</translation>
+        <source>PCH Stake</source>
+        <translation>PCH Stake</translation>
     </message>
     <message>
-        <source>zPIV Stake</source>
-        <translation>zPIV Stake</translation>
+        <source>zPCH Stake</source>
+        <translation>zPCH Stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4424,32 +4424,32 @@ Please be patient...</translation>
         <translation>Obfuscation Create Denominations</translation>
     </message>
     <message>
-        <source>Converted PIV to zPIV</source>
-        <translation>Converted PIV to zPIV</translation>
+        <source>Converted PCH to zPCH</source>
+        <translation>Converted PCH to zPCH</translation>
     </message>
     <message>
-        <source>Spent zPIV</source>
-        <translation>Spent zPIV</translation>
+        <source>Spent zPCH</source>
+        <translation>Spent zPCH</translation>
     </message>
     <message>
-        <source>Received PIV from zPIV</source>
-        <translation>Received PIV from zPIV</translation>
+        <source>Received PCH from zPCH</source>
+        <translation>Received PCH from zPCH</translation>
     </message>
     <message>
-        <source>Minted Change as zPIV from zPIV Spend</source>
-        <translation>Minted Change as zPIV from zPIV Spend</translation>
+        <source>Minted Change as zPCH from zPCH Spend</source>
+        <translation>Minted Change as zPCH from zPCH Spend</translation>
     </message>
     <message>
-        <source>Converted zPIV to PIV</source>
-        <translation>Converted zPIV to PIV</translation>
+        <source>Converted zPCH to PCH</source>
+        <translation>Converted zPCH to PCH</translation>
     </message>
     <message>
-        <source>Anonymous (zPIV Transaction)</source>
-        <translation>Anonymous (zPIV Transaction)</translation>
+        <source>Anonymous (zPCH Transaction)</source>
+        <translation>Anonymous (zPCH Transaction)</translation>
     </message>
     <message>
-        <source>Anonymous (zPIV Stake)</source>
-        <translation>Anonymous (zPIV Stake)</translation>
+        <source>Anonymous (zPCH Stake)</source>
+        <translation>Anonymous (zPCH Stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4663,12 +4663,12 @@ Please be patient...</translation>
         <translation>Exporting Successful</translation>
     </message>
     <message>
-        <source>Received PIV from zPIV</source>
-        <translation>Received PIV from zPIV</translation>
+        <source>Received PCH from zPCH</source>
+        <translation>Received PCH from zPCH</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zPIV</source>
-        <translation>Zerocoin Spend, Change in zPIV</translation>
+        <source>Zerocoin Spend, Change in zPCH</source>
+        <translation>Zerocoin Spend, Change in zPCH</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4704,8 +4704,8 @@ Please be patient...</translation>
         <translation>Send Coins</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 PIV.</source>
-        <translation>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 PIV.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 PCH.</source>
+        <translation>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 PCH.</translation>
     </message>
 </context>
 <context>
@@ -4738,8 +4738,8 @@ Please be patient...</translation>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zPIV to Spend</source>
-        <translation>Select zPIV to Spend</translation>
+        <source>Select zPCH to Spend</source>
+        <translation>Select zPCH to Spend</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4750,8 +4750,8 @@ Please be patient...</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zPCH</source>
+        <translation>zPCH</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4813,16 +4813,16 @@ Please be patient...</translation>
         <translation>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zPIV minting (0-1, default: %u)</source>
-        <translation>Enable automatic wallet backups triggered after each zPIV minting (0-1, default: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zPCH minting (0-1, default: %u)</source>
+        <translation>Enable automatic wallet backups triggered after each zPCH minting (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for PIV inputs (0-1, default: %u)</source>
-        <translation>Enable or disable staking functionality for PIV inputs (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for PCH inputs (0-1, default: %u)</source>
+        <translation>Enable or disable staking functionality for PCH inputs (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zPIV inputs (0-1, default: %u)</source>
-        <translation>Enable or disable staking functionality for zPIV inputs (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for zPCH inputs (0-1, default: %u)</source>
+        <translation>Enable or disable staking functionality for zPCH inputs (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -4857,12 +4857,12 @@ Please be patient...</translation>
         <translation>Execute command when the best block changes (%s in cmd is replaced by block hash)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Fees (in PIV/Kb) smaller than this are considered zero fee for relaying (default: %s)</translation>
+        <source>Fees (in PCH/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Fees (in PCH/Kb) smaller than this are considered zero fee for relaying (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Fees (in PIV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
+        <source>Fees (in PCH/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Fees (in PCH/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4969,12 +4969,12 @@ Please be patient...</translation>
         <translation>Unable to locate enough Obfuscation denominated funds for this transaction.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 PIV.</source>
-        <translation>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 PIV.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 PCH.</source>
+        <translation>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 PCH.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 PIV.</source>
-        <translation>Unable to locate enough funds for this transaction that are not equal 10000 PIV.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 PCH.</source>
+        <translation>Unable to locate enough funds for this transaction that are not equal 10000 PCH.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5261,8 +5261,8 @@ Please be patient...</translation>
         <translation>Failed to read block</translation>
     </message>
     <message>
-        <source>Fee (in PIV/kB) to add to transactions you send (default: %s)</source>
-        <translation>Fee (in PIV/kB) to add to transactions you send (default: %s)</translation>
+        <source>Fee (in PCH/kB) to add to transactions you send (default: %s)</source>
+        <translation>Fee (in PCH/kB) to add to transactions you send (default: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5365,8 +5365,8 @@ Please be patient...</translation>
         <translation>Percentage of automatically minted Zerocoin  (1-100, default: %u)</translation>
     </message>
     <message>
-        <source>Reindex the PIV and zPIV money supply statistics</source>
-        <translation>Reindex the PIV and zPIV money supply statistics</translation>
+        <source>Reindex the PCH and zPCH money supply statistics</source>
+        <translation>Reindex the PCH and zPCH money supply statistics</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5441,8 +5441,8 @@ Please be patient...</translation>
         <translation>Preferred Denomination for automatically minted Zerocoin  (1/5/10/50/100/500/1000/5000), 0 for no preference. default: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zPIV backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Specify custom backup path to add a copy of any automatic zPIV backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</translation>
+        <source>Specify custom backup path to add a copy of any automatic zPCH backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Specify custom backup path to add a copy of any automatic zPCH backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -5853,8 +5853,8 @@ Please be patient...</translation>
         <translation>Synchronising sporks...</translation>
     </message>
     <message>
-        <source>Syncing zPIV wallet...</source>
-        <translation>Syncing zPIV wallet...</translation>
+        <source>Syncing zPCH wallet...</source>
+        <translation>Syncing zPCH wallet...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -5965,8 +5965,8 @@ Please be patient...</translation>
         <translation>Username for JSON-RPC connections</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zPIV</source>
-        <translation>Value is below the smallest available denomination (= 1) of zPIV</translation>
+        <source>Value is below the smallest available denomination (= 1) of zPCH</source>
+        <translation>Value is below the smallest available denomination (= 1) of zPCH</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
