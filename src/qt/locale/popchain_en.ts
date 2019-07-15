@@ -1467,7 +1467,7 @@ Address: %4
     </message>
     <message>
         <location line="+8"/>
-        <source>Can vary +/- %1 upiv per input.</source>
+        <source>Can vary +/- %1 upch per input.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6327,7 +6327,7 @@ Please be patient...</source>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <location filename="../forms/zpivcontroldialog.ui" line="+20"/>
+        <location filename="../forms/zpchcontroldialog.ui" line="+20"/>
         <source>Select zPCH to Spend</source>
         <translation type="unfinished"></translation>
     </message>

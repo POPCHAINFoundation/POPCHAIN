@@ -16,7 +16,7 @@
 #include "uint256.h"
 #include <streams.h>
 #include <utilstrencodings.h>
-#include "zpiv/zerocoin.h"
+#include "zpch/zerocoin.h"
 #include "chainparams.h"
 
 static int const COIN_SPEND_PUBLIC_SPEND_VERSION = 3;

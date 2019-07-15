@@ -266,7 +266,7 @@ bool CCryptoKeyStore::Unlock(const CKeyingMaterial& vMasterKeyIn)
             CKey key;
             key.MakeNewKey(true);
             uint256 seed = key.GetPrivKey_256();
-            LogPrintf("%s: first run of zpiv wallet detected, new seed generated. Seedhash=%s\n", __func__, Hash(seed.begin(), seed.end()).GetHex());
+            LogPrintf("%s: first run of zpch wallet detected, new seed generated. Seedhash=%s\n", __func__, Hash(seed.begin(), seed.end()).GetHex());
             pwalletMain->zwalletMain->SetMasterSeed(seed, true);
             pwalletMain->zwalletMain->GenerateMintPool();
         }
@@ -399,7 +399,7 @@ bool CCryptoKeyStore::AddDeterministicSeed(const uint256& seed)
         if (db.WriteZPCHSeed(hashSeed, ToByteVector(seed))) {
             return true;
         }
-        strErr = "save zpivseed to wallet";
+        strErr = "save zpchseed to wallet";
     }
                 //the use case for this is no password set seed, mint dzPCH,
 

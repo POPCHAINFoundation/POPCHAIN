@@ -11,7 +11,7 @@
 #include "wallet/wallet.h"
 #include "wallet/walletdb.h"
 #include "txdb.h"
-#include "zpiv/zpivmodule.h"
+#include "zpch/zpchmodule.h"
 #include "test/test_popchain.h"
 #include <boost/test/unit_test.hpp>
 #include <iostream>
@@ -31,7 +31,7 @@ BOOST_AUTO_TEST_CASE(zerocoin_spend_test)
 
     bool fFirstRun;
     cWallet.LoadWallet(fFirstRun);
-    cWallet.zpivTracker = unique_ptr<CzPCHTracker>(new CzPCHTracker(cWallet.strWalletFile));
+    cWallet.zpchTracker = unique_ptr<CzPCHTracker>(new CzPCHTracker(cWallet.strWalletFile));
     CMutableTransaction tx;
     CWalletTx* wtx = new CWalletTx(&cWallet, tx);
     bool fMintChange=true;

@@ -4,7 +4,7 @@
 //
 
 
-#include "lightzpivthread.h"
+#include "lightzpchthread.h"
 #include "main.h"
 
 /****** Thread ********/
@@ -94,7 +94,7 @@ void CLightWorker::ThreadLightZPCHSimplified() {
             }
         } catch (std::exception& e) {
             //std::cout << "exception in light loop, closing it. " << e.what() << std::endl;
-            PrintExceptionContinue(&e, "lightzpivthread");
+            PrintExceptionContinue(&e, "lightzpchthread");
             break;
         }
     }
