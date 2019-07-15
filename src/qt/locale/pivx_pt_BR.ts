@@ -618,7 +618,7 @@
     </message>
     <message>
         <source>Send coins to a PIVX address</source>
-        <translation>Enviar moedas para um endereço PIVX</translation>
+        <translation>Enviar moedas para um endereço POPCHAIN</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and pivx: URIs)</source>
@@ -645,8 +645,8 @@
         <translation>Mostra informação sobre o PIVX Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for PIVX</source>
-        <translation>Modificar opções de configuração para PIVX</translation>
+        <source>Modify configuration options for POPCHAIN</source>
+        <translation>Modificar opções de configuração para POPCHAIN</translation>
     </message>
     <message>
         <source>Sign messages with your PIVX addresses to prove you own them</source>
@@ -685,8 +685,8 @@
         <translation>Abrir arquivo de configuração de Masternode</translation>
     </message>
     <message>
-        <source>Open a PIVX: URI or payment request</source>
-        <translation>Abrir um PIVX: URI ou requisição de pagamento</translation>
+        <source>Open a POPCHAIN: URI or payment request</source>
+        <translation>Abrir um POPCHAIN: URI ou requisição de pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -698,11 +698,11 @@
     </message>
     <message>
         <source>Show the PIVX Core help message to get a list with possible PIVX command-line options</source>
-        <translation>Mostra a ajuda da PIVX Core para receber uma lista com possíveis opções de linha de comando PIVX</translation>
+        <translation>Mostra a ajuda da PIVX Core para receber uma lista com possíveis opções de linha de comando POPCHAIN</translation>
     </message>
     <message>
         <source>PIVX Core client</source>
-        <translation>Cliente Core PIVX</translation>
+        <translation>Cliente Core POPCHAIN</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1119,7 +1119,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>The entered address "%1" is not a valid PIVX address.</source>
-        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de PIVX</translation>
+        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de POPCHAIN</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1235,7 +1235,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>PIVX Core will download and store a copy of the PIVX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>PIVX Core vai baixar e armazenar uma cópia da blockchain PIVX. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
+        <translation>PIVX Core vai baixar e armazenar uma cópia da blockchain POPCHAIN. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1617,8 +1617,8 @@ MultiSend: %1</translation>
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PIVX.</source>
-        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do PIVX.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting POPCHAIN.</source>
+        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do POPCHAIN.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -2901,7 +2901,7 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this PIVX address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço PIVX</translation>
+        <translation>Assine a mensagem para provar que você possui este endereço POPCHAIN</translation>
     </message>
     <message>
         <source>The PIVX address the message was signed with</source>

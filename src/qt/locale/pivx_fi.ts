@@ -593,8 +593,8 @@
         <translation>Näytä tietoja PIVX Ytimestä</translation>
     </message>
     <message>
-        <source>Modify configuration options for PIVX</source>
-        <translation>Muokkaa konfiguraatio vaihtoehtoja PIVX:lle</translation>
+        <source>Modify configuration options for POPCHAIN</source>
+        <translation>Muokkaa konfiguraatio vaihtoehtoja POPCHAIN:lle</translation>
     </message>
     <message>
         <source>Sign messages with your PIVX addresses to prove you own them</source>
@@ -633,8 +633,8 @@
         <translation>Avaa Masternode konfiguraatiotiedosto</translation>
     </message>
     <message>
-        <source>Open a PIVX: URI or payment request</source>
-        <translation>Avaa PIVX: URI tai pyydä maksua</translation>
+        <source>Open a POPCHAIN: URI or payment request</source>
+        <translation>Avaa POPCHAIN: URI tai pyydä maksua</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -1153,7 +1153,7 @@
         <translation>&amp;Verkko</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PIVX.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting POPCHAIN.</source>
         <translation>Käyttöliittymän kielen voi säätää täällä. Tämä asetus tulee voimaan uudelleenkäynnistettyäsi lompakon.</translation>
     </message>
     <message>

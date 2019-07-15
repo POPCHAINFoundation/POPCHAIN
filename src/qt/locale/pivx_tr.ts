@@ -677,7 +677,7 @@
         <translation>Pıvx Core hakkında bilgi göster</translation>
     </message>
     <message>
-        <source>Modify configuration options for PIVX</source>
+        <source>Modify configuration options for POPCHAIN</source>
         <translation>PIVX için yapılandırma seçeneklerini değiştirin</translation>
     </message>
     <message>
@@ -717,8 +717,8 @@
         <translation>Açık Masternode yapılandırma dosyası</translation>
     </message>
     <message>
-        <source>Open a PIVX: URI or payment request</source>
-        <translation>Bir PIVX: URI veya ödeme isteği açın</translation>
+        <source>Open a POPCHAIN: URI or payment request</source>
+        <translation>Bir POPCHAIN: URI veya ödeme isteği açın</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -1818,11 +1818,11 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
     </message>
     <message>
         <source>Automatically start PIVX after logging in to the system.</source>
-        <translation>Sisteme giriş yaptıktan sonra otomatik olarak PIVX'i başlatın.</translation>
+        <translation>Sisteme giriş yaptıktan sonra otomatik olarak POPCHAIN'i başlatın.</translation>
     </message>
     <message>
         <source>&amp;Start PIVX on system login</source>
-        <translation>&amp; Sistem oturum açma işleminde PIVX'i başlat</translation>
+        <translation>&amp; Sistem oturum açma işleminde POPCHAIN'i başlat</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1849,7 +1849,7 @@ Unutmayın, cüzdan, yeni adresi içeren işlemleri bulmak için blok zinciri ye
         <translation>&amp;ağ</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PIVX.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting POPCHAIN.</source>
         <translation>Kullanıcı arabirimi dili burada ayarlanabilir. Bu ayar, PIVX yeniden başlatıldıktan sonra geçerli olur.</translation>
     </message>
     <message>
@@ -3626,7 +3626,7 @@ Lütfen sabırlı olun...</translation>
         <translation>Mesaj:</translation>
     </message>
     <message>
-        <source>A message that was attached to the PIVX: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PIVX network.</source>
+        <source>A message that was attached to the POPCHAIN: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PIVX network.</source>
         <translation>PIVX e eklenmiş olan bir mesaj: İşleminizle beraber saklanacak olan URI hatırlamanız için. Not: Bu mesaj PIVX ağında yayınlanmayacak.</translation>
     </message>
     <message>

@@ -426,7 +426,7 @@
     </message>
     <message>
         <source>Send coins to a PIVX address</source>
-        <translation>Envia monedes a una adreça PIVX</translation>
+        <translation>Envia monedes a una adreça POPCHAIN</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>

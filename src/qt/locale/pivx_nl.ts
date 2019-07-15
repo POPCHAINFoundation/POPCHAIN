@@ -662,7 +662,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and pivx: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR codes en PIVX: URI's)</translation>
+        <translation>Vraag betaling aan (genereert QR codes en POPCHAIN: URI's)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -685,7 +685,7 @@
         <translation>Toon informatie over PIVX Kern</translation>
     </message>
     <message>
-        <source>Modify configuration options for PIVX</source>
+        <source>Modify configuration options for POPCHAIN</source>
         <translation>Wijzig PIVX configuratie opties</translation>
     </message>
     <message>
@@ -725,8 +725,8 @@
         <translation>Open Masternode configuratiebestand</translation>
     </message>
     <message>
-        <source>Open a PIVX: URI or payment request</source>
-        <translation>Open een PIVX: URI of betaalverzoek</translation>
+        <source>Open a POPCHAIN: URI or payment request</source>
+        <translation>Open een POPCHAIN: URI of betaalverzoek</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -1920,8 +1920,8 @@ Waas alsjeblieft geduldig nadat u op importeren hebt geklikt.</translation>
         <translation>&amp;Netwerk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PIVX.</source>
-        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van PIVX.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting POPCHAIN.</source>
+        <translation>De gebruikersinterface taal kan hier ingesteld worden. Deze instelling zal uitgevoerd na herstart van POPCHAIN.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -2150,7 +2150,7 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
     </message>
     <message>
         <source>Your current PIVX balance, unconfirmed and immature transactions included</source>
-        <translation>Uw huidige PIVX-saldo, onbevestigde en onvolgroeide transacties inbegrepen</translation>
+        <translation>Uw huidige POPCHAIN-saldo, onbevestigde en onvolgroeide transacties inbegrepen</translation>
     </message>
     <message>
         <source>zPCH Balance</source>
@@ -4014,8 +4014,8 @@ Wees alsjeblieft geduldig...</translation>
         <translation>Bericht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the PIVX: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PIVX network.</source>
-        <translation>Een bericht dat is gehecht aan de PIVX: URI die bij de transactie wordt opgeslagen voor uw referentie. Opmerking: dit bericht wordt niet verzonden via het PIVX netwerk.</translation>
+        <source>A message that was attached to the POPCHAIN: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PIVX network.</source>
+        <translation>Een bericht dat is gehecht aan de POPCHAIN: URI die bij de transactie wordt opgeslagen voor uw referentie. Opmerking: dit bericht wordt niet verzonden via het PIVX netwerk.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>

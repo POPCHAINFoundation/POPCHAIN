@@ -673,7 +673,7 @@
         <translation>Rodyti informaciją apie PIVX Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for PIVX</source>
+        <source>Modify configuration options for POPCHAIN</source>
         <translation>Keisti PIVX konfigūravimo parinktis</translation>
     </message>
     <message>
@@ -713,8 +713,8 @@
         <translation>Atidaryti Masternod'o konfigūracijos failą</translation>
     </message>
     <message>
-        <source>Open a PIVX: URI or payment request</source>
-        <translation>Atidaryti PIVX: URI arba mokėjimo prašymą</translation>
+        <source>Open a POPCHAIN: URI or payment request</source>
+        <translation>Atidaryti POPCHAIN: URI arba mokėjimo prašymą</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -1762,8 +1762,8 @@ MultiSend nebus aktyvuotas, nebent paspausite "Įjungti"</translation>
         <translation>&amp;Tinklas</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PIVX.</source>
-        <translation>Čia galite nustatyti vartotojo sąsajos kalbą. Šis nustatymas įsigalios iš naujo paleidus "PIVX".</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting POPCHAIN.</source>
+        <translation>Čia galite nustatyti vartotojo sąsajos kalbą. Šis nustatymas įsigalios iš naujo paleidus "POPCHAIN".</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:

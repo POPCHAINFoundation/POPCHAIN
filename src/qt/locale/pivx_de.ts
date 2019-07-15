@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dies sind ihre PIVX-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie PCH überweisen.</translation>
+        <translation>Dies sind ihre POPCHAIN-Adressen zum Tätigen von Überweisungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie PCH überweisen.</translation>
     </message>
     <message>
         <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dies sind ihre PIVX-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
+        <translation>Dies sind ihre POPCHAIN-Adressen zum Empfangen von Zahlungen. Es wird empfohlen für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -255,11 +255,11 @@
     </message>
     <message>
         <source>Enter a PIVX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Bitte die PIVX-Adresse eingeben, welche mittels BIP 38 verschlüsselt werden soll. Bitte ein Passwort in die mittlere Box eintragen. Klicken Sie auf "Verschlüsslen" um den privaten Schlüssel zu generieren.</translation>
+        <translation>Bitte die POPCHAIN-Adresse eingeben, welche mittels BIP 38 verschlüsselt werden soll. Bitte ein Passwort in die mittlere Box eintragen. Klicken Sie auf "Verschlüsslen" um den privaten Schlüssel zu generieren.</translation>
     </message>
     <message>
         <source>The PIVX address to encrypt</source>
-        <translation>Die zu verschlüsselnde PIVX-Adresse</translation>
+        <translation>Die zu verschlüsselnde POPCHAIN-Adresse</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -291,7 +291,7 @@
     </message>
     <message>
         <source>Encrypt the private key for this PIVX address</source>
-        <translation>Den privaten Schlüssel für diese PIVX-Adresse verschlüsseln</translation>
+        <translation>Den privaten Schlüssel für diese POPCHAIN-Adresse verschlüsseln</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -650,7 +650,7 @@
     </message>
     <message>
         <source>Send coins to a PIVX address</source>
-        <translation>An eine PIVX-Adresse überweisen</translation>
+        <translation>An eine POPCHAIN-Adresse überweisen</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and pivx: URIs)</source>
@@ -677,16 +677,16 @@
         <translation>Zeigt Informationen über PIVX Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for PIVX</source>
+        <source>Modify configuration options for POPCHAIN</source>
         <translation>Konfiguration von PIVX verändern</translation>
     </message>
     <message>
         <source>Sign messages with your PIVX addresses to prove you own them</source>
-        <translation>Unterschreibt eine Nachricht mit Ihrer PIVX-Adresse und beweist, dass sie Ihnen gehört</translation>
+        <translation>Unterschreibt eine Nachricht mit Ihrer POPCHAIN-Adresse und beweist, dass sie Ihnen gehört</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified PIVX addresses</source>
-        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten PIVX-Adresse signiert wurde</translation>
+        <translation>Überprüft eine Nachricht um zu prüfen ob diese mit einer bestimmten POPCHAIN-Adresse signiert wurde</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -717,8 +717,8 @@
         <translation>Öffne Masternode Einstellungsdatei</translation>
     </message>
     <message>
-        <source>Open a PIVX: URI or payment request</source>
-        <translation>Öffne eine PIVX: URI oder Zahlungsanfrage</translation>
+        <source>Open a POPCHAIN: URI or payment request</source>
+        <translation>Öffne eine POPCHAIN: URI oder Zahlungsanfrage</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -730,7 +730,7 @@
     </message>
     <message>
         <source>Show the PIVX Core help message to get a list with possible PIVX command-line options</source>
-        <translation>Zeige die PIVX-Core Hilfe, um mögliche PIVX Kommando-Zeilen-Optionen anzuzeigen</translation>
+        <translation>Zeige die POPCHAIN-Core Hilfe, um mögliche PIVX Kommando-Zeilen-Optionen anzuzeigen</translation>
     </message>
     <message>
         <source>PIVX Core client</source>
@@ -1165,7 +1165,7 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>The entered address "%1" is not a valid PIVX address.</source>
-        <translation>Die eingegebene Adresse "%1" ist keine gültige PIVX-Adresse.</translation>
+        <translation>Die eingegebene Adresse "%1" ist keine gültige POPCHAIN-Adresse.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1438,8 +1438,8 @@ Adresse: %4</translation>
 To Add: enter percentage to give and PIVX address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend ermöglicht es automatisch bis zu 100% Ihrer Stake- oder Masternode-Belohnung zu einer Liste von anderen PIVX-Adressen zu senden.
-Zum hinzufügen: Gebe den Prozentsätze ein, um die PIVX-Adressen des MultiSend-Vektor hinzuzufügen.
+        <translation>MultiSend ermöglicht es automatisch bis zu 100% Ihrer Stake- oder Masternode-Belohnung zu einer Liste von anderen POPCHAIN-Adressen zu senden.
+Zum hinzufügen: Gebe den Prozentsätze ein, um die POPCHAIN-Adressen des MultiSend-Vektor hinzuzufügen.
 Zum entfernen: Gebe die zu löschende Adresse ein und drücke löschen.
 MultiSend wird nicht aktiviert bis Sie auf Aktivieren geklickt haben.</translation>
     </message>
@@ -1762,7 +1762,7 @@ Bitte haben Sie etwas Geduld, nachdem Sie auf Importieren geklickt haben.</trans
     </message>
     <message>
         <source>Automatically open the PIVX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatisches öffnen des PIVX-Client-Port im Router. Dies funktioniert nur, wenn ihr Router UPnP unterstützt und es eingeschaltet ist.</translation>
+        <translation>Automatisches öffnen des POPCHAIN-Client-Port im Router. Dies funktioniert nur, wenn ihr Router UPnP unterstützt und es eingeschaltet ist.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1813,7 +1813,7 @@ Bitte haben Sie etwas Geduld, nachdem Sie auf Importieren geklickt haben.</trans
         <translation>&amp;Netzwerk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PIVX.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting POPCHAIN.</source>
         <translation>Die Sprache der Benutzeroberfläche kann hier festgelegt werden. Diese Einstellung wird nach einem Neustart realisiert.</translation>
     </message>
     <message>
@@ -2031,7 +2031,7 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
     </message>
     <message>
         <source>Your current PIVX balance, unconfirmed and immature transactions included</source>
-        <translation>Ihr aktueller PIVX-Saldo, unbestätigte und unreife Transaktionen sind enthalten</translation>
+        <translation>Ihr aktueller POPCHAIN-Saldo, unbestätigte und unreife Transaktionen sind enthalten</translation>
     </message>
     <message>
         <source>zPCH Balance</source>
@@ -2051,7 +2051,7 @@ Unreif: Bestätigt, aber keine Prägung in der selben Stückelung seit erfolgter
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PIVX network after a connection is established, but this process has not completed yet.</source>
-        <translation>Die angezeigte Information ist möglicherweise nicht mehr aktuell. Ihre Wallet synchronisiert sich automatisch mit dem PIVX-Netzwerk, nachdem eine Verbindung hergestellt wurde. Aber dieser Vorgang ist noch nicht abgeschlossen.</translation>
+        <translation>Die angezeigte Information ist möglicherweise nicht mehr aktuell. Ihre Wallet synchronisiert sich automatisch mit dem POPCHAIN-Netzwerk, nachdem eine Verbindung hergestellt wurde. Aber dieser Vorgang ist noch nicht abgeschlossen.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2168,7 +2168,7 @@ Um das automatische Prägen zu aktivieren ändere 'enablezeromint=0' zu 'enablez
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid PIVX address or malformed URI parameters.</source>
-        <translation>URI kann nicht analysiert werden! Dies kann durch eine ungültige PIVX-Adresse oder fehlerhafte URI-Parameter verursacht worden sein.</translation>
+        <translation>URI kann nicht analysiert werden! Dies kann durch eine ungültige POPCHAIN-Adresse oder fehlerhafte URI-Parameter verursacht worden sein.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2254,7 +2254,7 @@ Um das automatische Prägen zu aktivieren ändere 'enablezeromint=0' zu 'enablez
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PIVX network after a connection is established, but this process has not completed yet.</source>
-        <translation>Die angezeigte Information ist möglicherweise nicht mehr aktuell. Ihre Wallet synchronisiert sich automatisch mit dem PIVX-Netzwerk, nachdem eine Verbindung hergestellt wurde. Aber dieser Vorgang ist noch nicht abgeschlossen.</translation>
+        <translation>Die angezeigte Information ist möglicherweise nicht mehr aktuell. Ihre Wallet synchronisiert sich automatisch mit dem POPCHAIN-Netzwerk, nachdem eine Verbindung hergestellt wurde. Aber dieser Vorgang ist noch nicht abgeschlossen.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2338,7 +2338,7 @@ zPCH sind ausgereift wenn sie mehr als 20 Bestätigungen und mehr als 2 Prägung
     </message>
     <message>
         <source>The PIVX address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>Die PIVX-Adresse, an die die Zahlung gesendet wird. Erstellt eine lokale Zahlung an Sie selbst, wenn die Zeile leer ist.</translation>
+        <translation>Die POPCHAIN-Adresse, an die die Zahlung gesendet wird. Erstellt eine lokale Zahlung an Sie selbst, wenn die Zeile leer ist.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2717,7 +2717,7 @@ Bitte haben Sie etwas Geduld...</translation>
     </message>
     <message>
         <source>Invalid Pivx Address</source>
-        <translation>Ungültige PIVX-Adresse </translation>
+        <translation>Ungültige POPCHAIN-Adresse </translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2795,7 +2795,7 @@ Bitte haben Sie etwas Geduld...</translation>
     </message>
     <message>
         <source>Enter a PIVX address (e.g. %1)</source>
-        <translation>PIVX-Adresse eingeben (z.B. %1)</translation>
+        <translation>POPCHAIN-Adresse eingeben (z.B. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2937,7 +2937,7 @@ Bitte haben Sie etwas Geduld...</translation>
     </message>
     <message>
         <source>Open the PIVX debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öffne PIVX-Debug-Protokolldatei aus dem aktuellen Datenverzeichnis. Dies kann bei großen Protokolldateien einige Sekunden dauern.</translation>
+        <translation>Öffne POPCHAIN-Debug-Protokolldatei aus dem aktuellen Datenverzeichnis. Dies kann bei großen Protokolldateien einige Sekunden dauern.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -3280,7 +3280,7 @@ Bitte haben Sie etwas Geduld...</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the PIVX network.</source>
-        <translation>Eine optionale Nachricht an die Zahlungsaufforderung anhängen, die bei der Eröffnung der Anforderung angezeigt wird. Hinweis: Die Nachricht wird nicht mit der Zahlung über das PIVX-Netzwerk gesendet.</translation>
+        <translation>Eine optionale Nachricht an die Zahlungsaufforderung anhängen, die bei der Eröffnung der Anforderung angezeigt wird. Hinweis: Die Nachricht wird nicht mit der Zahlung über das POPCHAIN-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>RECEIVE</source>
@@ -3288,7 +3288,7 @@ Bitte haben Sie etwas Geduld...</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the PIVX network.</source>
-        <translation>Eine optionale Nachricht an die Zahlungsaufforderung anhängen, die bei der Eröffnung der Anforderung angezeigt wird.&lt;br&gt;Hinweis: Die Nachricht wird nicht mit der Zahlung über das PIVX-Netzwerk gesendet.</translation>
+        <translation>Eine optionale Nachricht an die Zahlungsaufforderung anhängen, die bei der Eröffnung der Anforderung angezeigt wird.&lt;br&gt;Hinweis: Die Nachricht wird nicht mit der Zahlung über das POPCHAIN-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3585,7 +3585,7 @@ Bitte haben Sie etwas Geduld...</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for PIVX transactions than the network can process.</source>
-        <translation>Nur die minimale Gebühr zu zahlen ist nur gut, solange es weniger Transaktionsvolumen als Platz in den Blocken gibt.&lt;br /&gt;Aber seien Sie sich bewusst, dass dies in einer niemals bestätigende Transaktion enden kann, sobald die Nachfrage nach PIVX-Transaktionen höher ist, als was das Netzwerk verarbeiten kann.</translation>
+        <translation>Nur die minimale Gebühr zu zahlen ist nur gut, solange es weniger Transaktionsvolumen als Platz in den Blocken gibt.&lt;br /&gt;Aber seien Sie sich bewusst, dass dies in einer niemals bestätigende Transaktion enden kann, sobald die Nachfrage nach POPCHAIN-Transaktionen höher ist, als was das Netzwerk verarbeiten kann.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3681,7 +3681,7 @@ Bitte haben Sie etwas Geduld...</translation>
     </message>
     <message>
         <source>Warning: Invalid PIVX address</source>
-        <translation>Warnung: Ungültige PIVX-Adresse</translation>
+        <translation>Warnung: Ungültige POPCHAIN-Adresse</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -3780,7 +3780,7 @@ Bitte haben Sie etwas Geduld...</translation>
     </message>
     <message>
         <source>The PIVX address to send the payment to</source>
-        <translation>PIVX-Adresse, an die überwiesen werden soll</translation>
+        <translation>POPCHAIN-Adresse, an die überwiesen werden soll</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3819,8 +3819,8 @@ Bitte haben Sie etwas Geduld...</translation>
         <translation>Nachricht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the PIVX: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PIVX network.</source>
-        <translation>Eine an die PIVX-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das PIVX-Netzwerk gesendet.</translation>
+        <source>A message that was attached to the POPCHAIN: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PIVX network.</source>
+        <translation>Eine an die POPCHAIN-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das POPCHAIN-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3910,7 +3910,7 @@ Bitte haben Sie etwas Geduld...</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified PIVX address</source>
-        <translation>Überprüfen Sie die Nachricht, um sicherzustellen, dass sie mit der angegebenen PIVX-Adresse signiert wurde.</translation>
+        <translation>Überprüfen Sie die Nachricht, um sicherzustellen, dass sie mit der angegebenen POPCHAIN-Adresse signiert wurde.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -5270,7 +5270,7 @@ Bitte haben Sie etwas Geduld...</translation>
     </message>
     <message>
         <source>Disable all PIVX specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Deaktivieren Sie alle PIVX-spezifischen Funktionen (Masternodes, Zerocoin, SwiftX, Budgetierung) (0-1, Standard: %u)</translation>
+        <translation>Deaktivieren Sie alle POPCHAIN-spezifischen Funktionen (Masternodes, Zerocoin, SwiftX, Budgetierung) (0-1, Standard: %u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>

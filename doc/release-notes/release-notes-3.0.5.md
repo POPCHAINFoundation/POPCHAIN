@@ -21,7 +21,7 @@ Users will have a grace period to update their clients before versions prior to 
 How to Upgrade
 ==============
 
-If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/PIVX-Qt (on Mac) or pivxd/pivx-qt (on Linux).
+If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/POPCHAIN-Qt (on Mac) or pivxd/pivx-qt (on Linux).
 
 
 Compatibility
@@ -56,7 +56,7 @@ zPCH relies on a 3rd party library called libzerocoin. All currencies that utili
 
 zPCH Maintenance Mode Spork
 ---------------------
-Handling the above noted libzerocoin exploit required the PIVX team to immediately release a patched wallet to as many users as possible which rejected bad spends and also disabled all zPCH transactions in general. The process of releasing a patched wallet in such a small time frame is frustrating and difficult for all members of the PIVX team and especially users of PIVX. The PIVX developers have added a new spork which allows for zPCH transacting to be turned on/off without having to release a patched wallet. This will allow much smoother operation if any problems occur in the future, and should also allow exchanges and 3rd party services to continue to operate even if zPCH is in maintenance mode.
+Handling the above noted libzerocoin exploit required the PIVX team to immediately release a patched wallet to as many users as possible which rejected bad spends and also disabled all zPCH transactions in general. The process of releasing a patched wallet in such a small time frame is frustrating and difficult for all members of the PIVX team and especially users of POPCHAIN. The PIVX developers have added a new spork which allows for zPCH transacting to be turned on/off without having to release a patched wallet. This will allow much smoother operation if any problems occur in the future, and should also allow exchanges and 3rd party services to continue to operate even if zPCH is in maintenance mode.
 
 Money Supply Indexing
 ---------------------

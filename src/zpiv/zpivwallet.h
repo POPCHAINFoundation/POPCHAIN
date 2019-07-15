@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_ZPCHWALLET_H
-#define PIVX_ZPCHWALLET_H
+#ifndef POPCHAIN_ZPCHWALLET_H
+#define POPCHAIN_ZPCHWALLET_H
 
 #include <map>
 #include "libzerocoin/Coin.h"
@@ -46,4 +46,4 @@ private:
     uint512 GetZerocoinSeed(uint32_t n);
 };
 
-#endif //PIVX_ZPCHWALLET_H
+#endif //POPCHAIN_ZPCHWALLET_H

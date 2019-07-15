@@ -19,7 +19,7 @@ Users updating from a previous version after the 13th of October will require a 
 How to Upgrade
 ==============
 
-If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/PIVX-Qt (on Mac) or pivxd/pivx-qt (on Linux).
+If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/POPCHAIN-Qt (on Mac) or pivxd/pivx-qt (on Linux).
 
 Compatibility
 ==============
@@ -110,7 +110,7 @@ the code changes and accompanying discussion, both the pull request and
 git merge commit are mentioned.
 
 ### Broad Features
-- #264 `15e84e5` zPCH is here! (Fuzzbawls Mrs-X Presstab Spock PIVX)
+- #264 `15e84e5` zPCH is here! (Fuzzbawls Mrs-X Presstab Spock POPCHAIN)
 
 ### P2P Protocol and Network Code
 - #242 `0ecd77f` [P2P] Improve TOR service connectivity (Fuzzbawls)

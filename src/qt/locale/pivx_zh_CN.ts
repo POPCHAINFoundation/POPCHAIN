@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>这是用于发送PIVX的地址。在发送PIVX之前，请认真核查发送金额和接收地址。</translation>
+        <translation>这是用于发送POPCHAIN的地址。在发送POPCHAIN之前，请认真核查发送金额和接收地址。</translation>
     </message>
     <message>
         <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>这是用于接收PIVX的钱包地址。建议每一笔交易都使用一个新的钱包地址。</translation>
+        <translation>这是用于接收POPCHAIN的钱包地址。建议每一笔交易都使用一个新的钱包地址。</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -173,7 +173,7 @@
     </message>
     <message>
         <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PCHs from being stolen by malware infecting your computer.</source>
-        <translation>PIVX将关闭以完成加密过程。但是，仅仅加密您的钱包是不够的，因为它并不能阻止恶意软件从您的电脑里面偷取PCHs。</translation>
+        <translation>POPCHAIN将关闭以完成加密过程。但是，仅仅加密您的钱包是不够的，因为它并不能阻止恶意软件从您的电脑里面偷取PCHs。</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -574,7 +574,7 @@
     </message>
     <message>
         <source>Send coins to a PIVX address</source>
-        <translation>发送数字货币到PIVX地址</translation>
+        <translation>发送数字货币到POPCHAIN地址</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and pivx: URIs)</source>
@@ -601,16 +601,16 @@
         <translation>显示PIVX  Core的相关信息</translation>
     </message>
     <message>
-        <source>Modify configuration options for PIVX</source>
-        <translation>修改PIVX的配置选项</translation>
+        <source>Modify configuration options for POPCHAIN</source>
+        <translation>修改POPCHAIN的配置选项</translation>
     </message>
     <message>
         <source>Sign messages with your PIVX addresses to prove you own them</source>
-        <translation>使用您的PIVX地址验证消息，以证明您拥有他们</translation>
+        <translation>使用您的POPCHAIN地址验证消息，以证明您拥有他们</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified PIVX addresses</source>
-        <translation>验证消息确保它已使用指定的PIVX地址进行签名</translation>
+        <translation>验证消息确保它已使用指定的POPCHAIN地址进行签名</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -641,8 +641,8 @@
         <translation>打开主节点配置文件</translation>
     </message>
     <message>
-        <source>Open a PIVX: URI or payment request</source>
-        <translation>打开PIVX：URI或付款请求</translation>
+        <source>Open a POPCHAIN: URI or payment request</source>
+        <translation>打开POPCHAIN：URI或付款请求</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -654,7 +654,7 @@
     </message>
     <message>
         <source>Show the PIVX Core help message to get a list with possible PIVX command-line options</source>
-        <translation>显示PIVX Core帮助信息并获取PIVX命令行选项列表</translation>
+        <translation>显示PIVX Core帮助信息并获取POPCHAIN命令行选项列表</translation>
     </message>
     <message>
         <source>PIVX Core client</source>
@@ -834,7 +834,7 @@ Address: %4
     </message>
     <message>
         <source>PIVX Core will download and store a copy of the PIVX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>PIVX Core将下载并存储PIVX区块链副本。 至少 %1 GB的数据将存储在此目录中，并且会随着时间的推移而增长。 钱包也将存储在此目录中。</translation>
+        <translation>PIVX Core将下载并存储POPCHAIN区块链副本。 至少 %1 GB的数据将存储在此目录中，并且会随着时间的推移而增长。 钱包也将存储在此目录中。</translation>
     </message>
     <message>
         <source>PIVX Core</source>
@@ -929,7 +929,7 @@ Address: %4
     </message>
     <message>
         <source>Automatically open the PIVX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自动打开路由器上的PIVX钱包使用的端口。 这只有当您的路由器支持UPnP并且该享生效时才有用。</translation>
+        <translation>自动打开路由器上的POPCHAIN钱包使用的端口。 这只有当您的路由器支持UPnP并且该享生效时才有用。</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -937,7 +937,7 @@ Address: %4
     </message>
     <message>
         <source>&amp;Start PIVX on system login</source>
-        <translation>&amp;开机启动PIVX</translation>
+        <translation>&amp;开机启动POPCHAIN</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -993,7 +993,7 @@ Address: %4
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>选择显示发送PIVX的默认单位。</translation>
+        <translation>选择显示发送POPCHAIN的默认单位。</translation>
     </message>
     <message>
         <source>Decimal digits</source>
@@ -1072,7 +1072,7 @@ Address: %4
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PIVX network after a connection is established, but this process has not completed yet.</source>
-        <translation>显示的信息可能已过期。建立连接后，您的钱包会自动与PIVX网络同步，但此过程尚未完成。</translation>
+        <translation>显示的信息可能已过期。建立连接后，您的钱包会自动与POPCHAIN网络同步，但此过程尚未完成。</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
@@ -1089,7 +1089,7 @@ Address: %4
     <name>PrivacyDialog</name>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PIVX network after a connection is established, but this process has not completed yet.</source>
-        <translation>显示的信息可能已过期。建立连接后，您的钱包会自动与PIVX网络同步，但此过程尚未完成。</translation>
+        <translation>显示的信息可能已过期。建立连接后，您的钱包会自动与POPCHAIN网络同步，但此过程尚未完成。</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -1188,11 +1188,11 @@ Address: %4
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the PIVX network.</source>
-        <translation>附加到付款请求的可选消息，将在请求打开时显示。 注意：消息不会在付款时通过PIVX网络发送。</translation>
+        <translation>附加到付款请求的可选消息，将在请求打开时显示。 注意：消息不会在付款时通过POPCHAIN网络发送。</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the PIVX network.</source>
-        <translation>附加到付款请求的可选消息，将在请求打开时显示。&lt;br&gt; 注意：消息不会在付款时通过PIVX网络发送。</translation>
+        <translation>附加到付款请求的可选消息，将在请求打开时显示。&lt;br&gt; 注意：消息不会在付款时通过POPCHAIN网络发送。</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -1331,8 +1331,8 @@ Address: %4
         <translation>消息:</translation>
     </message>
     <message>
-        <source>A message that was attached to the PIVX: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PIVX network.</source>
-        <translation>附加到PIVX：URI的消息，该消息将与转账信息一起存储以供参考。 注意：此消息不会通过PIVX网络发送。</translation>
+        <source>A message that was attached to the POPCHAIN: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PIVX network.</source>
+        <translation>附加到POPCHAIN：URI的消息，该消息将与转账信息一起存储以供参考。 注意：此消息不会通过POPCHAIN网络发送。</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1358,7 +1358,7 @@ Address: %4
     </message>
     <message>
         <source>The PIVX address to sign the message with</source>
-        <translation>该PIVX地址签名的消息</translation>
+        <translation>该POPCHAIN地址签名的消息</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1386,15 +1386,15 @@ Address: %4
     </message>
     <message>
         <source>Sign the message to prove you own this PIVX address</source>
-        <translation>签署消息以证明您拥有此PIVX地址</translation>
+        <translation>签署消息以证明您拥有此POPCHAIN地址</translation>
     </message>
     <message>
         <source>The PIVX address the message was signed with</source>
-        <translation>由PIVX地址签名的消息</translation>
+        <translation>由POPCHAIN地址签名的消息</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified PIVX address</source>
-        <translation>验证消息确保它已使用指定的PIVX地址进行签名</translation>
+        <translation>验证消息确保它已使用指定的POPCHAIN地址进行签名</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>

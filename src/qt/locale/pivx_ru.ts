@@ -63,11 +63,11 @@
     </message>
     <message>
         <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши PIVX-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
+        <translation>Это ваши POPCHAIN-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
     </message>
     <message>
         <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши PIVX-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
+        <translation>Это ваши POPCHAIN-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -654,7 +654,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and pivx: URIs)</source>
-        <translation>Запросить платежи (генерирует QR-код и PIVX: URI)</translation>
+        <translation>Запросить платежи (генерирует QR-код и POPCHAIN: URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -677,8 +677,8 @@
         <translation>Показать информацию о PIVX Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for PIVX</source>
-        <translation>Изменение параметров конфигурации PIVX</translation>
+        <source>Modify configuration options for POPCHAIN</source>
+        <translation>Изменение параметров конфигурации POPCHAIN</translation>
     </message>
     <message>
         <source>Sign messages with your PIVX addresses to prove you own them</source>
@@ -717,8 +717,8 @@
         <translation>Открыть файл настроек мастернод</translation>
     </message>
     <message>
-        <source>Open a PIVX: URI or payment request</source>
-        <translation>Открыть PIVX: URI или запрос платежа</translation>
+        <source>Open a POPCHAIN: URI or payment request</source>
+        <translation>Открыть POPCHAIN: URI или запрос платежа</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -730,7 +730,7 @@
     </message>
     <message>
         <source>Show the PIVX Core help message to get a list with possible PIVX command-line options</source>
-        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды PIVX</translation>
+        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды POPCHAIN</translation>
     </message>
     <message>
         <source>PIVX Core client</source>
@@ -1286,7 +1286,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>PIVX Core will download and store a copy of the PIVX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>PIVX Core загрузит и сохранит копию цепочки блоков PIVX. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
+        <translation>PIVX Core загрузит и сохранит копию цепочки блоков POPCHAIN. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1818,8 +1818,8 @@ Please be patient after clicking import.</source>
         <translation>&amp;Сеть</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PIVX.</source>
-        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска PIVX.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting POPCHAIN.</source>
+        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска POPCHAIN.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -2036,7 +2036,7 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
     </message>
     <message>
         <source>Your current PIVX balance, unconfirmed and immature transactions included</source>
-        <translation>Ваш текущий PIVX  баланс, включая неподтвержденные и незрелые транзакции</translation>
+        <translation>Ваш текущий POPCHAIN  баланс, включая неподтвержденные и незрелые транзакции</translation>
     </message>
     <message>
         <source>zPCH Balance</source>
@@ -2940,7 +2940,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Open the PIVX debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть протокол отладки PIVX. Это может занять некоторе время, если файл протокола очень большой.</translation>
+        <translation>Открыть протокол отладки POPCHAIN. Это может занять некоторе время, если файл протокола очень большой.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -3284,7 +3284,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the PIVX network.</source>
-        <translation>Необязательное сообщение для присоединения к платежному запросу, которое будет отображаться при открытии запроса. Примечание. Сообщение не будет отправлено с оплатой через сеть PIVX.</translation>
+        <translation>Необязательное сообщение для присоединения к платежному запросу, которое будет отображаться при открытии запроса. Примечание. Сообщение не будет отправлено с оплатой через сеть POPCHAIN.</translation>
     </message>
     <message>
         <source>RECEIVE</source>
@@ -3292,7 +3292,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the PIVX network.</source>
-        <translation>Необязательное сообщение для присоединения к платежному запросу, которое будет отображаться при открытии запроса. &lt;br&gt;Примечание. Сообщение не будет отправлено с оплатой через сеть PIVX.</translation>
+        <translation>Необязательное сообщение для присоединения к платежному запросу, которое будет отображаться при открытии запроса. &lt;br&gt;Примечание. Сообщение не будет отправлено с оплатой через сеть POPCHAIN.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3589,7 +3589,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for PIVX transactions than the network can process.</source>
-        <translation>Платить только минимальную плату просто отлично, если в блоке меньше объема транзакции, чем места в блоке.&lt;br /&gt; Но имейте в виду, что это может закончиться никогда не подтверждающей транзакцией, если будет больше спроса на транзакции PIVX, чем сеть может обрабатывать.</translation>
+        <translation>Платить только минимальную плату просто отлично, если в блоке меньше объема транзакции, чем места в блоке.&lt;br /&gt; Но имейте в виду, что это может закончиться никогда не подтверждающей транзакцией, если будет больше спроса на транзакции POPCHAIN, чем сеть может обрабатывать.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3823,8 +3823,8 @@ Please be patient...</source>
         <translation>Сообщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the PIVX: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PIVX network.</source>
-        <translation>Сообщение, которое было прикреплено к URI PIVX: URI, который будет сохранен с транзакцией для вашей справки. Примечание. Это сообщение не будет отправлено через сеть PIVX.</translation>
+        <source>A message that was attached to the POPCHAIN: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PIVX network.</source>
+        <translation>Сообщение, которое было прикреплено к URI POPCHAIN: URI, который будет сохранен с транзакцией для вашей справки. Примечание. Это сообщение не будет отправлено через сеть POPCHAIN.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3906,11 +3906,11 @@ Please be patient...</source>
     </message>
     <message>
         <source>Sign the message to prove you own this PIVX address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес PIVX</translation>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес POPCHAIN</translation>
     </message>
     <message>
         <source>The PIVX address the message was signed with</source>
-        <translation>Адрес PIVX, которым подписано сообщение</translation>
+        <translation>Адрес POPCHAIN, которым подписано сообщение</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified PIVX address</source>

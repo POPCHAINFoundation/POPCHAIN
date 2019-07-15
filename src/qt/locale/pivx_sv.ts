@@ -689,8 +689,8 @@
         <translation>Visa information om PIVX Kärnan</translation>
     </message>
     <message>
-        <source>Modify configuration options for PIVX</source>
-        <translation>Ändra konfigurationsval för PIVX</translation>
+        <source>Modify configuration options for POPCHAIN</source>
+        <translation>Ändra konfigurationsval för POPCHAIN</translation>
     </message>
     <message>
         <source>Sign messages with your PIVX addresses to prove you own them</source>
@@ -729,8 +729,8 @@
         <translation>Öppna Huvudnodens konfigurations fil </translation>
     </message>
     <message>
-        <source>Open a PIVX: URI or payment request</source>
-        <translation>Öppna en PIVX: URI eller betalningsförfrågan</translation>
+        <source>Open a POPCHAIN: URI or payment request</source>
+        <translation>Öppna en POPCHAIN: URI eller betalningsförfrågan</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -1956,8 +1956,8 @@ Var god vänta efter att du trycker på importera.</translation>
         <translation>&amp;Nätverk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PIVX.</source>
-        <translation>Användargränssnittets språk kan väljas här. Denna inställning börjar gälla efter att man startat om PIVX.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting POPCHAIN.</source>
+        <translation>Användargränssnittets språk kan väljas här. Denna inställning börjar gälla efter att man startat om POPCHAIN.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -4111,8 +4111,8 @@ Var tålmodig...</translation>
         <translation>Medelande:</translation>
     </message>
     <message>
-        <source>A message that was attached to the PIVX: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PIVX network.</source>
-        <translation>Ett medelande som var bifogat till PIVX: URI som kommer sparas med transaktionen som din referens. Lägg märke till: Detta meddelande kommer inte skickas genom PIVX nätverket.</translation>
+        <source>A message that was attached to the POPCHAIN: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PIVX network.</source>
+        <translation>Ett medelande som var bifogat till POPCHAIN: URI som kommer sparas med transaktionen som din referens. Lägg märke till: Detta meddelande kommer inte skickas genom PIVX nätverket.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>

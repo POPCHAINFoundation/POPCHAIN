@@ -574,7 +574,7 @@
     </message>
     <message>
         <source>Send coins to a PIVX address</source>
-        <translation>Odoslať mince na adresu PIVX</translation>
+        <translation>Odoslať mince na adresu POPCHAIN</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and pivx: URIs)</source>
@@ -597,12 +597,12 @@
         <translation>Zobraziť informácie o PIVX Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for PIVX</source>
-        <translation>Zmeňte možnosti konfigurácie pre PIVX</translation>
+        <source>Modify configuration options for POPCHAIN</source>
+        <translation>Zmeňte možnosti konfigurácie pre POPCHAIN</translation>
     </message>
     <message>
         <source>Sign messages with your PIVX addresses to prove you own them</source>
-        <translation>Podpíšte správy pomocou adresy PIVX, aby ste preukázali, že ich vlastníte</translation>
+        <translation>Podpíšte správy pomocou adresy POPCHAIN, aby ste preukázali, že ich vlastníte</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified PIVX addresses</source>
@@ -637,8 +637,8 @@
         <translation>Otvoriť konfiguračný súbor masternodu</translation>
     </message>
     <message>
-        <source>Open a PIVX: URI or payment request</source>
-        <translation>Otvorte PIVX: URI alebo žiadosť o platbu</translation>
+        <source>Open a POPCHAIN: URI or payment request</source>
+        <translation>Otvorte POPCHAIN: URI alebo žiadosť o platbu</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -650,7 +650,7 @@
     </message>
     <message>
         <source>Show the PIVX Core help message to get a list with possible PIVX command-line options</source>
-        <translation>Zobraziť pomocnú správu programu PIVX Core a získajte zoznam možností príkazového riadka PIVX</translation>
+        <translation>Zobraziť pomocnú správu programu PIVX Core a získajte zoznam možností príkazového riadka POPCHAIN</translation>
     </message>
     <message>
         <source>PIVX Core client</source>
@@ -1118,7 +1118,7 @@ MultiSend: %1</translation>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>The PIVX address to sign the message with</source>
-        <translation>Adresa PIVX, ktorou chcete správu podpísať</translation>
+        <translation>Adresa POPCHAIN, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>

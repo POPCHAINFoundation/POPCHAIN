@@ -22,11 +22,11 @@ Unpack the files into a directory, and then run pivx-qt.exe.
 
 ### macOS
 
-Drag PIVX-Qt to your applications folder, and then run PIVX-Qt.
+Drag POPCHAIN-Qt to your applications folder, and then run POPCHAIN-Qt.
 
 ### Need Help?
 
-* See the documentation at the [PIVX Wiki](https://github.com/PIVX-Project/PIVX/wiki)
+* See the documentation at the [PIVX Wiki](https://github.com/POPCHAIN-Project/POPCHAIN/wiki)
 for help and more information.
 * Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [PIVX Forum](http://forum.pivx.org/).
 * Join our Discord server [Discord Server](https://discord.pivx.org)
@@ -56,7 +56,7 @@ The PIVX repo's [root README](/README.md) contains relevant information on the d
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [PIVX](http://forum.pivx.org/) forum.
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [POPCHAIN](http://forum.pivx.org/) forum.
 * Join the [PIVX Discord](https://discord.pivx.org).
 
 ### Miscellaneous

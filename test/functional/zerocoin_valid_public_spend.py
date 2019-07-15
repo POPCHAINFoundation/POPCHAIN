@@ -13,9 +13,9 @@ from time import sleep
 from test_framework.authproxy import JSONRPCException
 from test_framework.util import assert_equal, assert_greater_than
 
-from fake_stake.base_test import PIVX_FakeStakeTest
+from fake_stake.base_test import POPCHAIN_FakeStakeTest
 
-class zPCHValidCoinSpendTest(PIVX_FakeStakeTest):
+class zPCHValidCoinSpendTest(POPCHAIN_FakeStakeTest):
 
     def run_test(self):
         self.description = "Covers the 'valid publicCoinSpend spend' scenario."

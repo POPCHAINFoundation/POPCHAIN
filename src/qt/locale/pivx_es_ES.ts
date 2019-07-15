@@ -291,7 +291,7 @@
     </message>
     <message>
         <source>Encrypt the private key for this PIVX address</source>
-        <translation>Cifrar la llave privada para esta dirección PIVX</translation>
+        <translation>Cifrar la llave privada para esta dirección POPCHAIN</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -562,7 +562,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this PIVX address</source>
-        <translation>Firme el mensaje para probar que Ud. es el propietario de esta dirección PIVX</translation>
+        <translation>Firme el mensaje para probar que Ud. es el propietario de esta dirección POPCHAIN</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>

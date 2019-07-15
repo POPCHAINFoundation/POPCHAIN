@@ -177,7 +177,7 @@
     </message>
     <message>
         <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PCHs from being stolen by malware infecting your computer.</source>
-        <translation>PIVX는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 PCHs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
+        <translation>POPCHAIN는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 PCHs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -677,8 +677,8 @@
         <translation>PIVX Core에 대한 정보 표시</translation>
     </message>
     <message>
-        <source>Modify configuration options for PIVX</source>
-        <translation>PIVX에 대한 구성 옵션 수정</translation>
+        <source>Modify configuration options for POPCHAIN</source>
+        <translation>POPCHAIN에 대한 구성 옵션 수정</translation>
     </message>
     <message>
         <source>Sign messages with your PIVX addresses to prove you own them</source>
@@ -717,8 +717,8 @@
         <translation>마스터노드 구성 파일 열기</translation>
     </message>
     <message>
-        <source>Open a PIVX: URI or payment request</source>
-        <translation>PIVX: URI 또는 ​​결제 요청 열기</translation>
+        <source>Open a POPCHAIN: URI or payment request</source>
+        <translation>POPCHAIN: URI 또는 ​​결제 요청 열기</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -1787,7 +1787,7 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <source>Automatically start PIVX after logging in to the system.</source>
-        <translation>시스템 로그인 후 PIVX을 자동으로 시작합니다.</translation>
+        <translation>시스템 로그인 후 POPCHAIN을 자동으로 시작합니다.</translation>
     </message>
     <message>
         <source>&amp;Start PIVX on system login</source>
@@ -1818,8 +1818,8 @@ Please be patient after clicking import.</source>
         <translation>&amp;네트워크</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PIVX.</source>
-        <translation>사용자 인터페이스 언어를 설정할 수 있습니다. 이 설정은 PIVX을 다시 시작한 후에 적용됩니다.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting POPCHAIN.</source>
+        <translation>사용자 인터페이스 언어를 설정할 수 있습니다. 이 설정은 POPCHAIN을 다시 시작한 후에 적용됩니다.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -2168,7 +2168,7 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in pivx.conf<
     </message>
     <message>
         <source>Cannot start pivx: click-to-pay handler</source>
-        <translation>PIVX을 시작할 수 없습니다: 결제하기 위한 클릭 처리</translation>
+        <translation>POPCHAIN을 시작할 수 없습니다: 결제하기 위한 클릭 처리</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid PIVX address or malformed URI parameters.</source>
@@ -3825,7 +3825,7 @@ Please be patient...</source>
         <translation>메세지:</translation>
     </message>
     <message>
-        <source>A message that was attached to the PIVX: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PIVX network.</source>
+        <source>A message that was attached to the POPCHAIN: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PIVX network.</source>
         <translation>참조용으로 트랜잭션과 함께 기록되는 PIVX : URI에 첨부된 메세지입니다. 참고: 이 메세지는 PIVX 네트워크를 통해 전송되지 않습니다.</translation>
     </message>
     <message>
@@ -5277,7 +5277,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Disable all PIVX specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>PIVX의 모든 특정 기능들을 비활성화합니다(마스터노드, 난독화, SwiftTX, Budgeting) (0-1, 기본값: %u)</translation>
+        <translation>POPCHAIN의 모든 특정 기능들을 비활성화합니다(마스터노드, 난독화, SwiftTX, Budgeting) (0-1, 기본값: %u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>

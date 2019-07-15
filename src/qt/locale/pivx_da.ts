@@ -255,11 +255,11 @@
     </message>
     <message>
         <source>Enter a PIVX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Indtast en PIVX-adresse, som du gerne vil kryptere ved hjælp af BIP 38. Indtast en adgangskode i mellemkassen. Tryk på krypteringen for at beregne den krypterede private nøgle.</translation>
+        <translation>Indtast en POPCHAIN-adresse, som du gerne vil kryptere ved hjælp af BIP 38. Indtast en adgangskode i mellemkassen. Tryk på krypteringen for at beregne den krypterede private nøgle.</translation>
     </message>
     <message>
         <source>The PIVX address to encrypt</source>
-        <translation>PIVX-adressen for at kryptere</translation>
+        <translation>POPCHAIN-adressen for at kryptere</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -291,7 +291,7 @@
     </message>
     <message>
         <source>Encrypt the private key for this PIVX address</source>
-        <translation>Krypter den private nøgle for denne PIVX-adresse</translation>
+        <translation>Krypter den private nøgle for denne POPCHAIN-adresse</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -673,8 +673,8 @@
         <translation>Vis information om PIVX kerne</translation>
     </message>
     <message>
-        <source>Modify configuration options for PIVX</source>
-        <translation>Ret konfigurationsindstillinger for PIVX</translation>
+        <source>Modify configuration options for POPCHAIN</source>
+        <translation>Ret konfigurationsindstillinger for POPCHAIN</translation>
     </message>
     <message>
         <source>Sign messages with your PIVX addresses to prove you own them</source>
@@ -713,7 +713,7 @@
         <translation>ÅbnMasternode konfigurationsfil</translation>
     </message>
     <message>
-        <source>Open a PIVX: URI or payment request</source>
+        <source>Open a POPCHAIN: URI or payment request</source>
         <translation>Åbn en PIVX URl eller betalingsanmodning</translation>
     </message>
     <message>
@@ -1832,7 +1832,7 @@ Vær tålmodig efter at du har klikket på import.</translation>
         <translation>&amp;netværk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PIVX.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting POPCHAIN.</source>
         <translation>Vælg sprog her. Ændringerne træder i kraft næste gang PIVX klienten startes</translation>
     </message>
     <message>
@@ -2050,7 +2050,7 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
     </message>
     <message>
         <source>Your current PIVX balance, unconfirmed and immature transactions included</source>
-        <translation>Din nuværende PIVX-saldo, ubekræftede og umodne transaktioner inkluderet</translation>
+        <translation>Din nuværende POPCHAIN-saldo, ubekræftede og umodne transaktioner inkluderet</translation>
     </message>
     <message>
         <source>zPCH Balance</source>
@@ -2356,7 +2356,7 @@ zPCH er modne, når de har mere end 20 bekræftelser OG mere end 2 minutter med 
     </message>
     <message>
         <source>The PIVX address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>PIVX-adressen for at sende betalingen til. Opretter lokal betaling til dig selv, når du er tom.</translation>
+        <translation>POPCHAIN-adressen for at sende betalingen til. Opretter lokal betaling til dig selv, når du er tom.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3841,8 +3841,8 @@ Vær tålmodig...</translation>
         <translation>Besked</translation>
     </message>
     <message>
-        <source>A message that was attached to the PIVX: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PIVX network.</source>
-        <translation>En besked, der var vedhæftet til PIVX: URl wil blive gemt sammen med transaktionen som reference. Note: Beskeden bliver medsendt transaktionen over netværket.</translation>
+        <source>A message that was attached to the POPCHAIN: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PIVX network.</source>
+        <translation>En besked, der var vedhæftet til POPCHAIN: URl wil blive gemt sammen med transaktionen som reference. Note: Beskeden bliver medsendt transaktionen over netværket.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -4805,7 +4805,7 @@ Vær tålmodig...</translation>
     </message>
     <message>
         <source>Obfuscation uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Tilsløring bruger hele det tilslørede designerede beløb til at sende betalinger. De kan blot tilsløre yderligere PIVX</translation>
+        <translation>Tilsløring bruger hele det tilslørede designerede beløb til at sende betalinger. De kan blot tilsløre yderligere POPCHAIN</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>

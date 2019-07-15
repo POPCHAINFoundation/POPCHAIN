@@ -673,8 +673,8 @@
         <translation>Prikaz informacija o PIVX Core-u</translation>
     </message>
     <message>
-        <source>Modify configuration options for PIVX</source>
-        <translation>Izmijenite konfiguracijske opcije za PIVX</translation>
+        <source>Modify configuration options for POPCHAIN</source>
+        <translation>Izmijenite konfiguracijske opcije za POPCHAIN</translation>
     </message>
     <message>
         <source>Sign messages with your PIVX addresses to prove you own them</source>
@@ -713,8 +713,8 @@
         <translation>Otvori Masternode konfiguracijsku datoteku</translation>
     </message>
     <message>
-        <source>Open a PIVX: URI or payment request</source>
-        <translation>Otvori PIVX: URI zahtjev za plačanje</translation>
+        <source>Open a POPCHAIN: URI or payment request</source>
+        <translation>Otvori POPCHAIN: URI zahtjev za plačanje</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -1816,8 +1816,8 @@ Budite strpljivi nakon što kliknete uvoz.</translation>
         <translation>Mreža</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PIVX.</source>
-        <translation>Ovdje se može postaviti jezik korisničkog sučelja. Ova postavka će stupiti na snagu nakon ponovnog pokretanja PIVX-a.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting POPCHAIN.</source>
+        <translation>Ovdje se može postaviti jezik korisničkog sučelja. Ova postavka će stupiti na snagu nakon ponovnog pokretanja POPCHAIN-a.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -2035,7 +2035,7 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
     </message>
     <message>
         <source>Your current PIVX balance, unconfirmed and immature transactions included</source>
-        <translation>Uključena je vaša trenutna bilanca PIVX, nepotvrđene i nezrele transakcije</translation>
+        <translation>Uključena je vaša trenutna bilanca POPCHAIN, nepotvrđene i nezrele transakcije</translation>
     </message>
     <message>
         <source>zPCH Balance</source>
@@ -3825,8 +3825,8 @@ Please be patient...</source>
         <translation>Poruka:</translation>
     </message>
     <message>
-        <source>A message that was attached to the PIVX: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PIVX network.</source>
-        <translation>Poruka koja je bila povezana s PIVX: URI koji će biti pohranjen s transakcijom za vašu referencu. Napomena: ova poruka neće biti poslana preko PIVX mreže.</translation>
+        <source>A message that was attached to the POPCHAIN: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PIVX network.</source>
+        <translation>Poruka koja je bila povezana s POPCHAIN: URI koji će biti pohranjen s transakcijom za vašu referencu. Napomena: ova poruka neće biti poslana preko PIVX mreže.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
