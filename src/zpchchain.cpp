@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "zpivchain.h"
-#include "zpiv/zpivmodule.h"
+#include "zpchchain.h"
+#include "zpch/zpchmodule.h"
 #include "invalid.h"
 #include "main.h"
 #include "txdb.h"

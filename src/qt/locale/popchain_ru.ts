@@ -1110,8 +1110,8 @@ MultiSend: %1</translation>
         <translation>Этот маркер становится красным если получаемая адресатом сумма меньше, чем %1</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 upiv per input.</source>
-        <translation>Может вариироваться +/- %1 upiv при вводе</translation>
+        <source>Can vary +/- %1 upch per input.</source>
+        <translation>Может вариироваться +/- %1 upch при вводе</translation>
     </message>
     <message>
         <source>(no label)</source>

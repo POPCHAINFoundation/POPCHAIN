@@ -8,7 +8,7 @@
 
 #include <atomic>
 #include "genwit.h"
-#include "zpiv/accumulators.h"
+#include "zpch/accumulators.h"
 #include "concurrentqueue.h"
 #include "chainparams.h"
 #include <boost/function.hpp>
@@ -49,12 +49,12 @@ public:
         return true;
     }
 
-    void StartLightZpivThread(boost::thread_group& threadGroup) {
+    void StartLightZpchThread(boost::thread_group& threadGroup) {
         LogPrintf("%s thread start\n", "popchain-light-thread");
         threadIns = boost::thread(boost::bind(&CLightWorker::ThreadLightZPCHSimplified, this));
     }
 
-    void StopLightZpivThread() {
+    void StopLightZpchThread() {
         threadIns.interrupt();
         LogPrintf("%s thread interrupted\n", "popchain-light-thread");
     }

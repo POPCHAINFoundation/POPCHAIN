@@ -325,7 +325,7 @@ set(SERVER_SOURCES
         ./src/txdb.cpp
         ./src/txmempool.cpp
         ./src/validationinterface.cpp
-        ./src/zpivchain.cpp
+        ./src/zpchchain.cpp
         )
 add_library(SERVER_A STATIC ${BitcoinHeaders} ${SERVER_SOURCES})
 
@@ -353,21 +353,21 @@ set(WALLET_SOURCES
         ./src/masternode-sync.cpp
         ./src/masternodeconfig.cpp
         ./src/masternodeman.cpp
-        ./src/zpiv/mintpool.cpp
+        ./src/zpch/mintpool.cpp
         ./src/wallet/rpcdump.cpp
-        ./src/zpiv/deterministicmint.cpp
-        ./src/zpiv/zerocoin.cpp
+        ./src/zpch/deterministicmint.cpp
+        ./src/zpch/zerocoin.cpp
         ./src/wallet/rpcwallet.cpp
         ./src/kernel.cpp
         ./src/wallet/wallet.cpp
         ./src/wallet/wallet_ismine.cpp
         ./src/wallet/walletdb.cpp
-        ./src/zpiv/zpivwallet.cpp
-        ./src/zpiv/zpivtracker.cpp
-        ./src/zpiv/zpivmodule.cpp
+        ./src/zpch/zpchwallet.cpp
+        ./src/zpch/zpchtracker.cpp
+        ./src/zpch/zpchmodule.cpp
         ./src/stakeinput.cpp
         ./src/genwit.cpp
-        ./src/lightzpivthread.cpp
+        ./src/lightzpchthread.cpp
         )
 add_library(WALLET_A STATIC ${BitcoinHeaders} ${WALLET_SOURCES})
 
@@ -438,10 +438,10 @@ endif()
 add_library(ZEROCOIN_A STATIC ${ZEROCOIN_SOURCES})
 
 set(COMMON_SOURCES
-        ./src/zpiv/accumulators.cpp
-        ./src/zpiv/accumulatorcheckpoints.cpp
-        ./src/zpiv/accumulatormap.cpp
-        ./src/zpiv/witness.cpp
+        ./src/zpch/accumulators.cpp
+        ./src/zpch/accumulatorcheckpoints.cpp
+        ./src/zpch/accumulatormap.cpp
+        ./src/zpch/witness.cpp
         ./src/allocators.cpp
         ./src/amount.cpp
         ./src/base58.cpp
@@ -450,9 +450,9 @@ set(COMMON_SOURCES
         ./src/coins.cpp
         ./src/compressor.cpp
         ./src/primitives/block.cpp
-        ./src/zpiv/deterministicmint.cpp
+        ./src/zpch/deterministicmint.cpp
         ./src/primitives/transaction.cpp
-        ./src/zpiv/zerocoin.cpp
+        ./src/zpch/zerocoin.cpp
         ./src/core_read.cpp
         ./src/core_write.cpp
         ./src/hash.cpp

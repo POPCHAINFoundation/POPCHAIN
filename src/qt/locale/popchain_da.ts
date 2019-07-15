@@ -1106,8 +1106,8 @@ Adresse: %4
         <translation>Denne tekstmarkør bliver rød, hvis en modtageradresse modtager et beløb mindre end %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 upiv per input.</source>
-        <translation>Kan variere +/- %1 opiv pr input.</translation>
+        <source>Can vary +/- %1 upch per input.</source>
+        <translation>Kan variere +/- %1 opch pr input.</translation>
     </message>
     <message>
         <source>(no label)</source>
