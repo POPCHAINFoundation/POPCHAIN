@@ -43,8 +43,8 @@ Build PIVX Core
 
 1. Clone the PIVX Core source code:
 
-        git clone https://github.com/pivx-project/pivx
-        cd pivx
+        git clone https://github.com/popchain-project/popchain
+        cd popchain
 
 2.  Make the Homebrew OpenSSL headers visible to the configure script  (do ```brew info openssl``` to find out why this is necessary, or if you use Homebrew with installation folders different from the default).
 
@@ -79,17 +79,17 @@ In this case there is no dependency on Berkeley DB 4.8.
 Running
 -------
 
-PIVX Core is now available at `./src/pivxd`
+PIVX Core is now available at `./src/popchaind`
 
 Before running, you may create an empty configuration file:
 
     mkdir -p "/Users/${USER}/Library/Application Support/POPCHAIN"
 
-    touch "/Users/${USER}/Library/Application Support/POPCHAIN/pivx.conf"
+    touch "/Users/${USER}/Library/Application Support/POPCHAIN/popchain.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/POPCHAIN/pivx.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/POPCHAIN/popchain.conf"
 
-The first time you run pivxd, it will start downloading the blockchain. This process could take many hours, or even days on slower than average systems.
+The first time you run popchaind, it will start downloading the blockchain. This process could take many hours, or even days on slower than average systems.
 
 You can monitor the download process by looking at the debug.log file:
 
@@ -98,9 +98,9 @@ You can monitor the download process by looking at the debug.log file:
 Other commands:
 -------
 
-    ./src/pivxd -daemon # Starts the pivx daemon.
-    ./src/pivx-cli --help # Outputs a list of command-line options.
-    ./src/pivx-cli help # Outputs a list of RPC commands when the daemon is running.
+    ./src/popchaind -daemon # Starts the popchain daemon.
+    ./src/popchain-cli --help # Outputs a list of command-line options.
+    ./src/popchain-cli help # Outputs a list of RPC commands when the daemon is running.
 
 Notes
 -----

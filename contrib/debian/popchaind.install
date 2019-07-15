@@ -1,0 +1,3 @@
+usr/local/bin/popchaind usr/bin
+usr/local/bin/popchain-cli usr/bin
+debian/examples/popchain.conf etc/popchain

@@ -41,11 +41,11 @@ QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
     case PCH:
-        return QString("pivx");
+        return QString("popchain");
     case mPCH:
-        return QString("mpivx");
+        return QString("mpopchain");
     case uPCH:
-        return QString::fromUtf8("upivx");
+        return QString::fromUtf8("upopchain");
     default:
         return QString("???");
     }

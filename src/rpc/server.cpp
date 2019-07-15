@@ -365,34 +365,34 @@ static const CRPCCommand vRPCCommands[] =
         { "hidden",             "waitforblockheight",     &waitforblockheight,     true,  true,  false  },
 
         /* PIVX features */
-        {"pivx", "listmasternodes", &listmasternodes, true, true, false},
-        {"pivx", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"pivx", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"pivx", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
-        {"pivx", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
-        {"pivx", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
-        {"pivx", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"pivx", "masternodedebug", &masternodedebug, true, true, false},
-        {"pivx", "startmasternode", &startmasternode, true, true, false},
-        {"pivx", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"pivx", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"pivx", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"pivx", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"pivx", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"pivx", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"pivx", "preparebudget", &preparebudget, true, true, false},
-        {"pivx", "submitbudget", &submitbudget, true, true, false},
-        {"pivx", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"pivx", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"pivx", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"pivx", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"pivx", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"pivx", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"pivx", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"pivx", "checkbudgets", &checkbudgets, true, true, false},
-        {"pivx", "mnsync", &mnsync, true, true, false},
-        {"pivx", "spork", &spork, true, true, false},
-        {"pivx", "getpoolinfo", &getpoolinfo, true, true, false},
+        {"popchain", "listmasternodes", &listmasternodes, true, true, false},
+        {"popchain", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"popchain", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"popchain", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
+        {"popchain", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
+        {"popchain", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
+        {"popchain", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"popchain", "masternodedebug", &masternodedebug, true, true, false},
+        {"popchain", "startmasternode", &startmasternode, true, true, false},
+        {"popchain", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"popchain", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"popchain", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"popchain", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"popchain", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"popchain", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"popchain", "preparebudget", &preparebudget, true, true, false},
+        {"popchain", "submitbudget", &submitbudget, true, true, false},
+        {"popchain", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"popchain", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"popchain", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"popchain", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"popchain", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"popchain", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"popchain", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"popchain", "checkbudgets", &checkbudgets, true, true, false},
+        {"popchain", "mnsync", &mnsync, true, true, false},
+        {"popchain", "spork", &spork, true, true, false},
+        {"popchain", "getpoolinfo", &getpoolinfo, true, true, false},
 
 #ifdef ENABLE_WALLET
         /* Wallet */
@@ -632,7 +632,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> pivx-cli " + methodname + " " + args + "\n";
+    return "> popchain-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

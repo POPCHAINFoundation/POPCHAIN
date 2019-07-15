@@ -1,0 +1,157 @@
+
+## <summary>policy for popchain</summary>
+
+
+########################################
+## <summary>
+##	Transition to popchain.
+## </summary>
+## <param name="domain">
+## <summary>
+##	Domain allowed to transition.
+## </summary>
+## </param>
+#
+interface(`popchain_domtrans',`
+	gen_require(`
+		type popchain_t, popchain_exec_t;
+	')
+
+	corecmd_search_bin($1)
+	domtrans_pattern($1, popchain_exec_t, popchain_t)
+')
+
+
+########################################
+## <summary>
+##	Execute popchain server in the popchain domain.
+## </summary>
+## <param name="domain">
+##	<summary>
+##	Domain allowed access.
+##	</summary>
+## </param>
+#
+interface(`popchain_initrc_domtrans',`
+	gen_require(`
+		type popchain_initrc_exec_t;
+	')
+
+	init_labeled_script_domtrans($1, popchain_initrc_exec_t)
+')
+
+
+########################################
+## <summary>
+##	Search popchain lib directories.
+## </summary>
+## <param name="domain">
+##	<summary>
+##	Domain allowed access.
+##	</summary>
+## </param>
+#
+interface(`popchain_search_lib',`
+	gen_require(`
+		type popchain_var_lib_t;
+	')
+
+	allow $1 popchain_var_lib_t:dir search_dir_perms;
+	files_search_var_lib($1)
+')
+
+########################################
+## <summary>
+##	Read popchain lib files.
+## </summary>
+## <param name="domain">
+##	<summary>
+##	Domain allowed access.
+##	</summary>
+## </param>
+#
+interface(`popchain_read_lib_files',`
+	gen_require(`
+		type popchain_var_lib_t;
+	')
+
+	files_search_var_lib($1)
+	read_files_pattern($1, popchain_var_lib_t, popchain_var_lib_t)
+')
+
+########################################
+## <summary>
+##	Manage popchain lib files.
+## </summary>
+## <param name="domain">
+##	<summary>
+##	Domain allowed access.
+##	</summary>
+## </param>
+#
+interface(`popchain_manage_lib_files',`
+	gen_require(`
+		type popchain_var_lib_t;
+	')
+
+	files_search_var_lib($1)
+	manage_files_pattern($1, popchain_var_lib_t, popchain_var_lib_t)
+')
+
+########################################
+## <summary>
+##	Manage popchain lib directories.
+## </summary>
+## <param name="domain">
+##	<summary>
+##	Domain allowed access.
+##	</summary>
+## </param>
+#
+interface(`popchain_manage_lib_dirs',`
+	gen_require(`
+		type popchain_var_lib_t;
+	')
+
+	files_search_var_lib($1)
+	manage_dirs_pattern($1, popchain_var_lib_t, popchain_var_lib_t)
+')
+
+
+########################################
+## <summary>
+##	All of the rules required to administrate
+##	a popchain environment
+## </summary>
+## <param name="domain">
+##	<summary>
+##	Domain allowed access.
+##	</summary>
+## </param>
+## <param name="role">
+##	<summary>
+##	Role allowed access.
+##	</summary>
+## </param>
+## <rolecap/>
+#
+interface(`popchain_admin',`
+	gen_require(`
+		type popchain_t;
+		type popchain_initrc_exec_t;
+		type popchain_var_lib_t;
+	')
+
+	allow $1 popchain_t:process { ptrace signal_perms };
+	ps_process_pattern($1, popchain_t)
+
+	popchain_initrc_domtrans($1)
+	domain_system_change_exemption($1)
+	role_transition $2 popchain_initrc_exec_t system_r;
+	allow $2 system_r;
+
+	files_search_var_lib($1)
+	admin_pattern($1, popchain_var_lib_t)
+
+')
+
