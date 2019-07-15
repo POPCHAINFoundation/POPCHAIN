@@ -6,7 +6,7 @@ The PIVX Core project has been designed to support multiple localisations. This 
 ### Helping to translate (using Transifex)
 Transifex is setup to monitor the GitHub repo for updates, and when code containing new translations is found, Transifex will process any changes. It may take several hours after a pull-request has been merged, to appear in the Transifex web interface.
 
-Multiple language support is critical in assisting PIVX's global adoption, and growth. One of PIVX's greatest strengths is cross-border money transfers, any help making that easier is greatly appreciated.
+Multiple language support is critical in assisting POPCHAIN's global adoption, and growth. One of POPCHAIN's greatest strengths is cross-border money transfers, any help making that easier is greatly appreciated.
 
 See the [Transifex PIVX project](https://www.transifex.com/pivx-project/pivx-project-translations/) to assist in translations.
 

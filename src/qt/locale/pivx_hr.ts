@@ -649,8 +649,8 @@
         <translation>Prikaz informacija o PIVX Coreu</translation>
     </message>
     <message>
-        <source>Modify configuration options for PIVX</source>
-        <translation>Izmijenite opcije konfiguracije za PIVX</translation>
+        <source>Modify configuration options for POPCHAIN</source>
+        <translation>Izmijenite opcije konfiguracije za POPCHAIN</translation>
     </message>
     <message>
         <source>Sign messages with your PIVX addresses to prove you own them</source>

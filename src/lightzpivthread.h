@@ -3,8 +3,8 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 //
 
-#ifndef PIVX_LIGHTZPCHTHREAD_H
-#define PIVX_LIGHTZPCHTHREAD_H
+#ifndef POPCHAIN_LIGHTZPCHTHREAD_H
+#define POPCHAIN_LIGHTZPCHTHREAD_H
 
 #include <atomic>
 #include "genwit.h"
@@ -67,4 +67,4 @@ private:
 
 };
 
-#endif //PIVX_LIGHTZPCHTHREAD_H
+#endif //POPCHAIN_LIGHTZPCHTHREAD_H

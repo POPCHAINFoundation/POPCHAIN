@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 //
-#ifndef PIVX_ZPCHMODULE_H
-#define PIVX_ZPCHMODULE_H
+#ifndef POPCHAIN_ZPCHMODULE_H
+#define POPCHAIN_ZPCHMODULE_H
 
 #include "libzerocoin/bignum.h"
 #include "libzerocoin/Denominations.h"
@@ -89,4 +89,4 @@ namespace ZPCHModule {
 };
 
 
-#endif //PIVX_ZPCHMODULE_H
+#endif //POPCHAIN_ZPCHMODULE_H

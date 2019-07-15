@@ -291,7 +291,7 @@
     </message>
     <message>
         <source>Encrypt the private key for this PIVX address</source>
-        <translation>Crittografa la chiave privata per questo indirizzo PIVX</translation>
+        <translation>Crittografa la chiave privata per questo indirizzo POPCHAIN</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -646,7 +646,7 @@
     </message>
     <message>
         <source>Send coins to a PIVX address</source>
-        <translation>Invia valuta all'indirizzo PIVX</translation>
+        <translation>Invia valuta all'indirizzo POPCHAIN</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and pivx: URIs)</source>
@@ -673,8 +673,8 @@
         <translation>Visualizza informazioni su PIVX Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for PIVX</source>
-        <translation>Modifica le opzioni di configurazione per PIVX</translation>
+        <source>Modify configuration options for POPCHAIN</source>
+        <translation>Modifica le opzioni di configurazione per POPCHAIN</translation>
     </message>
     <message>
         <source>Sign messages with your PIVX addresses to prove you own them</source>
@@ -713,8 +713,8 @@
         <translation>Apri file di configurazione del Masternodo</translation>
     </message>
     <message>
-        <source>Open a PIVX: URI or payment request</source>
-        <translation>Apri un PIVX: URI o richiesta di pagamento</translation>
+        <source>Open a POPCHAIN: URI or payment request</source>
+        <translation>Apri un POPCHAIN: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -726,7 +726,7 @@
     </message>
     <message>
         <source>Show the PIVX Core help message to get a list with possible PIVX command-line options</source>
-        <translation>Mostra il messaggio di aiuto PIVX Core per ottenere un elenco con le possibili opzioni di riga di comando PIVX</translation>
+        <translation>Mostra il messaggio di aiuto PIVX Core per ottenere un elenco con le possibili opzioni di riga di comando POPCHAIN</translation>
     </message>
     <message>
         <source>PIVX Core client</source>
@@ -1270,7 +1270,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>PIVX Core will download and store a copy of the PIVX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>PIVX Core scaricherà e salverà una copia della blockchain PIVX. Verranno salvati almeno %1GB di dati in questa cartella, che cresceranno nel tempo. In questa cartella verrà salvato anche il portafoglio.</translation>
+        <translation>PIVX Core scaricherà e salverà una copia della blockchain POPCHAIN. Verranno salvati almeno %1GB di dati in questa cartella, che cresceranno nel tempo. In questa cartella verrà salvato anche il portafoglio.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -2436,7 +2436,7 @@ Per cambiare la percentuale (riavvio non necessario):
     </message>
     <message>
         <source>Sign the message to prove you own this PIVX address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo PIVX</translation>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo POPCHAIN</translation>
     </message>
     <message>
         <source>The PIVX address the message was signed with</source>

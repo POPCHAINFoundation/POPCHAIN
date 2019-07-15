@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_ZPCHTRACKER_H
-#define PIVX_ZPCHTRACKER_H
+#ifndef POPCHAIN_ZPCHTRACKER_H
+#define POPCHAIN_ZPCHTRACKER_H
 
 #include "zerocoin.h"
 #include "witness.h"
@@ -55,4 +55,4 @@ public:
     void Clear();
 };
 
-#endif //PIVX_ZPCHTRACKER_H
+#endif //POPCHAIN_ZPCHTRACKER_H

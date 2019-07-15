@@ -20,11 +20,11 @@ from test_framework.util import hash256, bytes_to_hex_str, hex_str_to_bytes, con
 
 from .util import TestNode, create_transaction, utxo_to_stakingPrevOuts, dir_size
 ''' -------------------------------------------------------------------------
-PIVX_FakeStakeTest CLASS ----------------------------------------------------
+POPCHAIN_FakeStakeTest CLASS ----------------------------------------------------
 
 General Test Class to be extended by individual tests for each attack test
 '''
-class PIVX_FakeStakeTest(BitcoinTestFramework):
+class POPCHAIN_FakeStakeTest(BitcoinTestFramework):
 
     def set_test_params(self):
         ''' Setup test environment

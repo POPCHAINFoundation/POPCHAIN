@@ -702,7 +702,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this PIVX address</source>
-        <translation>Assinar a Mensagem para provar que você e dono desse endereço PIVX.</translation>
+        <translation>Assinar a Mensagem para provar que você e dono desse endereço POPCHAIN.</translation>
     </message>
     <message>
         <source>The PIVX address the message was signed with</source>

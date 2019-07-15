@@ -650,7 +650,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and pivx: URIs)</source>
-        <translation>Поискай плащане (генерира QR кодове и  PIVX:URI)</translation>
+        <translation>Поискай плащане (генерира QR кодове и  POPCHAIN:URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -673,7 +673,7 @@
         <translation>Информациза за PIVX Ядрото</translation>
     </message>
     <message>
-        <source>Modify configuration options for PIVX</source>
+        <source>Modify configuration options for POPCHAIN</source>
         <translation>Промени PIVX конфигурацията</translation>
     </message>
     <message>
@@ -713,8 +713,8 @@
         <translation>Отвори Мастърноуд конфигурационния файл</translation>
     </message>
     <message>
-        <source>Open a PIVX: URI or payment request</source>
-        <translation>Отвори PIVX:URI платежно нареждане</translation>
+        <source>Open a POPCHAIN: URI or payment request</source>
+        <translation>Отвори POPCHAIN:URI платежно нареждане</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -1814,7 +1814,7 @@ Please be patient after clicking import.</source>
         <translation>&amp;Мрежа</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PIVX.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting POPCHAIN.</source>
         <translation>Промяна на езика. Настройката е активна след рестарт на портфейла.</translation>
     </message>
     <message>
@@ -3146,7 +3146,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Welcome to the PIVX RPC console.</source>
-        <translation>Добре Дошли в RPC конзолата на PIVX.</translation>
+        <translation>Добре Дошли в RPC конзолата на POPCHAIN.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3812,8 +3812,8 @@ Please be patient...</source>
         <translation>Съобщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the PIVX: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PIVX network.</source>
-        <translation>Съобщение, което е било прикачено към PIVX:URI и което ще бъде запазено заедно с превода за ваша информация. Внимание: Това съобщение е само за Вас, то няма да бъде изпратено по PIVX мрежата.</translation>
+        <source>A message that was attached to the POPCHAIN: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PIVX network.</source>
+        <translation>Съобщение, което е било прикачено към POPCHAIN:URI и което ще бъде запазено заедно с превода за ваша информация. Внимание: Това съобщение е само за Вас, то няма да бъде изпратено по PIVX мрежата.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>

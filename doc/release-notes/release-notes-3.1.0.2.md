@@ -2,7 +2,7 @@ PIVX Core version *3.1.0.2* is now available from:  <https://github.com/pivx-pro
 
 This is a new mandatory bugfix release, specifically addressing a bug with windows OS masternode control wallets as well as a missed commit from our private repository affecting the budget amount. 
 
-### Users upgrading to this version are encouraged to also read the detailed release notes for the previous [3.1.0](https://github.com/PIVX-Project/PIVX/releases/tag/v3.1.0) release as information will not be duplicated here.
+### Users upgrading to this version are encouraged to also read the detailed release notes for the previous [3.1.0](https://github.com/POPCHAIN-Project/POPCHAIN/releases/tag/v3.1.0) release as information will not be duplicated here.
 
 
 Please report bugs using the issue tracker at github: <https://github.com/pivx-project/pivx/issues>
@@ -17,7 +17,7 @@ Users updating from a previous version after Tuesday, May 8, 2018 12:00:00 AM GM
 How to Upgrade
 ==============
 
-If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/PIVX-Qt (on Mac) or pivxd/pivx-qt (on Linux).
+If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/POPCHAIN-Qt (on Mac) or pivxd/pivx-qt (on Linux).
 
 
 Compatibility

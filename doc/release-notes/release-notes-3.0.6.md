@@ -13,7 +13,7 @@ Please report bugs using the issue tracker at github:
 How to Upgrade
 ==============
 
-If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/PIVX-Qt (on Mac) or pivxd/pivx-qt (on Linux).
+If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/POPCHAIN-Qt (on Mac) or pivxd/pivx-qt (on Linux).
 
 
 Compatibility
@@ -52,7 +52,7 @@ Many 3rd party services have reported that their debug logs have been overloaded
 
 Removal of Heavy Running Transaction Search Code
 ---------------------
-Many areas of the block validation code use a "slow" transaction search, which searches redundantly for transactions. This "slow" search has been removed upstream in Bitcoin and is now removed in PIVX. This provides a more efficient syncing process and generally better performing wallet.
+Many areas of the block validation code use a "slow" transaction search, which searches redundantly for transactions. This "slow" search has been removed upstream in Bitcoin and is now removed in POPCHAIN. This provides a more efficient syncing process and generally better performing wallet.
 
 Sync Fix for Block 908000
 ---------------------
