@@ -8,7 +8,7 @@
 #include "main.h"
 
 /****** Thread ********/
-void CLightWorker::ThreadLightZPIVSimplified() {
+void CLightWorker::ThreadLightZPCHSimplified() {
     RenameThread("pivx-light-thread");
     isWorkerRunning = true;
     while (true) {
@@ -60,7 +60,7 @@ void CLightWorker::ThreadLightZPIVSimplified() {
                         );
 
                     } catch (NotEnoughMintsException e) {
-                        LogPrintStr(std::string("ThreadLightZPIVSimplified: ") + e.message + "\n");
+                        LogPrintStr(std::string("ThreadLightZPCHSimplified: ") + e.message + "\n");
                         rejectWork(genWit, blockHeight, NOT_ENOUGH_MINTS);
                         continue;
                     }
