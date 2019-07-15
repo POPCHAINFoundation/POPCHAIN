@@ -12,7 +12,7 @@
 #include "wallet/walletdb.h"
 #include "txdb.h"
 #include "zpiv/zpivmodule.h"
-#include "test/test_pivx.h"
+#include "test/test_popchain.h"
 #include <boost/test/unit_test.hpp>
 #include <iostream>
 

@@ -1,0 +1,8 @@
+/usr/bin/popchain-cli		--	gen_context(system_u:object_r:popchain_exec_t,s0)
+/usr/sbin/popchaind		--	gen_context(system_u:object_r:popchain_exec_t,s0)
+/usr/lib(64)?/popchain/popchaind		--	gen_context(system_u:object_r:popchain_exec_t,s0)
+
+/etc/popchain(/.*)?		gen_context(system_u:object_r:popchain_conf_t,s0)
+/var/lib/popchain(/.*)?		gen_context(system_u:object_r:popchain_var_lib_t,s0)
+
+(/var)?/run/popchaind(/.*)?   gen_context(system_u:object_r:popchain_var_run_t,s0)

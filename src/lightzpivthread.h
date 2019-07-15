@@ -42,7 +42,7 @@ public:
 
     bool addWitWork(CGenWit wit) {
         if (!isWorkerRunning) {
-            LogPrintf("%s not running trying to add wit work \n", "pivx-light-thread");
+            LogPrintf("%s not running trying to add wit work \n", "popchain-light-thread");
             return false;
         }
         requestsQueue.push(wit);
@@ -50,13 +50,13 @@ public:
     }
 
     void StartLightZpivThread(boost::thread_group& threadGroup) {
-        LogPrintf("%s thread start\n", "pivx-light-thread");
+        LogPrintf("%s thread start\n", "popchain-light-thread");
         threadIns = boost::thread(boost::bind(&CLightWorker::ThreadLightZPCHSimplified, this));
     }
 
     void StopLightZpivThread() {
         threadIns.interrupt();
-        LogPrintf("%s thread interrupted\n", "pivx-light-thread");
+        LogPrintf("%s thread interrupted\n", "popchain-light-thread");
     }
 
 private:

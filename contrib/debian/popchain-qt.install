@@ -1,0 +1,6 @@
+usr/local/bin/popchain-qt usr/bin
+share/pixmaps/popchain32.xpm usr/share/pixmaps
+share/pixmaps/popchain16.xpm usr/share/pixmaps
+share/pixmaps/popchain128.png usr/share/pixmaps
+debian/popchain-qt.desktop usr/share/applications
+debian/popchain-qt.protocol usr/share/kde4/services/
