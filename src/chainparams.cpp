@@ -227,7 +227,7 @@ public:
         pchMessageStart[3] = 0xc9;
         vAlertPubKey = ParseHex("028efd0f3c697689f8f1f6744edbbc1f85871b8c51218ddd89d90a3e435d1a8691"); // need to chage?
         nDefaultPort = 2778;
-        bnProofOfWorkLimit = ~uint256(0) >> 12; // POPCHAIN starting difficulty is less than 1 / 2^12
+        bnProofOfWorkLimit = ~uint256(0) >> 20; // POPCHAIN starting difficulty is less than 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 8100; // 75%
