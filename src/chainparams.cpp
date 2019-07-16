@@ -298,11 +298,12 @@ public:
         assert(hashGenesisBlock == uint256("0x00000ba44c21da19e5b536372bb4565f78ef914eca13152ab8f288e0b6159268"));
         assert(genesis.hashMerkleRoot == uint256("0x6f2365be9a7637754a1d34032be19778b47c1dffb5a5fe4b382057fe69f4fb95"));
 
-        vSeeds.push_back(CDNSSeedData("seed1.popchain.co", "seed1.popchain.co"));
-        vSeeds.push_back(CDNSSeedData("seed2.popchain.co", "seed2.popchain.co"));
-        vSeeds.push_back(CDNSSeedData("seed3.popchain.co", "seed3.popchain.co"));
-        vSeeds.push_back(CDNSSeedData("seed4.popchain.co", "seed4.popchain.co"));
-        vSeeds.push_back(CDNSSeedData("seed5.popchain.co", "seed5.popchain.co"));
+        vSeeds.push_back(CDNSSeedData("example.com", "example.com"));
+        //vSeeds.push_back(CDNSSeedData("seed1.popchain.co", "seed1.popchain.co"));
+        //vSeeds.push_back(CDNSSeedData("seed2.popchain.co", "seed2.popchain.co"));
+        //vSeeds.push_back(CDNSSeedData("seed3.popchain.co", "seed3.popchain.co"));
+        //vSeeds.push_back(CDNSSeedData("seed4.popchain.co", "seed4.popchain.co"));
+        //vSeeds.push_back(CDNSSeedData("seed5.popchain.co", "seed5.popchain.co"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 56); // Start with P
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 63); // Start with S
@@ -420,11 +421,12 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("seed1.popchain.co", "seed1.popchain.co"));
-        vSeeds.push_back(CDNSSeedData("seed2.popchain.co", "seed2.popchain.co"));
-        vSeeds.push_back(CDNSSeedData("seed3.popchain.co", "seed3.popchain.co"));
-        vSeeds.push_back(CDNSSeedData("seed4.popchain.co", "seed4.popchain.co"));
-        vSeeds.push_back(CDNSSeedData("seed5.popchain.co", "seed5.popchain.co"));
+        vSeeds.push_back(CDNSSeedData("example.com", "example.com"));
+        //vSeeds.push_back(CDNSSeedData("seed1.popchain.co", "seed1.popchain.co"));
+        //vSeeds.push_back(CDNSSeedData("seed2.popchain.co", "seed2.popchain.co"));
+        //vSeeds.push_back(CDNSSeedData("seed3.popchain.co", "seed3.popchain.co"));
+        //vSeeds.push_back(CDNSSeedData("seed4.popchain.co", "seed4.popchain.co"));
+        //vSeeds.push_back(CDNSSeedData("seed5.popchain.co", "seed5.popchain.co"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet popchain addresses start with 'x' or 'y'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet popchain script addresses start with '8' or '9'
