@@ -123,6 +123,7 @@ bool CheckProofOfWork(uint256 hash, unsigned int nBits)
 
     bnTarget.SetCompact(nBits, &fNegative, &fOverflow);
 
+    /*
     // Check range
     if (fNegative || bnTarget == 0 || fOverflow || bnTarget > Params().ProofOfWorkLimit())
         return error("CheckProofOfWork() : nBits below minimum work");
@@ -134,6 +135,7 @@ bool CheckProofOfWork(uint256 hash, unsigned int nBits)
         else
             return error("CheckProofOfWork() : hash doesn't match nBits");
     }
+    */
 
     return true;
 }
