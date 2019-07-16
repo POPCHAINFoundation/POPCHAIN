@@ -26,9 +26,11 @@ struct SeedSpec6 {
 
 #include "chainparamsseeds.h"
 
+#if defined(MAINNET_GENERATION) || defined(TESTNET_GENERATION) || defined(REGTEST_GENERATION)
+#ifndef GENESIS_GENERATION
 #define GENESIS_GENERATION
-//#define MAINNET_GENERATION
-//#define TESTNET_GENERATION
+#endif
+#endif
 
 #ifdef GENESIS_GENERATION
 #include <cstdlib>
@@ -285,10 +287,8 @@ public:
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 2606332;
 
-#ifdef GENESIS_GENERATION
-        #ifdef MAINNET_GENERATION
-        	findGenesis(&genesis, "mainnet");
-	#endif
+#ifdef MAINNET_GENERATION
+        findGenesis(&genesis, "mainnet");
 #endif
 
         hashGenesisBlock = genesis.GetHash();
@@ -406,10 +406,8 @@ public:
         genesis.nTime = 1563264332;
         genesis.nNonce = 476032;
 
-#ifdef GENESIS_GENERATION
-        #ifdef TESTNET_GENERATION
-		findGenesis(&genesis, "testnet");
-	#endif
+#ifdef TESTNET_GENERATION
+        findGenesis(&genesis, "testnet");
 #endif
 
         hashGenesisBlock = genesis.GetHash();
@@ -510,8 +508,8 @@ public:
         genesis.nTime = 1454124731;
         genesis.nNonce = 125402;
 
-#ifdef GENESIS_GENERATION
-        //findGenesis(&genesis, "regtest");
+#ifdef REGTEST_GENERATION
+        findGenesis(&genesis, "regtest");
 #endif
 
         hashGenesisBlock = genesis.GetHash();
