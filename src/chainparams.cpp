@@ -52,8 +52,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 //   (no blocks before with a timestamp after, none after with
 //    timestamp before)
 // + Contains no strange transactions
-static Checkpoints::MapCheckpoints mapCheckpoints =
-    boost::assign::map_list_of;
+static Checkpoints::MapCheckpoints mapCheckpoints = {};
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
     1556924938, // * UNIX timestamp of last checkpoint block
