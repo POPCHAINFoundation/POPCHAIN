@@ -90,6 +90,7 @@ void _get(const CBlockHeader * const pblock, const uint256 hashTarget)
     std::cout << "\n\t\t----------------------------------------\t" << std::endl;
     std::cout << "\t" << pb->nNonce  << std::endl;
     std::cout << "\t" << pb->GetHash().ToString() << std::endl;
+    std::cout << "\t" << pb->nTime << std::endl;
     std::cout << "\n\t\t----------------------------------------\t" << std::endl;
     delete pb;
 
@@ -97,9 +98,11 @@ void _get(const CBlockHeader * const pblock, const uint256 hashTarget)
     assert(0);
 }
 
-static void findGenesis(CBlockHeader *pb, const std::string &net)
-{
-    uint256 hashTarget = uint256S("0x00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
+static void findGenesis(CBlockHeader *pb, const std::string &net) {
+    bool fNegative;
+    bool fOverflow;
+    uint256 hashTarget;
+    hashTarget.SetCompact(pb->nBits, &fNegative, &fOverflow);
     //                     000b02477d596d9a5cd75170cfaf4f28711579faa4fabfa52e176eb0ef52c400
     /*popchain ghost*/
     std::cout << " finding genesis using target " << hashTarget.ToString()
@@ -157,7 +160,10 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 //   (no blocks before with a timestamp after, none after with
 //    timestamp before)
 // + Contains no strange transactions
-static Checkpoints::MapCheckpoints mapCheckpoints = {};
+static Checkpoints::MapCheckpoints mapCheckpoints = 
+    boost::assign::map_list_of
+    (0, uint256("0000ac5317d647a374f3d0bec528c5cf32d672c56ff6204591c6d422eeea1a48"));
+
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
     1556924938, // * UNIX timestamp of last checkpoint block
@@ -219,8 +225,7 @@ public:
         pchMessageStart[3] = 0xc9;
         vAlertPubKey = ParseHex("028efd0f3c697689f8f1f6744edbbc1f85871b8c51218ddd89d90a3e435d1a8691"); // need to chage?
         nDefaultPort = 2778;
-        bnProofOfWorkLimit = ~uint256(0) >> 20; // POPCHAIN starting difficulty is less than 1 / 2^12
-        nSubsidyHalvingInterval = 210000; // or 700800 
+        bnProofOfWorkLimit = ~uint256(0) >> 12; // POPCHAIN starting difficulty is less than 1 / 2^12
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 8100; // 75%
         nRejectBlockOutdatedMajority = 10260; // 95%
@@ -503,10 +508,14 @@ public:
 
         //! Modify the regtest genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1454124731;
-        genesis.nNonce = 67242;
+        genesis.nNonce = 125402;
+
+#ifdef GENESIS_GENERATION
+        //findGenesis(&genesis, "regtest");
+#endif
 
         hashGenesisBlock = genesis.GetHash();
-        //assert(hashGenesisBlock == uint256("0x0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818"));
+        assert(hashGenesisBlock == uint256("0x00000c0ead4a6a346ff85ccf45e7800f01155d7921fd77161ed1f126ca4a9839"));
         //assert(hashGenesisBlock == uint256("0x4f023a2120d9127b21bbad01724fdb79b519f593f2a85b60d3d79160ec5f29df"));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
