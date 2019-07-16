@@ -241,7 +241,7 @@ public:
         nMaxMoneyOut = 2000000000 * COIN; // 2 Billion
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 259200;
+        nLastPOWBlock = 2147483647; // TODO: Set it correctly
         nModifierUpdateBlock = 615800;
         nZerocoinStartHeight = 2147483647;
         nZerocoinStartTime = 2147483647; // Y2K38
@@ -379,12 +379,12 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // POPCHAIN: 1 day
         nTargetSpacing = 1 * 60;  // POPCHAIN: 1 minute
-        nLastPOWBlock = 200;
+        nLastPOWBlock = 2147483647; // TODO: Set it correctly
         nMaturity = 15;
         nMasternodeCountDrift = 4;
         nModifierUpdateBlock = 51197; //approx Mon, 17 Apr 2017 04:00:00 GMT
         nMaxMoneyOut = 43199500 * COIN;
-        nZerocoinStartHeight = 201576;
+        nZerocoinStartHeight = 2147483647;
         nZerocoinStartTime = INT_MAX;
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
         nBlockRecalculateAccumulators = 9908000; //Trigger a recalculation of accumulators
