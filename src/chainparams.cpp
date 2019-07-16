@@ -26,9 +26,11 @@ struct SeedSpec6 {
 
 #include "chainparamsseeds.h"
 
-//#define GENESIS_GENERATION
+#define GENESIS_GENERATION
+//#define MAINNET_GENERATION
+//#define TESTNET_GENERATION
 
-//#ifdef GENESIS_GENERATION
+#ifdef GENESIS_GENERATION
 #include <cstdlib>
 #include <ctime>
 #include <iostream>
@@ -73,7 +75,7 @@ void _get(const CBlockHeader * const pblock, const uint256 hashTarget)
 
         if (hash <= hashTarget) break;
         pb->nNonce = pb->nNonce + 1;
-        if (cnt > 1e3)
+        if (cnt > 1e4)
         {
             cnt = 0;
         }
@@ -97,7 +99,7 @@ void _get(const CBlockHeader * const pblock, const uint256 hashTarget)
 
 static void findGenesis(CBlockHeader *pb, const std::string &net)
 {
-    uint256 hashTarget = uint256S("0x0000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
+    uint256 hashTarget = uint256S("0x00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
     //                     000b02477d596d9a5cd75170cfaf4f28711579faa4fabfa52e176eb0ef52c400
     /*popchain ghost*/
     std::cout << " finding genesis using target " << hashTarget.ToString()
@@ -105,7 +107,7 @@ static void findGenesis(CBlockHeader *pb, const std::string &net)
 
     std::vector<std::thread> threads;
 
-    for (int i = 0; i < 4; ++i)
+    for (int i = 0; i < 1; ++i)
     {
         if (i >= 0)
         {
@@ -126,7 +128,7 @@ static void findGenesis(CBlockHeader *pb, const std::string &net)
         t.join();
     }
 }
-//#endif
+#endif
 
 
 /**
@@ -217,7 +219,7 @@ public:
         pchMessageStart[3] = 0xc9;
         vAlertPubKey = ParseHex("028efd0f3c697689f8f1f6744edbbc1f85871b8c51218ddd89d90a3e435d1a8691"); // need to chage?
         nDefaultPort = 2778;
-        bnProofOfWorkLimit = ~uint256(0) >> 8; // POPCHAIN starting difficulty is less than 1 / 2^12
+        bnProofOfWorkLimit = ~uint256(0) >> 20; // POPCHAIN starting difficulty is less than 1 / 2^12
         nSubsidyHalvingInterval = 210000; // or 700800 
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 8100; // 75%
@@ -276,16 +278,18 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1556560800;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 45337;
+        genesis.nNonce = 2606332;
 
 #ifdef GENESIS_GENERATION
-        //findGenesis(&genesis, "mainnet");
+        #ifdef MAINNET_GENERATION
+        	findGenesis(&genesis, "mainnet");
+	#endif
 #endif
 
         hashGenesisBlock = genesis.GetHash();
         printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
         printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
-        assert(hashGenesisBlock == uint256("0x0000ac5317d647a374f3d0bec528c5cf32d672c56ff6204591c6d422eeea1a48"));
+        assert(hashGenesisBlock == uint256("0x00000ba44c21da19e5b536372bb4565f78ef914eca13152ab8f288e0b6159268"));
         // assert(genesis.hashMerkleRoot == uint256("0x1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
 
         vSeeds.push_back(CDNSSeedData("seed1.popchain.co", "seed1.popchain.co"));
@@ -395,17 +399,19 @@ public:
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1563264332;
-        genesis.nNonce = 74153;
+        genesis.nNonce = 476032;
 
 #ifdef GENESIS_GENERATION
-        findGenesis(&genesis, "testnet");
+        #ifdef TESTNET_GENERATION
+		findGenesis(&genesis, "testnet");
+	#endif
 #endif
 
         hashGenesisBlock = genesis.GetHash();
         printf("testnet genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
         printf("testent genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
 	
-        assert(hashGenesisBlock == uint256("0x000071a73463507461977d0e612dd63e8150479bafd68b55d06b258844fa205d"));
+        assert(hashGenesisBlock == uint256("0x00000ae7e7fef7d033b0098260c53cc90d759fd946fef566f3df25ca12a8ed91"));
         // assert(genesis.hashMerkleRoot == uint256("0x1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
 
         vFixedSeeds.clear();
