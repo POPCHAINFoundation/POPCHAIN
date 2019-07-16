@@ -26,6 +26,116 @@ struct SeedSpec6 {
 
 #include "chainparamsseeds.h"
 
+#if defined(MAINNET_GENERATION) || defined(TESTNET_GENERATION) || defined(REGTEST_GENERATION)
+#ifndef GENESIS_GENERATION
+#define GENESIS_GENERATION
+#endif
+#endif
+
+#ifdef GENESIS_GENERATION
+#include <cstdlib>
+#include <ctime>
+#include <iostream>
+#include <cstdio>
+#include <string>
+#include "utiltime.h"
+#include <random>
+#include <cmath>
+#include <iomanip>
+#include <util.h>
+#include <new>
+#include <chrono>
+#include <thread>
+#include <mutex>
+#include "random.h"
+
+#include <sys/time.h>
+
+typedef uint32_t uint;
+typedef long long ll;
+
+static std::mutex mtx;
+
+//test cnt 1000 times time
+int64_t getCurrentTime()
+{
+    struct timeval tv;
+    gettimeofday(&tv,NULL);
+    return tv.tv_sec * 1000 + tv.tv_usec / 1000;
+}
+
+// find a genesis in about 10-20 mins
+void _get(const CBlockHeader * const pblock, const uint256 hashTarget)
+{
+    uint256 hash;
+    CBlockHeader *pb = new CBlockHeader(*pblock);
+    int64_t starttime = getCurrentTime();
+
+    for (int cnt = 0, tcnt=0; true; ++cnt,++tcnt)
+    {
+        uint256 hash = pb->GetHash();
+
+        if (hash <= hashTarget) break;
+        pb->nNonce = pb->nNonce + 1;
+        if (cnt > 1e4)
+        {
+            cnt = 0;
+        }
+        if (tcnt !=0 and tcnt % 1000 == 0)
+        {
+            std::cout<<"cryptopop tcnt = "<<tcnt<<" time = " << getCurrentTime() - starttime << " ms"<<std::endl;       
+        }
+
+    }
+
+    std::lock_guard<std::mutex> guard(mtx);
+    std::cout << "\n\t\t----------------------------------------\t" << std::endl;
+    std::cout << "\t" << pb->nNonce  << std::endl;
+    std::cout << "\t" << pb->GetHash().ToString() << std::endl;
+    std::cout << "\t" << pb->nTime << std::endl;
+    std::cout << "\n\t\t----------------------------------------\t" << std::endl;
+    delete pb;
+
+    // stop while found one
+    assert(0);
+}
+
+static void findGenesis(CBlockHeader *pb, const std::string &net) {
+    bool fNegative;
+    bool fOverflow;
+    uint256 hashTarget;
+    hashTarget.SetCompact(pb->nBits, &fNegative, &fOverflow);
+    //                     000b02477d596d9a5cd75170cfaf4f28711579faa4fabfa52e176eb0ef52c400
+    /*popchain ghost*/
+    std::cout << " finding genesis using target " << hashTarget.ToString()
+        << ", " << net << std::endl;
+
+    std::vector<std::thread> threads;
+
+    for (int i = 0; i < 1; ++i)
+    {
+        if (i >= 0)
+        {
+            // Randomise nonce
+            uint32_t nonce = 0;
+            // Clear the top and bottom 16 bits (for local use as thread flags and counters)
+            //nonce <<= ;
+            //nonce >>= 8;
+            pb->nNonce = nonce;
+            // pb->nTime = 1556560800;
+
+        }
+        threads.push_back(std::thread(_get, pb, hashTarget));
+    }
+
+    for (auto &t : threads)
+    {
+        t.join();
+    }
+}
+#endif
+
+
 /**
  * Main network
  */
@@ -52,27 +162,10 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 //   (no blocks before with a timestamp after, none after with
 //    timestamp before)
 // + Contains no strange transactions
-static Checkpoints::MapCheckpoints mapCheckpoints =
+static Checkpoints::MapCheckpoints mapCheckpoints = 
     boost::assign::map_list_of
-    (259201, uint256("1c9121bf9329a6234bfd1ea2d91515f19cd96990725265253f4b164283ade5dd"))
-    (424998, uint256("f31e381eedb0ed3ed65fcc98cc71f36012bee32e8efd017c4f9fb0620fd35f6b"))
-    (616764, uint256("29dd0bd1c59484f290896687b4ffb6a49afa5c498caf61967c69a541f8191557")) //first block to use modifierV2
-    (623933, uint256("c7aafa648a0f1450157dc93bd4d7448913a85b7448f803b4ab970d91fc2a7da7"))
-    (791150, uint256("8e76f462e4e82d1bd21cb72e1ce1567d4ddda2390f26074ffd1f5d9c270e5e50"))
-    (795000, uint256("4423cceeb9fd574137a18733416275a70fdf95283cc79ad976ca399aa424a443"))
-    (863787, uint256("5b2482eca24caf2a46bb22e0545db7b7037282733faa3a42ec20542509999a64"))
-    (863795, uint256("2ad866818c4866e0d555181daccc628056216c0db431f88a825e84ed4f469067"))
-    (863805, uint256("a755bd9a22b63c70d3db474f4b2b61a1f86c835b290a081bb3ec1ba2103eb4cb"))
-    (867733, uint256("03b26296bf693de5782c76843d2fb649cb66d4b05550c6a79c047ff7e1c3ae15"))
-    (879650, uint256("227e1d2b738b6cd83c46d1d64617934ec899d77cee34336a56e61b71acd10bb2"))
-    (895400, uint256("7796a0274a608fac12d400198174e50beda992c1d522e52e5b95b884bc1beac6"))//block that serial# range is enforced
-    (895991, uint256("d53013ed7ea5c325b9696c95e07667d6858f8ff7ee13fecfa90827bf3c9ae316"))//network split here
-    (908000, uint256("202708f8c289b676fceb832a079ff6b308a28608339acbf7584de533619d014d"))
-    (1142400, uint256("98aff9d605bf123247f98b1e3a02567eb5799d208d78ec30fb89737b1c1f79c5"))
-    (1679090, uint256("f747ce055ba1b12e1f2e842bd480bc647210799359cb2e553ab292065e3419d6")) //!< First block with a "wrapped" serial spend
-    (1686229, uint256("bb42bf1e886a7c23474634c90893dd3d68a6ccbfea4ac92a98da5cad0c6a6cb7")) //!< Last block in the "wrapped" serial attack range
-    (1778954, uint256("0d3241268264a2908d6babf00d9cd1ffb83d93d7bb4e428820127fe227c2029c")) //!< Network split here
-    (1788528, uint256("ea9243ff8fc079fdd7a04f11fac415de4d98e1bb0dc38db6f79f8f8bbfdbe496")); //!< Network split here
+    (0, uint256("0000ac5317d647a374f3d0bec528c5cf32d672c56ff6204591c6d422eeea1a48"));
+
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
     1556924938, // * UNIX timestamp of last checkpoint block
@@ -83,10 +176,7 @@ static const Checkpoints::CCheckpointData data = {
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of
-    (0, uint256("0x001"))
-    (1016800, uint256("6ae7d52092fd918c8ac8d9b1334400387d3057997e6e927a88e57186dc395231"))
-    (1106100, uint256("c54b3e7e8b710e4075da1806adf2d508ae722627d5bcc43f594cf64d5eef8b30")) //!< zc public spend activation height
-    (1112700, uint256("2ad8d507dbe3d3841b9f8a29c3878d570228e9361c3e057362d7915777bbc849"));
+    (0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
     1560843157,
@@ -135,9 +225,9 @@ public:
         pchMessageStart[1] = 0xa5;
         pchMessageStart[2] = 0x3f;
         pchMessageStart[3] = 0xc9;
-        vAlertPubKey = ParseHex("028efd0f3c697689f8f1f6744edbbc1f85871b8c51218ddd89d90a3e435d1a8691");
+        vAlertPubKey = ParseHex("028efd0f3c697689f8f1f6744edbbc1f85871b8c51218ddd89d90a3e435d1a8691"); // need to chage?
         nDefaultPort = 2778;
-        bnProofOfWorkLimit = ~uint256(0) >> 20; // PIVX starting difficulty is 1 / 2^12
+        bnProofOfWorkLimit = ~uint256(0) >> 12; // POPCHAIN starting difficulty is less than 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 8100; // 75%
@@ -148,13 +238,13 @@ public:
         nTargetSpacing = 1 * 60;  // POPCHAIN: 1 minute
         nMaturity = 100;
         nMasternodeCountDrift = 20;
-        nMaxMoneyOut = 21000000 * COIN;
+        nMaxMoneyOut = 2000000000 * COIN; // 2 Billion
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 259200;
         nModifierUpdateBlock = 615800;
         nZerocoinStartHeight = 863787;
-        nZerocoinStartTime = 1508214600; // October 17, 2017 4:30:00 AM
+        nZerocoinStartTime = INT_MAX; // October 17, 2017 4:30:00 AM
         nBlockEnforceSerialRange = 895400; //Enforce serial range starting this block
         nBlockRecalculateAccumulators = 908000; //Trigger a recalculation of accumulators
         nBlockFirstFraudulent = 891737; //First block that bad serials emerged
@@ -183,28 +273,36 @@ public:
          *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
          *   vMerkleTree: e0028e
          */
-        const char* pszTimestamp = "U.S. News & World Report Jan 28 2016 With His Absence, Trump Dominates Another Debate";
+        const char* pszTimestamp =  "Change the World with Us. 22/May/2018, 00:00:00, GMT";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CScriptNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
-        txNew.vout[0].nValue = 250 * COIN;
+        txNew.vout[0].nValue = 1;
         txNew.vout[0].scriptPubKey = CScript() << ParseHex("04c10e83b2703ccf322f7dbd62dd5855ac7c10bd055814ce121ba32607d573b8810c02c0582aed05b4deb9c4b77b26d92428c61256cd42774babea0a073b2ed0c9") << OP_CHECKSIG;
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1454124731;
+        genesis.nTime = 1556560800;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 2402015;
+        genesis.nNonce = 2606332;
+
+#ifdef MAINNET_GENERATION
+        findGenesis(&genesis, "mainnet");
+#endif
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818"));
-        assert(genesis.hashMerkleRoot == uint256("0x1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
+        printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
+        printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
+        assert(hashGenesisBlock == uint256("0x00000ba44c21da19e5b536372bb4565f78ef914eca13152ab8f288e0b6159268"));
+        assert(genesis.hashMerkleRoot == uint256("0x6f2365be9a7637754a1d34032be19778b47c1dffb5a5fe4b382057fe69f4fb95"));
 
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "popchain.seed.fuzzbawls.pw"));     // Primary DNS Seeder from Fuzzbawls
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "popchain.seed2.fuzzbawls.pw"));    // Secondary DNS Seeder from Fuzzbawls
-        vSeeds.push_back(CDNSSeedData("warrows.dev", "dnsseed.popchain.warrows.dev"));    // Primery DNS Seeder from warrows
+        vSeeds.push_back(CDNSSeedData("seed1.popchain.co", "seed1.popchain.co"));
+        vSeeds.push_back(CDNSSeedData("seed2.popchain.co", "seed2.popchain.co"));
+        vSeeds.push_back(CDNSSeedData("seed3.popchain.co", "seed3.popchain.co"));
+        vSeeds.push_back(CDNSSeedData("seed4.popchain.co", "seed4.popchain.co"));
+        vSeeds.push_back(CDNSSeedData("seed5.popchain.co", "seed5.popchain.co"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 56); // Start with P
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 63); // Start with S
@@ -274,7 +372,7 @@ public:
         pchMessageStart[2] = 0x65;
         pchMessageStart[3] = 0xba;
         vAlertPubKey = ParseHex("000010e83b2703ccf322f7dbd62dd5855ac7c10bd055814ce121ba32607d573b8810c02c0582aed05b4deb9c4b77b26d92428c61256cd42774babea0a073b2ed0c9");
-        nDefaultPort = 51474;
+        nDefaultPort = 12778;
         nEnforceBlockUpgradeMajority = 4320; // 75%
         nRejectBlockOutdatedMajority = 5472; // 95%
         nToCheckBlockUpgradeMajority = 5760; // 4 days
@@ -287,7 +385,7 @@ public:
         nModifierUpdateBlock = 51197; //approx Mon, 17 Apr 2017 04:00:00 GMT
         nMaxMoneyOut = 43199500 * COIN;
         nZerocoinStartHeight = 201576;
-        nZerocoinStartTime = 1501776000;
+        nZerocoinStartTime = INT_MAX;
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
         nBlockRecalculateAccumulators = 9908000; //Trigger a recalculation of accumulators
         nBlockFirstFraudulent = 9891737; //First block that bad serials emerged
@@ -306,17 +404,27 @@ public:
         nSupplyBeforeFakeSerial = 0;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1454124731;
-        genesis.nNonce = 2402015;
+        genesis.nTime = 1563264332;
+        genesis.nNonce = 476032;
+
+#ifdef TESTNET_GENERATION
+        findGenesis(&genesis, "testnet");
+#endif
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818"));
+        printf("testnet genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
+        printf("testent genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
+	
+        assert(hashGenesisBlock == uint256("0x00000ae7e7fef7d033b0098260c53cc90d759fd946fef566f3df25ca12a8ed91"));
+        assert(genesis.hashMerkleRoot == uint256("0x6f2365be9a7637754a1d34032be19778b47c1dffb5a5fe4b382057fe69f4fb95"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "popchain-testnet.seed.fuzzbawls.pw"));
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "popchain-testnet.seed2.fuzzbawls.pw"));
-        vSeeds.push_back(CDNSSeedData("warrows.dev", "testnet.dnsseed.popchain.warrows.dev"));
+        vSeeds.push_back(CDNSSeedData("seed1.popchain.co", "seed1.popchain.co"));
+        vSeeds.push_back(CDNSSeedData("seed2.popchain.co", "seed2.popchain.co"));
+        vSeeds.push_back(CDNSSeedData("seed3.popchain.co", "seed3.popchain.co"));
+        vSeeds.push_back(CDNSSeedData("seed4.popchain.co", "seed4.popchain.co"));
+        vSeeds.push_back(CDNSSeedData("seed5.popchain.co", "seed5.popchain.co"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet popchain addresses start with 'x' or 'y'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet popchain script addresses start with '8' or '9'
@@ -385,7 +493,7 @@ public:
         nMaxMoneyOut = 43199500 * COIN;
         nZerocoinStartHeight = 300;
         nBlockZerocoinV2 = 300;
-        nZerocoinStartTime = 1501776000;
+        nZerocoinStartTime = INT_MAX;
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
         nBlockRecalculateAccumulators = 999999999; //Trigger a recalculation of accumulators
         nBlockFirstFraudulent = 999999999; //First block that bad serials emerged
@@ -399,11 +507,15 @@ public:
 
         //! Modify the regtest genesis block so the timestamp is valid for a later start.
         genesis.nTime = 1454124731;
-        genesis.nNonce = 2402015;
+        genesis.nNonce = 125402;
+
+#ifdef REGTEST_GENERATION
+        findGenesis(&genesis, "regtest");
+#endif
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818"));
-        //assert(hashGenesisBlock == uint256("0x4f023a2120d9127b21bbad01724fdb79b519f593f2a85b60d3d79160ec5f29df"));
+        assert(hashGenesisBlock == uint256("0x00000c0ead4a6a346ff85ccf45e7800f01155d7921fd77161ed1f126ca4a9839"));
+        assert(genesis.hashMerkleRoot == uint256("0x6f2365be9a7637754a1d34032be19778b47c1dffb5a5fe4b382057fe69f4fb95"));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
