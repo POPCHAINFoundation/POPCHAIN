@@ -296,7 +296,7 @@ public:
         printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
         printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
         assert(hashGenesisBlock == uint256("0x00000ba44c21da19e5b536372bb4565f78ef914eca13152ab8f288e0b6159268"));
-        // assert(genesis.hashMerkleRoot == uint256("0x1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
+        assert(genesis.hashMerkleRoot == uint256("0x6f2365be9a7637754a1d34032be19778b47c1dffb5a5fe4b382057fe69f4fb95"));
 
         vSeeds.push_back(CDNSSeedData("seed1.popchain.co", "seed1.popchain.co"));
         vSeeds.push_back(CDNSSeedData("seed2.popchain.co", "seed2.popchain.co"));
@@ -416,7 +416,7 @@ public:
         printf("testent genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
 	
         assert(hashGenesisBlock == uint256("0x00000ae7e7fef7d033b0098260c53cc90d759fd946fef566f3df25ca12a8ed91"));
-        // assert(genesis.hashMerkleRoot == uint256("0x1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
+        assert(genesis.hashMerkleRoot == uint256("0x6f2365be9a7637754a1d34032be19778b47c1dffb5a5fe4b382057fe69f4fb95"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -515,7 +515,7 @@ public:
 
         hashGenesisBlock = genesis.GetHash();
         assert(hashGenesisBlock == uint256("0x00000c0ead4a6a346ff85ccf45e7800f01155d7921fd77161ed1f126ca4a9839"));
-        //assert(hashGenesisBlock == uint256("0x4f023a2120d9127b21bbad01724fdb79b519f593f2a85b60d3d79160ec5f29df"));
+        assert(genesis.hashMerkleRoot == uint256("0x6f2365be9a7637754a1d34032be19778b47c1dffb5a5fe4b382057fe69f4fb95"));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
