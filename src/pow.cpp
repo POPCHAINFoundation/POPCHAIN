@@ -127,9 +127,9 @@ bool CheckProofOfWork(uint256 hash, unsigned int nBits)
     if (fNegative || bnTarget == 0 || fOverflow || bnTarget > Params().ProofOfWorkLimit())
         return error("CheckProofOfWork() : nBits below minimum work");
 
-    // Check proof of work matches claimed amount
     std::cout << hash.ToString() << std::endl;
     std::cout << bnTarget.ToString() << std::endl;
+    // Check proof of work matches claimed amount
     if (hash > bnTarget) {
         if (Params().MineBlocksOnDemand())
             return false;
