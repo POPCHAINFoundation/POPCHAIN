@@ -2028,7 +2028,12 @@ CAmount GetSeeSaw(const CAmount& blockValue, int nMasternodeCount, int nHeight)
         LogPrintf("GetMasternodePayment(): moneysupply=%s, nodecoins=%s \n", FormatMoney(nMoneySupply).c_str(),
                   FormatMoney(mNodeCoins).c_str());
 
-    CAmount ret = 0; // Masternode will not get any reward.
+    CAmount ret = 0;
+    if (nHeight == 0) {
+        ret = 0; // Initial mining will not splitted out to masternode
+    } else {
+        ret = blockValue * .05; // Masternode will get 5% of reward
+    }
     return ret;
 }
 
