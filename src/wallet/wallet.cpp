@@ -3432,12 +3432,16 @@ void CWallet::AutoCombineDust()
         }
 
         //if no inputs found then return
-        if (!coinControl->HasSelected())
+        if (!coinControl->HasSelected()) {
+            delete coinControl;
             continue;
+        }
 
         //we cannot combine one coin with itself
-        if (vRewardCoins.size() <= 1)
+        if (vRewardCoins.size() <= 1) {
+            delete coinControl;
             continue;
+        }
 
         vector<pair<CScript, CAmount> > vecSend;
         CScript scriptPubKey = GetScriptForDestination(it->first.Get());
