@@ -2,6 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2019 The PIVX developers
+// Copyright (c) 2019 The POPCHAIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -3432,12 +3433,16 @@ void CWallet::AutoCombineDust()
         }
 
         //if no inputs found then return
-        if (!coinControl->HasSelected())
+        if (!coinControl->HasSelected()) {
+            delete coinControl;
             continue;
+        }
 
         //we cannot combine one coin with itself
-        if (vRewardCoins.size() <= 1)
+        if (vRewardCoins.size() <= 1) {
+            delete coinControl;
             continue;
+        }
 
         vector<pair<CScript, CAmount> > vecSend;
         CScript scriptPubKey = GetScriptForDestination(it->first.Get());
