@@ -256,6 +256,11 @@ bool CSporkManager::SetPrivKey(std::string strPrivKey)
 {
     CSporkMessage msg;
 
+    // Initiailize object with dummy value
+    msg.nSporkID = 3;
+    msg.nValue = 1337;
+    msg.nTimeSigned = 1565664596;
+
     // Test signing successful, proceed
     strMasterPrivKey = strPrivKey;
 
