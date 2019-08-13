@@ -2,6 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2019 The PIVX developers
+// Copyright (c) 2019 The POPCHAIN developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -373,30 +374,31 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
                 for (const CTxIn& txIn : tx.vin) {
                     bool isPublicSpend = txIn.IsZerocoinPublicSpend();
                     if (txIn.IsZerocoinSpend() || isPublicSpend) {
-                        libzerocoin::CoinSpend* spend;
-                        if (isPublicSpend) {
-                            libzerocoin::ZerocoinParams* params = Params().Zerocoin_Params(false);
-                            PublicCoinSpend publicSpend(params);
-                            CValidationState state;
-                            if (!ZPCHModule::ParseZerocoinPublicSpend(txIn, tx, state, publicSpend)){
-                                throw std::runtime_error("Invalid public spend parse");
-                            }
-                            spend = &publicSpend;
-                        } else {
-                            libzerocoin::CoinSpend spendObj = TxInToZerocoinSpend(txIn);
-                            spend = &spendObj;
-                        }
+                        libzerocoin::CoinSpend spend = [txIn, tx, isPublicSpend]() {
+                                                           if (isPublicSpend) {
+                                                                   libzerocoin::ZerocoinParams* params = Params().Zerocoin_Params(false);
+                                                                   PublicCoinSpend publicSpend(params);
+                                                                   CValidationState state;
+                                                                   if (!ZPCHModule::ParseZerocoinPublicSpend(txIn, tx, state, publicSpend)){
+                                                                           throw std::runtime_error("Invalid public spend parse");
+                                                                   }
+                                                                   return (libzerocoin::CoinSpend)publicSpend;
+                                                           } else {
+                                                                   libzerocoin::CoinSpend spendObj = TxInToZerocoinSpend(txIn);
+                                                                   return spendObj;
+                                                           }
+                                                       }();
 
-                        bool fUseV1Params = libzerocoin::ExtractVersionFromSerial(spend->getCoinSerialNumber()) < libzerocoin::PrivateCoin::PUBKEY_VERSION;
-                        if (!spend->HasValidSerial(Params().Zerocoin_Params(fUseV1Params)))
+                        bool fUseV1Params = libzerocoin::ExtractVersionFromSerial(spend.getCoinSerialNumber()) < libzerocoin::PrivateCoin::PUBKEY_VERSION;
+                        if (!spend.HasValidSerial(Params().Zerocoin_Params(fUseV1Params)))
                             fDoubleSerial = true;
-                        if (count(vBlockSerials.begin(), vBlockSerials.end(), spend->getCoinSerialNumber()))
+                        if (count(vBlockSerials.begin(), vBlockSerials.end(), spend.getCoinSerialNumber()))
                             fDoubleSerial = true;
-                        if (count(vTxSerials.begin(), vTxSerials.end(), spend->getCoinSerialNumber()))
+                        if (count(vTxSerials.begin(), vTxSerials.end(), spend.getCoinSerialNumber()))
                             fDoubleSerial = true;
                         if (fDoubleSerial)
                             break;
-                        vTxSerials.emplace_back(spend->getCoinSerialNumber());
+                        vTxSerials.emplace_back(spend.getCoinSerialNumber());
                     }
                 }
                 //This zPCH serial has already been included in the block, do not add this tx.

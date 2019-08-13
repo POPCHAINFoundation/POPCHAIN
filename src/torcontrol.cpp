@@ -1,6 +1,7 @@
 // Copyright (c) 2015-2016 The Bitcoin Core developers
 // Copyright (c) 2017 The Zcash developers
 // Copyright (c) 2017-2019 The PIVX developers
+// Copyright (c) 2019 The POPCHAIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -378,8 +379,10 @@ static std::pair<bool,std::string> ReadBinaryFile(const std::string &filename, s
     while ((n=fread(buffer, 1, sizeof(buffer), f)) > 0) {
         // Check for reading errors so we don't return any data if we couldn't
         // read the entire file (or up to maxsize)
-        if (ferror(f))
+        if (ferror(f)) {
+            fclose(f);
             return std::make_pair(false,"");
+        }
         retval.append(buffer, buffer+n);
         if (retval.size() > maxsize)
             break;

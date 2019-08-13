@@ -2,6 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2019 The PIVX developers
+// Copyright (c) 2019 The POPCHAIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -2248,31 +2249,31 @@ void AddInvalidSpendsToMap(const CBlock& block)
         for (const CTxIn& in : tx.vin) {
             bool isPublicSpend = in.IsZerocoinPublicSpend();
             if (in.IsZerocoinSpend() || isPublicSpend) {
-
-                CoinSpend* spend;
-                if (isPublicSpend) {
-                    libzerocoin::ZerocoinParams* params = Params().Zerocoin_Params(false);
-                    PublicCoinSpend publicSpend(params);
-                    CValidationState state;
-                    if (!ZPCHModule::ParseZerocoinPublicSpend(in, tx, state, publicSpend)){
-                        throw runtime_error("Failed to parse public spend");
-                    }
-                    spend = &publicSpend;
-                } else {
-                    CoinSpend spendObj = TxInToZerocoinSpend(in);
-                    spend = &spendObj;
-                }
+                CoinSpend spend = [in, tx, isPublicSpend]() {
+                                      if (isPublicSpend) {
+                                          libzerocoin::ZerocoinParams* params = Params().Zerocoin_Params(false);
+                                          PublicCoinSpend publicSpend(params);
+                                          CValidationState state;
+                                          if (!ZPCHModule::ParseZerocoinPublicSpend(in, tx, state, publicSpend)){
+                                              throw runtime_error("Failed to parse public spend");
+                                          }
+                                          return (CoinSpend)publicSpend;
+                                      } else {
+                                          CoinSpend spendObj = TxInToZerocoinSpend(in);
+                                          return spendObj;
+                                      }
+                                  }();
 
                 //If serial is not valid, mark all outputs as bad
-                if (!spend->HasValidSerial(Params().Zerocoin_Params(false))) {
-                    mapInvalidSerials[spend->getCoinSerialNumber()] = spend->getDenomination() * COIN;
+                if (!spend.HasValidSerial(Params().Zerocoin_Params(false))) {
+                    mapInvalidSerials[spend.getCoinSerialNumber()] = spend.getDenomination() * COIN;
 
                     // Derive the actual valid serial from the invalid serial if possible
-                    CBigNum bnActualSerial = spend->CalculateValidSerial(Params().Zerocoin_Params(false));
+                    CBigNum bnActualSerial = spend.CalculateValidSerial(Params().Zerocoin_Params(false));
                     uint256 txHash;
 
                     if (zerocoinDB->ReadCoinSpend(bnActualSerial, txHash)) {
-                        mapInvalidSerials[bnActualSerial] = spend->getDenomination() * COIN;
+                        mapInvalidSerials[bnActualSerial] = spend.getDenomination() * COIN;
 
                         CTransaction txPrev;
                         uint256 hashBlock;
