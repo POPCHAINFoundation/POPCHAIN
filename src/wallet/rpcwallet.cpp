@@ -3675,6 +3675,9 @@ UniValue searchdzpch(const UniValue& params, bool fHelp)
     zwallet->RemoveMintsFromPool(pwalletMain->zpchTracker->GetSerialHashes());
     zwallet->SyncWithChain(false);
 
+    // Free dzpchThreads
+    delete dzpchThreads;
+
     //todo: better response
     return "done";
 }
