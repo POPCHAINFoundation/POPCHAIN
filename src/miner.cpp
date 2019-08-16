@@ -455,6 +455,9 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
         }
 
         if (!fProofOfStake) {
+            CAmount blockValue = nFees + GetBlockValue(pindexPrev->nHeight);
+            txNew.vout[0].nValue = blockValue;
+            txNew.vin[0].scriptSig = CScript() << nHeight << OP_0;
             //Masternode and general budget payments
             FillBlockPayee(txNew, nFees, fProofOfStake, false);
 
