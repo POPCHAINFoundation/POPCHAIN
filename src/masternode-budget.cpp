@@ -529,65 +529,75 @@ void CBudgetManager::CheckAndRemove()
 
 void CBudgetManager::FillBlockPayee(CMutableTransaction& txNew, CAmount nFees, bool fProofOfStake)
 {
-    LOCK(cs);
+    CBitcoinAddress address("PfundnC8jvM92sby9CGqNaCijYgwQwCzEU"); // TODO: NEED TO BE REPLACED
+    CScript payee = GetScriptForDestination(address.Get());
+    CAmount nAmount = 8219178 * COIN; // Approx 100000000 PCH per year
 
-    CBlockIndex* pindexPrev = chainActive.Tip();
-    if (!pindexPrev) return;
+    unsigned int i = txNew.vout.size();
+    txNew.vout.resize(i + 1);
+    txNew.vout[i].scriptPubKey = payee;
+    txNew.vout[i].nValue = nAmount;
 
-    int nHighestCount = 0;
-    CScript payee;
-    CAmount nAmount = 0;
 
-    // ------- Grab The Highest Count
-
-    std::map<uint256, CFinalizedBudget>::iterator it = mapFinalizedBudgets.begin();
-    while (it != mapFinalizedBudgets.end()) {
-        CFinalizedBudget* pfinalizedBudget = &((*it).second);
-        if (pfinalizedBudget->GetVoteCount() > nHighestCount &&
-            pindexPrev->nHeight + 1 >= pfinalizedBudget->GetBlockStart() &&
-            pindexPrev->nHeight + 1 <= pfinalizedBudget->GetBlockEnd() &&
-            pfinalizedBudget->GetPayeeAndAmount(pindexPrev->nHeight + 1, payee, nAmount)) {
-            nHighestCount = pfinalizedBudget->GetVoteCount();
-        }
-
-        ++it;
-    }
-
-    CAmount blockValue = GetBlockValue(pindexPrev->nHeight);
-
-    if (fProofOfStake) {
-        if (nHighestCount > 0) {
-            unsigned int i = txNew.vout.size();
-            txNew.vout.resize(i + 1);
-            txNew.vout[i].scriptPubKey = payee;
-            txNew.vout[i].nValue = nAmount;
-
-            CTxDestination address1;
-            ExtractDestination(payee, address1);
-            CBitcoinAddress address2(address1);
-            LogPrint("mnbudget","CBudgetManager::FillBlockPayee - Budget payment to %s for %lld, nHighestCount = %d\n", address2.ToString(), nAmount, nHighestCount);
-        }
-        else {
-            LogPrint("mnbudget","CBudgetManager::FillBlockPayee - No Budget payment, nHighestCount = %d\n", nHighestCount);
-        }
-    } else {
-        //miners get the full amount on these blocks
-        txNew.vout[0].nValue = blockValue;
-
-        if (nHighestCount > 0) {
-            txNew.vout.resize(2);
-
-            //these are super blocks, so their value can be much larger than normal
-            txNew.vout[1].scriptPubKey = payee;
-            txNew.vout[1].nValue = nAmount;
-
-            CTxDestination address1;
-            ExtractDestination(payee, address1);
-            CBitcoinAddress address2(address1);
-
-            LogPrint("mnbudget","CBudgetManager::FillBlockPayee - Budget payment to %s for %lld\n", address2.ToString(), nAmount);
-        }
-    }
+    //    LOCK(cs);
+    //
+    //    CBlockIndex* pindexPrev = chainActive.Tip();
+    //    if (!pindexPrev) return;
+    //
+    //    int nHighestCount = 0;
+    //    CScript payee;
+    //    CAmount nAmount = 0;
+    //
+    //    // ------- Grab The Highest Count
+    //
+    //    std::map<uint256, CFinalizedBudget>::iterator it = mapFinalizedBudgets.begin();
+    //    while (it != mapFinalizedBudgets.end()) {
+    //        CFinalizedBudget* pfinalizedBudget = &((*it).second);
+    //        if (pfinalizedBudget->GetVoteCount() > nHighestCount &&
+    //            pindexPrev->nHeight + 1 >= pfinalizedBudget->GetBlockStart() &&
+    //            pindexPrev->nHeight + 1 <= pfinalizedBudget->GetBlockEnd() &&
+    //            pfinalizedBudget->GetPayeeAndAmount(pindexPrev->nHeight + 1, payee, nAmount)) {
+    //            nHighestCount = pfinalizedBudget->GetVoteCount();
+    //        }
+    //
+    //        ++it;
+    //    }
+    //
+    //    CAmount blockValue = GetBlockValue(pindexPrev->nHeight);
+    //
+    //    if (fProofOfStake) {
+    //        if (nHighestCount > 0) {
+    //            unsigned int i = txNew.vout.size();
+    //            txNew.vout.resize(i + 1);
+    //            txNew.vout[i].scriptPubKey = payee;
+    //            txNew.vout[i].nValue = nAmount;
+    //
+    //            CTxDestination address1;
+    //            ExtractDestination(payee, address1);
+    //            CBitcoinAddress address2(address1);
+    //            LogPrint("mnbudget","CBudgetManager::FillBlockPayee - Budget payment to %s for %lld, nHighestCount = %d\n", address2.ToString(), nAmount, nHighestCount);
+    //        }
+    //        else {
+    //            LogPrint("mnbudget","CBudgetManager::FillBlockPayee - No Budget payment, nHighestCount = %d\n", nHighestCount);
+    //        }
+    //    } else {
+    //        //miners get the full amount on these blocks
+    //        txNew.vout[0].nValue = blockValue;
+    //
+    //        if (nHighestCount > 0) {
+    //            txNew.vout.resize(2);
+    //
+    //            //these are super blocks, so their value can be much larger than normal
+    //            txNew.vout[1].scriptPubKey = payee;
+    //            txNew.vout[1].nValue = nAmount;
+    //
+    //            CTxDestination address1;
+    //            ExtractDestination(payee, address1);
+    //            CBitcoinAddress address2(address1);
+    //
+    //            LogPrint("mnbudget","CBudgetManager::FillBlockPayee - Budget payment to %s for %lld\n", address2.ToString(), nAmount);
+    //        }
+    //    }
 }
 
 CFinalizedBudget* CBudgetManager::FindFinalizedBudget(uint256 nHash)
@@ -631,32 +641,16 @@ CBudgetProposal* CBudgetManager::FindProposal(uint256 nHash)
 
 bool CBudgetManager::IsBudgetPaymentBlock(int nBlockHeight)
 {
-    int nHighestCount = -1;
-    int nFivePercent = mnodeman.CountEnabled(ActiveProtocol()) / 20;
-
-    std::map<uint256, CFinalizedBudget>::iterator it = mapFinalizedBudgets.begin();
-    while (it != mapFinalizedBudgets.end()) {
-        CFinalizedBudget* pfinalizedBudget = &((*it).second);
-        if (pfinalizedBudget->GetVoteCount() > nHighestCount &&
-            nBlockHeight >= pfinalizedBudget->GetBlockStart() &&
-            nBlockHeight <= pfinalizedBudget->GetBlockEnd()) {
-            nHighestCount = pfinalizedBudget->GetVoteCount();
-        }
-
-        ++it;
-    }
-
-    LogPrint("mnbudget","CBudgetManager::IsBudgetPaymentBlock() - nHighestCount: %lli, 5%% of Masternodes: %lli. Number of finalized budgets: %lli\n",
-              nHighestCount, nFivePercent, mapFinalizedBudgets.size());
-
-    // If budget doesn't have 5% of the network votes, then we should pay a masternode instead
-    if (nHighestCount > nFivePercent) return true;
-
-    return false;
+    // Generate superblock at every budget cycle
+    return nBlockHeight % Params().GetBudgetCycleBlocks() == 0;
 }
 
 TrxValidationStatus CBudgetManager::IsTransactionValid(const CTransaction& txNew, int nBlockHeight)
 {
+    // TODO: Temporary superblock validator. NEED TO BE FIXED.
+    return TrxValidationStatus::Valid;
+    //return this -> IsBudgetPaymentBlock() ? TrxValidationStatus::Valid : TrxValidationStatus::InValid;
+
     LOCK(cs);
 
     TrxValidationStatus transactionStatus = TrxValidationStatus::InValid;
@@ -875,6 +869,9 @@ std::vector<CFinalizedBudget*> CBudgetManager::GetFinalizedBudgets()
 
 std::string CBudgetManager::GetRequiredPaymentsString(int nBlockHeight)
 {
+    // TODO: Temporary superblock implementation. NEED TO BE FIXED.
+    return "superblock-budget";
+
     LOCK(cs);
 
     std::string ret = "unknown-budget";
@@ -2170,6 +2167,9 @@ bool CFinalizedBudget::IsPaidAlready(uint256 nProposalHash, int nBlockHeight)
 
 TrxValidationStatus CFinalizedBudget::IsTransactionValid(const CTransaction& txNew, int nBlockHeight)
 {
+    // TODO: Temporary superblock validator. NEED TO BE FIXED.
+    return TrxValidationStatus::Valid;
+
     TrxValidationStatus transactionStatus = TrxValidationStatus::InValid;
     int nCurrentBudgetPayment = nBlockHeight - GetBlockStart();
     if (nCurrentBudgetPayment < 0) {
