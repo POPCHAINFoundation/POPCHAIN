@@ -62,12 +62,12 @@
         <translation>Adres odbiorczy</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To są twoje adresy PIVX do wysyłania płatności. Zawsze sprawdzaj kwotę i adres odbiorcy przed wysłaniem monet.</translation>
+        <source>These are your PCH addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>To są twoje adresy PCH do wysyłania płatności. Zawsze sprawdzaj kwotę i adres odbiorcy przed wysłaniem monet.</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To są twoje adresy PIVX do otrzymywania płatności. Zaleca się użycie nowego adresu odbiorczego dla każdej transakcji.</translation>
+        <source>These are your PCH addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To są twoje adresy PCH do otrzymywania płatności. Zaleca się użycie nowego adresu odbiorczego dla każdej transakcji.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -177,8 +177,8 @@ Użyj hasła składającego się z dziesięciu lub więcej losowych znaków lub 
         <translation>Potwierdź szyfrowanie portfela</translation>
     </message>
     <message>
-        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PCHs from being stolen by malware infecting your computer.</source>
-        <translation>PIVX zamknie się teraz, aby zakończyć proces szyfrowania. Pamiętaj, że zaszyfrowanie portfela nie chroni w pełni Twoich PCH przed kradzieżą przez złośliwe oprogramowanie infekujące Twój komputer.</translation>
+        <source>PCH will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PCHs from being stolen by malware infecting your computer.</source>
+        <translation>PCH zamknie się teraz, aby zakończyć proces szyfrowania. Pamiętaj, że zaszyfrowanie portfela nie chroni w pełni Twoich PCH przed kradzieżą przez złośliwe oprogramowanie infekujące Twój komputer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -255,12 +255,12 @@ Użyj hasła składającego się z dziesięciu lub więcej losowych znaków lub 
         <translation>Adres:</translation>
     </message>
     <message>
-        <source>Enter a PIVX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a PCH Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Wprowadź adres POPCHAIN, który chcesz zaszyfrować za pomocą BIP 38. Wprowadź hasło w środkowym polu. Naciśnij przycisk szyfrowania, aby obliczyć zaszyfrowany klucz prywatny.</translation>
     </message>
     <message>
-        <source>The PIVX address to encrypt</source>
-        <translation>Adres PIVX do zaszyfrowania</translation>
+        <source>The PCH address to encrypt</source>
+        <translation>Adres PCH do zaszyfrowania</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -291,7 +291,7 @@ Użyj hasła składającego się z dziesięciu lub więcej losowych znaków lub 
         <translation>Skopiuj bieżący podpis do schowka systemowego</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this PIVX address</source>
+        <source>Encrypt the private key for this PCH address</source>
         <translation>Zaszyfruj klucz prywatny dla tego adresu POPCHAIN</translation>
     </message>
     <message>
@@ -654,11 +654,11 @@ Użyj hasła składającego się z dziesięciu lub więcej losowych znaków lub 
         <translation>Pasek narzędzi</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>PCH Core</source>
+        <translation>PCH Core</translation>
     </message>
     <message>
-        <source>Send coins to a PIVX address</source>
+        <source>Send coins to a PCH address</source>
         <translation>Wyślij monety do adresu POPCHAIN</translation>
     </message>
     <message>
@@ -678,23 +678,23 @@ Użyj hasła składającego się z dziesięciu lub więcej losowych znaków lub 
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About PIVX Core</source>
-        <translation>&amp;O PIVX Core</translation>
+        <source>&amp;About PCH Core</source>
+        <translation>&amp;O PCH Core</translation>
     </message>
     <message>
-        <source>Show information about PIVX Core</source>
-        <translation>Pokaż informacje o PIVX Core</translation>
+        <source>Show information about PCH Core</source>
+        <translation>Pokaż informacje o PCH Core</translation>
     </message>
     <message>
         <source>Modify configuration options for POPCHAIN</source>
         <translation>Modyfikuj opcje konfiguracji POPCHAIN</translation>
     </message>
     <message>
-        <source>Sign messages with your PIVX addresses to prove you own them</source>
+        <source>Sign messages with your PCH addresses to prove you own them</source>
         <translation>Zatwierdź wiadomość z twoimi adresami POPCHAIN, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified PIVX addresses</source>
+        <source>Verify messages to ensure they were signed with specified PCH addresses</source>
         <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu POPCHAIN</translation>
     </message>
     <message>
@@ -738,12 +738,12 @@ Użyj hasła składającego się z dziesięciu lub więcej losowych znaków lub 
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the PIVX Core help message to get a list with possible PIVX command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia POPCHAIN, aby dostać listę możliwych opcji PIVX command-line</translation>
+        <source>Show the PCH Core help message to get a list with possible PCH command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia POPCHAIN, aby dostać listę możliwych opcji PCH command-line</translation>
     </message>
     <message>
-        <source>PIVX Core client</source>
-        <translation>PIVX Core klient</translation>
+        <source>PCH Core client</source>
+        <translation>PCH Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -854,8 +854,8 @@ MultiWysyłlka: %1</translation>
         <translation>Portfel jest &lt;b&gt;zaszyfrowany&lt;/b&gt; i obecnie &lt;b&gt;zablokowany&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. PIVX can no longer continue safely and will quit.</source>
-        <translation>Wystąpił błąd krytyczny. PIVX nie może już działać bezpiecznie i zakończy działanie.</translation>
+        <source>A fatal error occurred. PCH can no longer continue safely and will quit.</source>
+        <translation>Wystąpił błąd krytyczny. PCH nie może już działać bezpiecznie i zakończy działanie.</translation>
     </message>
 </context>
 <context>
@@ -1178,7 +1178,7 @@ MultiWysyłlka: %1</translation>
         <translation>Edytuj adres wysyłania</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid PIVX address.</source>
+        <source>The entered address "%1" is not a valid PCH address.</source>
         <translation>Wprowadzony adres "%1" nie jest prawidłowym adresem POPCHAIN.</translation>
     </message>
     <message>
@@ -1267,16 +1267,16 @@ MultiWysyłlka: %1</translation>
         <translation>Wersja</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>PCH Core</source>
+        <translation>PCH Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About PIVX Core</source>
-        <translation>O PIVX Core</translation>
+        <source>About PCH Core</source>
+        <translation>O PCH Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1322,16 +1322,16 @@ MultiWysyłlka: %1</translation>
         <translation>Zapraszamy</translation>
     </message>
     <message>
-        <source>Welcome to PIVX Core.</source>
-        <translation>Zapraszamy do PIVX Core</translation>
+        <source>Welcome to PCH Core.</source>
+        <translation>Zapraszamy do PCH Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where PIVX Core will store its data.</source>
-        <translation>Ponieważ program jest uruchamiany po raz pierwszy, możesz wybrać miejsce, w którym PIVX Core będzie przechowywać swoje dane.</translation>
+        <source>As this is the first time the program is launched, you can choose where PCH Core will store its data.</source>
+        <translation>Ponieważ program jest uruchamiany po raz pierwszy, możesz wybrać miejsce, w którym PCH Core będzie przechowywać swoje dane.</translation>
     </message>
     <message>
-        <source>PIVX Core will download and store a copy of the PIVX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>PIVX Core pobierze i zapisze kopię łańcucha bloków POPCHAIN. Przynajmniej %1 GB danych zostanie zapisanych w tym katalogu, a jego liczba będzie rosnąć z czasem. Portfel zostanie również zapisany w tym katalogu.</translation>
+        <source>PCH Core will download and store a copy of the PCH block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>PCH Core pobierze i zapisze kopię łańcucha bloków POPCHAIN. Przynajmniej %1 GB danych zostanie zapisanych w tym katalogu, a jego liczba będzie rosnąć z czasem. Portfel zostanie również zapisany w tym katalogu.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1342,8 +1342,8 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>PCH Core</source>
+        <translation>PCH Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1484,11 +1484,11 @@ MultiWysyłlka: %1</translation>
         <translation>Wprowadź adres do wysłania</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PIVX addresses after it matures.
-To Add: enter percentage to give and PIVX address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PCH addresses after it matures.
+To Add: enter percentage to give and PCH address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend pozwala na automatyczne przesłanie do 100% swojej nagrody za staking lub masternoda na listę innych adresów PIVX po osiągnięciu dojrzałości. Aby dodać: wpisz procent  i adres POPCHAIN, żeby dodać do wektora MultiSend. Aby usunąć: Enter adres do usunięcia i naciśnij Usuń. MultiSend nie zostanie aktywowany, dopóki nie klikniesz Aktywuj</translation>
+        <translation>MultiSend pozwala na automatyczne przesłanie do 100% swojej nagrody za staking lub masternoda na listę innych adresów PCH po osiągnięciu dojrzałości. Aby dodać: wpisz procent  i adres POPCHAIN, żeby dodać do wektora MultiSend. Aby usunąć: Enter adres do usunięcia i naciśnij Usuń. MultiSend nie zostanie aktywowany, dopóki nie klikniesz Aktywuj</translation>
     </message>
     <message>
         <source>Add to MultiSend Vector</source>
@@ -1876,8 +1876,8 @@ Please be patient after clicking import.</source>
         <translation>Jeśli wyłączysz wydawanie niepotwierdzonych reszt, reszta z transakcji nie może być użyta, dopóki transakcja nie uzyska co najmniej jednego potwierdzenia. Ma to również wpływ na sposób obliczania salda.</translation>
     </message>
     <message>
-        <source>Automatically open the PIVX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatycznie otwórz port klienta PIVX na routerze. Działa to tylko wtedy, gdy twój router obsługuje UPnP i jest włączony.</translation>
+        <source>Automatically open the PCH client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatycznie otwórz port klienta PCH na routerze. Działa to tylko wtedy, gdy twój router obsługuje UPnP i jest włączony.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1896,12 +1896,12 @@ Please be patient after clicking import.</source>
         <translation>Ekspert</translation>
     </message>
     <message>
-        <source>Automatically start PIVX after logging in to the system.</source>
-        <translation>Automatycznie uruchom PIVX po zalogowaniu do systemu</translation>
+        <source>Automatically start PCH after logging in to the system.</source>
+        <translation>Automatycznie uruchom PCH po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start PIVX on system login</source>
-        <translation>&amp;Uruchom PIVX podczas logowania do systemu</translation>
+        <source>&amp;Start PCH on system login</source>
+        <translation>&amp;Uruchom PCH podczas logowania do systemu</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1978,8 +1978,8 @@ https://www.transifex.com/popchain-project/popchain-project-translations </trans
         <translation>Próg podziału stawki 'stake' :</translation>
     </message>
     <message>
-        <source>Connect to the PIVX network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią PIVX poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the PCH network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią PCH poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2161,7 +2161,7 @@ https://www.transifex.com/popchain-project/popchain-project-translations </trans
         <translation>Aktualne zablokowane saldo na testowych adresach</translation>
     </message>
     <message>
-        <source>Your current PIVX balance, unconfirmed and immature transactions included</source>
+        <source>Your current PCH balance, unconfirmed and immature transactions included</source>
         <translation>Twoje bieżące saldo POPCHAIN, niepotwierdzone transakcje zostały uwzględnione</translation>
     </message>
     <message>
@@ -2181,8 +2181,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Niedojrzały: potwierdzony, ale mniej niż 1 mint o tym samym nominale po wybiciu</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PIVX network after a connection is established, but this process has not completed yet.</source>
-        <translation>Wyświetlane informacje mogą być nieaktualne. Twój portfel automatycznie synchronizuje się z siecią PIVX po nawiązaniu połączenia, ale ten proces jeszcze się nie zakończył.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PCH network after a connection is established, but this process has not completed yet.</source>
+        <translation>Wyświetlane informacje mogą być nieaktualne. Twój portfel automatycznie synchronizuje się z siecią PCH po nawiązaniu połączenia, ale ten proces jeszcze się nie zakończył.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2298,8 +2298,8 @@ Aby włączyć AutoMint zmień "enablezeromint = 0" na "enablezeromint = 1" w pl
         <translation>Nie można uruchomić popchain: click-to-pay handler</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid PIVX address or malformed URI parameters.</source>
-        <translation>Nie można przeanalizować identyfikatora URI! Może to być spowodowane nieprawidłowym adresem PIVX lub nieprawidłowymi parametrami URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid PCH address or malformed URI parameters.</source>
+        <translation>Nie można przeanalizować identyfikatora URI! Może to być spowodowane nieprawidłowym adresem PCH lub nieprawidłowymi parametrami URI.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2384,8 +2384,8 @@ Aby włączyć AutoMint zmień "enablezeromint = 0" na "enablezeromint = 1" w pl
         <translation>Działania Zerocoin:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PIVX network after a connection is established, but this process has not completed yet.</source>
-        <translation>Wyświetlane informacje mogą być nieaktualne. Twój portfel automatycznie synchronizuje się z siecią PIVX po nawiązaniu połączenia, ale ten proces jeszcze się nie zakończył.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PCH network after a connection is established, but this process has not completed yet.</source>
+        <translation>Wyświetlane informacje mogą być nieaktualne. Twój portfel automatycznie synchronizuje się z siecią PCH po nawiązaniu połączenia, ale ten proces jeszcze się nie zakończył.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2468,8 +2468,8 @@ zPCH są dojrzałe, gdy mają więcej niż 20 potwierdzeń I więcej niż 2 mint
         <translation>&amp;Zapłać</translation>
     </message>
     <message>
-        <source>The PIVX address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>Adres PIVX do wysłania płatności do. Tworzy lokalną płatność dla siebie, gdy jest pusta.</translation>
+        <source>The PCH address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>Adres PCH do wysłania płatności do. Tworzy lokalną płatność dla siebie, gdy jest pusta.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3012,8 +3012,8 @@ Proszę być cierpliwym...</translation>
         <translation>Ilość</translation>
     </message>
     <message>
-        <source>Enter a PIVX address (e.g. %1)</source>
-        <translation>Wprowadź adres PIVX (np. %1)</translation>
+        <source>Enter a PCH address (e.g. %1)</source>
+        <translation>Wprowadź adres PCH (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -3060,8 +3060,8 @@ Proszę być cierpliwym...</translation>
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>PCH Core</source>
+        <translation>PCH Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -3080,8 +3080,8 @@ Proszę być cierpliwym...</translation>
         <translation>Błąd odczytu pliku konfiguracyjnego masternode: %1</translation>
     </message>
     <message>
-        <source>PIVX Core didn't yet exit safely...</source>
-        <translation>PIVX Core nie zamkną się jeszcze bezpiecznie ...</translation>
+        <source>PCH Core didn't yet exit safely...</source>
+        <translation>PCH Core nie zamkną się jeszcze bezpiecznie ...</translation>
     </message>
 </context>
 <context>
@@ -3178,8 +3178,8 @@ Proszę być cierpliwym...</translation>
         <translation>Łańcuch bloków</translation>
     </message>
     <message>
-        <source>Open the PIVX debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otwórz plik dziennika debugowania PIVX z bieżącego katalogu danych. Może to potrwać kilka sekund w przypadku dużych plików dziennika.</translation>
+        <source>Open the PCH debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otwórz plik dziennika debugowania PCH z bieżącego katalogu danych. Może to potrwać kilka sekund w przypadku dużych plików dziennika.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -3394,8 +3394,8 @@ Proszę być cierpliwym...</translation>
         <translation>Z</translation>
     </message>
     <message>
-        <source>Welcome to the PIVX RPC console.</source>
-        <translation>Witamy w konsoli PIVX RPC.</translation>
+        <source>Welcome to the PCH RPC console.</source>
+        <translation>Witamy w konsoli PCH RPC.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3537,7 +3537,7 @@ Proszę być cierpliwym...</translation>
         <translation>&amp;Ilość:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the PIVX network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the PCH network.</source>
         <translation>Opcjonalna wiadomość dołączana do żądania zapłaty, która zostanie wyświetlona przy otwarciu żądania. Uwaga: Wiadomość nie będzie wysłana przez sieć POPCHAIN.</translation>
     </message>
     <message>
@@ -3545,7 +3545,7 @@ Proszę być cierpliwym...</translation>
         <translation>OTRZYMAJ</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the PIVX network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the PCH network.</source>
         <translation>Opcjonalna wiadomość dołączana do żądania zapłaty, która zostanie wyświetlona po otwarciu żądania.&lt;br&gt;Uwaga: Wiadomość nie będzie wysłana przez sieć POPCHAIN.</translation>
     </message>
     <message>
@@ -3850,7 +3850,7 @@ Proszę być cierpliwym...</translation>
         <translation>Jeśli opłata trasakcyjna jest ustawiona na 1000 uPCH i transakcja ma tylko 250 bajtów, to płaci się tylko 250 uPCH, &lt;br /&gt; W przypadku transakcji większych niż kilobajt płacisz za kilobajta.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for PIVX transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for PCH transactions than the network can process.</source>
         <translation>Płacenie tylko minimalnej opłaty jest w porządku, o ile w blokach jest mniejsza ilość transakcji niż miejsca&lt;br /&gt;Ale pamiętaj, że może to skończyć się niepotwierdzoną transakcją, gdy pojawi się większe ruch niż sieć może przetworzyć.</translation>
     </message>
     <message>
@@ -3946,7 +3946,7 @@ Proszę być cierpliwym...</translation>
         <translation>Narzędzie podzielonego bloku nie działa z wieloma adresami. Spróbuj ponownie.</translation>
     </message>
     <message>
-        <source>Warning: Invalid PIVX address</source>
+        <source>Warning: Invalid PCH address</source>
         <translation>Ostrzeżenie: Nieprawidłowy adres POPCHAIN</translation>
     </message>
     <message>
@@ -4049,8 +4049,8 @@ Proszę być cierpliwym...</translation>
         <translation>&amp;Zapłać</translation>
     </message>
     <message>
-        <source>The PIVX address to send the payment to</source>
-        <translation>Adres PIVX do wysłania płatności do</translation>
+        <source>The PCH address to send the payment to</source>
+        <translation>Adres PCH do wysłania płatności do</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -4089,7 +4089,7 @@ Proszę być cierpliwym...</translation>
         <translation>Wiadomość:</translation>
     </message>
     <message>
-        <source>A message that was attached to the POPCHAIN: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PIVX network.</source>
+        <source>A message that was attached to the POPCHAIN: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PCH network.</source>
         <translation>Komunikat dołączony do identyfikatora POPCHAIN: URI, który będzie przechowywany wraz z transakcją w celach informacyjnych. Uwaga: ten komunikat nie zostanie wysłany przez sieć POPCHAIN.</translation>
     </message>
     <message>
@@ -4116,8 +4116,8 @@ Proszę być cierpliwym...</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>PIVX Core is shutting down...</source>
-        <translation>PIVX Core się wyłącza ...</translation>
+        <source>PCH Core is shutting down...</source>
+        <translation>PCH Core się wyłącza ...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4139,8 +4139,8 @@ Proszę być cierpliwym...</translation>
         <translation>Możesz podpisywać wiadomości ze swoimi adresami, aby udowodnić, że je posiadasz. Uważaj, aby nie podpisać niczego niejasnego, ponieważ ataki phishingowe mogą skłonić Cię do podpisania Twojej tożsamości. Podawaj tylko w pełni szczegółowe oświadczenia, na które wyrażasz zgodę.</translation>
     </message>
     <message>
-        <source>The PIVX address to sign the message with</source>
-        <translation>Adres PIVX do podpisania wiadomości za pomocą</translation>
+        <source>The PCH address to sign the message with</source>
+        <translation>Adres PCH do podpisania wiadomości za pomocą</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -4171,15 +4171,15 @@ Proszę być cierpliwym...</translation>
         <translation>Skopiuj bieżący podpis do schowka systemowego</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PIVX address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres PIVX jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this PCH address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres PCH jest w twoim posiadaniu</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
+        <source>The PCH address the message was signed with</source>
         <translation>Adres POPCHAIN, z którym została podpisana wiadomość</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified PIVX address</source>
+        <source>Verify the message to ensure it was signed with the specified PCH address</source>
         <translation>Sprawdź komunikat, aby upewnić się, że został podpisany podanym adresem POPCHAIN</translation>
     </message>
     <message>
@@ -4266,8 +4266,8 @@ Proszę być cierpliwym...</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>PCH Core</source>
+        <translation>PCH Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -4282,8 +4282,8 @@ Proszę być cierpliwym...</translation>
         <translation>Twórcy Dash Core</translation>
     </message>
     <message>
-        <source>The PIVX Core developers</source>
-        <translation>Twórcy PIVX Core</translation>
+        <source>The PCH Core developers</source>
+        <translation>Twórcy PCH Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4935,8 +4935,8 @@ Proszę być cierpliwym...</translation>
         <translation>Obliczony punkt kontrolny akumulatora nie jest tym, co jest rejestrowane przez indeks bloku</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. PIVX Core is probably already running.</source>
-        <translation>Nie można uzyskać dostępu do katalogu danych %s. PIVX Core prawdopodobnie już działa.</translation>
+        <source>Cannot obtain a lock on data directory %s. PCH Core is probably already running.</source>
+        <translation>Nie można uzyskać dostępu do katalogu danych %s. PCH Core prawdopodobnie już działa.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -5123,8 +5123,8 @@ Proszę być cierpliwym...</translation>
         <translation>Całkowita długość string wersji sieciowej (%i) przekracza maksymalną długość (%i). Zmniejsz liczbę lub rozmiar uacomments.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. PIVX Core is probably already running.</source>
-        <translation>Nie można podłączyć %s na tym komputerze. PIVX Core prawdopodobnie już działa.</translation>
+        <source>Unable to bind to %s on this computer. PCH Core is probably already running.</source>
+        <translation>Nie można podłączyć %s na tym komputerze. PCH Core prawdopodobnie już działa.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
@@ -5151,8 +5151,8 @@ Proszę być cierpliwym...</translation>
         <translation>Ostrzeżenie: -paytxfee jest ustawione bardzo wysoko! Jest to opłata transakcyjna, którą zapłacisz, jeśli wyślesz transakcję.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong PIVX Core will not work properly.</source>
-        <translation>Ostrzeżenie: sprawdź, czy data i godzina komputera są poprawne! Jeśli zegar jest nieprawidłowy, PIVX Core nie będzie działać poprawnie.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong PCH Core will not work properly.</source>
+        <translation>Ostrzeżenie: sprawdź, czy data i godzina komputera są poprawne! Jeśli zegar jest nieprawidłowy, PCH Core nie będzie działać poprawnie.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5379,8 +5379,8 @@ Proszę być cierpliwym...</translation>
         <translation>Wystąpił błąd podczas ładowania pliku wallet.dat: Portfel uszkodzony</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of PIVX Core</source>
-        <translation>Błąd ładowania pliku wallet.dat: Portfel wymaga nowszej wersji PIVX Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of PCH Core</source>
+        <translation>Błąd ładowania pliku wallet.dat: Portfel wymaga nowszej wersji PCH Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -5475,8 +5475,8 @@ Proszę być cierpliwym...</translation>
         <translation>Informacje</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. PIVX Core is shutting down.</source>
-        <translation>Sprawdzenie poprawności inicjalizacji nie powiodło się. PIVX Core zamyka się.</translation>
+        <source>Initialization sanity check failed. PCH Core is shutting down.</source>
+        <translation>Sprawdzenie poprawności inicjalizacji nie powiodło się. PCH Core zamyka się.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -5595,8 +5595,8 @@ Proszę być cierpliwym...</translation>
 </translation>
     </message>
     <message>
-        <source>Disable all PIVX specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Wyłącz wszystkie funkcje specyficzne dla PIVX (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, domyślnie: %u)</translation>
+        <source>Disable all PCH specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>Wyłącz wszystkie funkcje specyficzne dla PCH (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, domyślnie: %u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
@@ -6035,8 +6035,8 @@ Proszę być cierpliwym...</translation>
         <translation>Weryfikuję portfel ...</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart PIVX Core to complete</source>
-        <translation>Portfel musiał zostać przepisany: zrestartuj PIVX Core, aby zakończyć</translation>
+        <source>Wallet needed to be rewritten: restart PCH Core to complete</source>
+        <translation>Portfel musiał zostać przepisany: zrestartuj PCH Core, aby zakończyć</translation>
     </message>
     <message>
         <source>Wallet options:</source>

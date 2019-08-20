@@ -62,12 +62,12 @@
         <translation>Получаващ адрес</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Това са вашите PIVX адреси за изпращане на плащания. Винаги проверявайте количеството и адреса на получателя, преди да изпратите монети.</translation>
+        <source>These are your PCH addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Това са вашите PCH адреси за изпращане на плащания. Винаги проверявайте количеството и адреса на получателя, преди да изпратите монети.</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Това са вашите PIVX адреси за получаване на плащания. Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
+        <source>These are your PCH addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са вашите PCH адреси за получаване на плащания. Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Потвърдете шифрирането на портфейла</translation>
     </message>
     <message>
-        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PCHs from being stolen by malware infecting your computer.</source>
-        <translation>PIVX сега ще се затвори, за да довърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да защити вашия PIVX от това, да бъде откраднат чрез злонамерен софутуер, инфектирал вашия компютър.</translation>
+        <source>PCH will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PCHs from being stolen by malware infecting your computer.</source>
+        <translation>PCH сега ще се затвори, за да довърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да защити вашия PCH от това, да бъде откраднат чрез злонамерен софутуер, инфектирал вашия компютър.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -254,12 +254,12 @@
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>Enter a PIVX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a PCH Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Въведете Pivx адрес, който искате да криптиране с BIP 38. Въведете парола в средното поле. Натиснете 'криптирай', за да се изчисли криптирания таен ключ. </translation>
     </message>
     <message>
-        <source>The PIVX address to encrypt</source>
-        <translation>PIVX Адреса за криптиране</translation>
+        <source>The PCH address to encrypt</source>
+        <translation>PCH Адреса за криптиране</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this PIVX address</source>
-        <translation>Криптирай тайния ключ за този PIVX адрес</translation>
+        <source>Encrypt the private key for this PCH address</source>
+        <translation>Криптирай тайния ключ за този PCH адрес</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -641,12 +641,12 @@
         <translation>Колан с инструменти</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Ядро</translation>
+        <source>PCH Core</source>
+        <translation>PCH Ядро</translation>
     </message>
     <message>
-        <source>Send coins to a PIVX address</source>
-        <translation>Изпратете монети до PIVX адрес</translation>
+        <source>Send coins to a PCH address</source>
+        <translation>Изпратете монети до PCH адрес</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and popchain: URIs)</source>
@@ -665,24 +665,24 @@
         <translation>Разгледай мастърноудове</translation>
     </message>
     <message>
-        <source>&amp;About PIVX Core</source>
-        <translation>&amp;Относно PIVX Ядрото</translation>
+        <source>&amp;About PCH Core</source>
+        <translation>&amp;Относно PCH Ядрото</translation>
     </message>
     <message>
-        <source>Show information about PIVX Core</source>
-        <translation>Информациза за PIVX Ядрото</translation>
+        <source>Show information about PCH Core</source>
+        <translation>Информациза за PCH Ядрото</translation>
     </message>
     <message>
         <source>Modify configuration options for POPCHAIN</source>
-        <translation>Промени PIVX конфигурацията</translation>
+        <translation>Промени PCH конфигурацията</translation>
     </message>
     <message>
-        <source>Sign messages with your PIVX addresses to prove you own them</source>
-        <translation>Подпишете съобщения със своте PIVX адреси, за да докажете че са Ваши</translation>
+        <source>Sign messages with your PCH addresses to prove you own them</source>
+        <translation>Подпишете съобщения със своте PCH адреси, за да докажете че са Ваши</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified PIVX addresses</source>
-        <translation>Проеврете съобщения, за да се убедите, че са подписани с указаните PIVX адреси</translation>
+        <source>Verify messages to ensure they were signed with specified PCH addresses</source>
+        <translation>Проеврете съобщения, за да се убедите, че са подписани с указаните PCH адреси</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -725,12 +725,12 @@
         <translation>Прозорец на блок сондата</translation>
     </message>
     <message>
-        <source>Show the PIVX Core help message to get a list with possible PIVX command-line options</source>
-        <translation>Разкрийте Помощ за PIVX Ядрото, за да видите списък с възможни писмени команди.</translation>
+        <source>Show the PCH Core help message to get a list with possible PCH command-line options</source>
+        <translation>Разкрийте Помощ за PCH Ядрото, за да видите списък с възможни писмени команди.</translation>
     </message>
     <message>
-        <source>PIVX Core client</source>
-        <translation>Клиент PIVX Ядро</translation>
+        <source>PCH Core client</source>
+        <translation>Клиент PCH Ядро</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1161,8 +1161,8 @@ Address: %4
         <translation>Редактирай адрес за изпращане</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid PIVX address.</source>
-        <translation>Зададения адрес "%1"не е валиден PIVX адрес.</translation>
+        <source>The entered address "%1" is not a valid PCH address.</source>
+        <translation>Зададения адрес "%1"не е валиден PCH адрес.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1218,16 +1218,16 @@ Address: %4
         <translation>версия</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Ядро</translation>
+        <source>PCH Core</source>
+        <translation>PCH Ядро</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About PIVX Core</source>
-        <translation>Относно PIVX Ядрото</translation>
+        <source>About PCH Core</source>
+        <translation>Относно PCH Ядрото</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1273,16 +1273,16 @@ Address: %4
         <translation>Привет</translation>
     </message>
     <message>
-        <source>Welcome to PIVX Core.</source>
-        <translation>Добре Дошли в PIVX Ядрото</translation>
+        <source>Welcome to PCH Core.</source>
+        <translation>Добре Дошли в PCH Ядрото</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where PIVX Core will store its data.</source>
-        <translation>Тъй като това е първия път, в който стартирате програмата, имате възможността да изберете къде PIVX Ядрото ще съхранява своите данни.</translation>
+        <source>As this is the first time the program is launched, you can choose where PCH Core will store its data.</source>
+        <translation>Тъй като това е първия път, в който стартирате програмата, имате възможността да изберете къде PCH Ядрото ще съхранява своите данни.</translation>
     </message>
     <message>
-        <source>PIVX Core will download and store a copy of the PIVX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>PIVX Ядрото ще изтегли и запише копие на целия PIVX блокчейн. Поне %1 гигабайта ще бъдат съхранявани в тази папка, като тенденцията е файла да расте. Портфейла също ще бъде запазен в тази папка.</translation>
+        <source>PCH Core will download and store a copy of the PCH block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>PCH Ядрото ще изтегли и запише копие на целия PCH блокчейн. Поне %1 гигабайта ще бъдат съхранявани в тази папка, като тенденцията е файла да расте. Портфейла също ще бъде запазен в тази папка.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1293,8 +1293,8 @@ Address: %4
         <translation>Задай своя папка за данни:</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Ядро</translation>
+        <source>PCH Core</source>
+        <translation>PCH Ядро</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1435,12 +1435,12 @@ Address: %4
         <translation>Въведете адреса на Получателя</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PIVX addresses after it matures.
-To Add: enter percentage to give and PIVX address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PCH addresses after it matures.
+To Add: enter percentage to give and PCH address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>МултиИзпращане Ви позволява автоматично да изпращате до 100% от вашите стейк или мастърноуд възнаграждения към списък от други PIVX адреси.
-Да Добавите: въведете процент и задайте PIVX адрес към вектора за МултиИзпращане
+        <translation>МултиИзпращане Ви позволява автоматично да изпращате до 100% от вашите стейк или мастърноуд възнаграждения към списък от други PCH адреси.
+Да Добавите: въведете процент и задайте PCH адрес към вектора за МултиИзпращане
 Да Прамахнете: Въведете адрес за изстриване и натиснете истрий (del).
 МултиИзпращането няма да бъде активирано докато не кликнете "Активирай"</translation>
     </message>
@@ -1762,8 +1762,8 @@ Please be patient after clicking import.</source>
         <translation>Aко изключите харча на непотвърдено ресто, рестото от превод&lt;br/&gt;не може да се използва, докато превода не получи поне 1 потвърждение. &lt;br/&gt;Това влияе и на начина по който общите Ви средства се преизчисляват.</translation>
     </message>
     <message>
-        <source>Automatically open the PIVX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отвори PIVX порта в рутера. Това става само ако рутера Ви подържа UPnP и последния е включен.</translation>
+        <source>Automatically open the PCH client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отвори PCH порта в рутера. Това става само ако рутера Ви подържа UPnP и последния е включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1782,12 +1782,12 @@ Please be patient after clicking import.</source>
         <translation>Експерт</translation>
     </message>
     <message>
-        <source>Automatically start PIVX after logging in to the system.</source>
-        <translation>Стартирай PIVX автоматично след влизане в системата.</translation>
+        <source>Automatically start PCH after logging in to the system.</source>
+        <translation>Стартирай PCH автоматично след влизане в системата.</translation>
     </message>
     <message>
-        <source>&amp;Start PIVX on system login</source>
-        <translation>&amp;Стартирай PIVX заедно с операционната система</translation>
+        <source>&amp;Start PCH on system login</source>
+        <translation>&amp;Стартирай PCH заедно с операционната система</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1856,8 +1856,8 @@ https://www.transifex.com/popchain-project/popchain-project-translations</transl
         <translation>Праг на споделеното съхранение:</translation>
     </message>
     <message>
-        <source>Connect to the PIVX network through a SOCKS5 proxy.</source>
-        <translation>Свържи се с PIVX мрежата със SOCKS5 прокси.</translation>
+        <source>Connect to the PCH network through a SOCKS5 proxy.</source>
+        <translation>Свържи се с PCH мрежата със SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2031,8 +2031,8 @@ https://www.transifex.com/popchain-project/popchain-project-translations</transl
         <translation>Сегашния баланс по портфейли в режим на наблюдение само</translation>
     </message>
     <message>
-        <source>Your current PIVX balance, unconfirmed and immature transactions included</source>
-        <translation>Вашите PIVX наличности, включително непотвърдените и неузрели преводи</translation>
+        <source>Your current PCH balance, unconfirmed and immature transactions included</source>
+        <translation>Вашите PCH наличности, включително непотвърдените и неузрели преводи</translation>
     </message>
     <message>
         <source>zPCH Balance</source>
@@ -2051,8 +2051,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Неузрели: потвърдени, но с по-малко от 1 емисии от същата деноминация след като са биле емитирани</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PIVX network after a connection is established, but this process has not completed yet.</source>
-        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с PIVX мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PCH network after a connection is established, but this process has not completed yet.</source>
+        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с PCH мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2160,8 +2160,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in popchain.c
         <translation>Провал при стартирането на popchain: click-to-pay обработвател</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid PIVX address or malformed URI parameters.</source>
-        <translation>URI не може да се парсне. Вероятна причина е невалиден PIVX адрес или зле-форматирани URI Параметри.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid PCH address or malformed URI parameters.</source>
+        <translation>URI не може да се парсне. Вероятна причина е невалиден PCH адрес или зле-форматирани URI Параметри.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2246,8 +2246,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in popchain.c
         <translation>Zerocoin Действия:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PIVX network after a connection is established, but this process has not completed yet.</source>
-        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с PIVX мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the PCH network after a connection is established, but this process has not completed yet.</source>
+        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с PCH мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2330,7 +2330,7 @@ zPCH са узрели, тогава когато имат повече от 20 
         <translation>Плати На:</translation>
     </message>
     <message>
-        <source>The PIVX address to send the payment to. Creates local payment to yourself when empty.</source>
+        <source>The PCH address to send the payment to. Creates local payment to yourself when empty.</source>
         <translation>Адреса на който да изпратим плащането. Ако е празно - плащането е до себе си.</translation>
     </message>
     <message>
@@ -2710,7 +2710,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Invalid Pivx Address</source>
-        <translation>Невалиден PIVX адрес</translation>
+        <translation>Невалиден PCH адрес</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2787,8 +2787,8 @@ Please be patient...</source>
         <translation>Сума</translation>
     </message>
     <message>
-        <source>Enter a PIVX address (e.g. %1)</source>
-        <translation>Задайте PIVX адрес (например %1)</translation>
+        <source>Enter a PCH address (e.g. %1)</source>
+        <translation>Задайте PCH адрес (например %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2831,8 +2831,8 @@ Please be patient...</source>
         <translation>%1 милисек.</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Ядро</translation>
+        <source>PCH Core</source>
+        <translation>PCH Ядро</translation>
     </message>
     </context>
 <context>
@@ -2929,8 +2929,8 @@ Please be patient...</source>
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the PIVX debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Отвори PIVX дебъг лог файла от сегашната папка. Това може да отнеме известно време за по-дълги файлове.</translation>
+        <source>Open the PCH debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Отвори PCH дебъг лог файла от сегашната папка. Това може да отнеме известно време за по-дълги файлове.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -3145,7 +3145,7 @@ Please be patient...</source>
         <translation>Изходящи:</translation>
     </message>
     <message>
-        <source>Welcome to the PIVX RPC console.</source>
+        <source>Welcome to the PCH RPC console.</source>
         <translation>Добре Дошли в RPC конзолата на POPCHAIN.</translation>
     </message>
     <message>
@@ -3272,16 +3272,16 @@ Please be patient...</source>
         <translation>Сума:</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the PIVX network.</source>
-        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по PIVX мрежата.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the PCH network.</source>
+        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по PCH мрежата.</translation>
     </message>
     <message>
         <source>RECEIVE</source>
         <translation>ПОЛУЧИ</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the PIVX network.</source>
-        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. &lt;br&gt;Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по PIVX мрежата.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the PCH network.</source>
+        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. &lt;br&gt;Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по PCH мрежата.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3577,7 +3577,7 @@ Please be patient...</source>
         <translation>Ако собствената такса е настроена на 1000 uPCH и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uPCH входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uPCH. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for PIVX transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for PCH transactions than the network can process.</source>
         <translation>Няма проблем да платите минималната такса, стига обема преводи да е по-малък от наличното място в блоковете. &lt;br /&gt;Но имайте впредвид, че това може да се окаже в превод, който никога не получава потвърждение ако заявките за преводи са повече от колкото мрежата може да понесе.</translation>
     </message>
     <message>
@@ -3673,7 +3673,7 @@ Please be patient...</source>
         <translation>Инструмента за разделяне на блока не работи, когато се изпраща до няколко адреса едновременно. Опитайте пак.</translation>
     </message>
     <message>
-        <source>Warning: Invalid PIVX address</source>
+        <source>Warning: Invalid PCH address</source>
         <translation>Предупреждение: Невалиден PCH адрес</translation>
     </message>
     <message>
@@ -3772,8 +3772,8 @@ Please be patient...</source>
         <translation>Плати На:</translation>
     </message>
     <message>
-        <source>The PIVX address to send the payment to</source>
-        <translation>PIVX адреса - получател на плащането</translation>
+        <source>The PCH address to send the payment to</source>
+        <translation>PCH адреса - получател на плащането</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3812,8 +3812,8 @@ Please be patient...</source>
         <translation>Съобщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the POPCHAIN: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PIVX network.</source>
-        <translation>Съобщение, което е било прикачено към POPCHAIN:URI и което ще бъде запазено заедно с превода за ваша информация. Внимание: Това съобщение е само за Вас, то няма да бъде изпратено по PIVX мрежата.</translation>
+        <source>A message that was attached to the POPCHAIN: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the PCH network.</source>
+        <translation>Съобщение, което е било прикачено към POPCHAIN:URI и което ще бъде запазено заедно с превода за ваша информация. Внимание: Това съобщение е само за Вас, то няма да бъде изпратено по PCH мрежата.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3839,8 +3839,8 @@ Please be patient...</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>PIVX Core is shutting down...</source>
-        <translation>Изключване на PIVX Ядрото...</translation>
+        <source>PCH Core is shutting down...</source>
+        <translation>Изключване на PCH Ядрото...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3862,8 +3862,8 @@ Please be patient...</source>
         <translation>Може да подписвате съобщения с Вашите адреси, за да докажете че сте техен притежател. Внимавайте да не подписвате нищо съмнително, тъй като има хакерски атаки, които целят да придобият вашата самоличност. Само подписвайте пълен и ясен текст, с който сте напълно съгласни.</translation>
     </message>
     <message>
-        <source>The PIVX address to sign the message with</source>
-        <translation>PIVX адреса, с който да подпишете съобщението</translation>
+        <source>The PCH address to sign the message with</source>
+        <translation>PCH адреса, с който да подпишете съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3894,16 +3894,16 @@ Please be patient...</source>
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PIVX address</source>
-        <translation>Подпишете съобщението, за да докажете, че притежавате този PIVX адрес</translation>
+        <source>Sign the message to prove you own this PCH address</source>
+        <translation>Подпишете съобщението, за да докажете, че притежавате този PCH адрес</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
-        <translation>PIVX адреса, който е подписано съобщението</translation>
+        <source>The PCH address the message was signed with</source>
+        <translation>PCH адреса, който е подписано съобщението</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified PIVX address</source>
-        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения PIVX адрес</translation>
+        <source>Verify the message to ensure it was signed with the specified PCH address</source>
+        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения PCH адрес</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3989,8 +3989,8 @@ Please be patient...</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Ядро</translation>
+        <source>PCH Core</source>
+        <translation>PCH Ядро</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -4005,8 +4005,8 @@ Please be patient...</source>
         <translation>Dash Core разработчици</translation>
     </message>
     <message>
-        <source>The PIVX Core developers</source>
-        <translation>PIVX Core разработчици</translation>
+        <source>The PCH Core developers</source>
+        <translation>PCH Core разработчици</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4650,8 +4650,8 @@ Please be patient...</source>
         <translation>Изчисления чекпойнт на акумулатора не е същия като записания в блок индекса.</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. PIVX Core is probably already running.</source>
-        <translation>Не може да заключи папката с данни %s. PIVX Портфейла вероятно вече е стартиран.</translation>
+        <source>Cannot obtain a lock on data directory %s. PCH Core is probably already running.</source>
+        <translation>Не може да заключи папката с данни %s. PCH Портфейла вероятно вече е стартиран.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4822,8 +4822,8 @@ Please be patient...</source>
         <translation>Този продукт включва софтуер разработен от OpenSSL Project &lt;https://www.openssl.org/&gt; и крипто софтуер написан от Ерик Юнг и UPnP софтуер от Томас Бернард.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. PIVX Core is probably already running.</source>
-        <translation>Не може да се прикачи към %s на този компютър. PIVX Портфейла вероятно вече е стартиран.</translation>
+        <source>Unable to bind to %s on this computer. PCH Core is probably already running.</source>
+        <translation>Не може да се прикачи към %s на този компютър. PCH Портфейла вероятно вече е стартиран.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
@@ -4850,8 +4850,8 @@ Please be patient...</source>
         <translation>Внимание: -paytxfee е зададена твърде голяма! Това е преводната такса, която ще платите ако изпратите този превод.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong PIVX Core will not work properly.</source>
-        <translation>Внимание: Проверете дали датата и часа на компютъра са верни! Ако Вашият часовник греши, PIVX Портфейла няма да работи правилно.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong PCH Core will not work properly.</source>
+        <translation>Внимание: Проверете дали датата и часа на компютъра са верни! Ако Вашият часовник греши, PCH Портфейла няма да работи правилно.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4983,7 +4983,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
-        <translation>Всички права запазени (c) 2015-%i PIVX Core разработчици</translation>
+        <translation>Всички права запазени (c) 2015-%i PCH Core разработчици</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -5062,7 +5062,7 @@ Please be patient...</source>
         <translation>Грешка в зареждането на wallet.dat: Портфейла е повреден</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of PIVX Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of PCH Core</source>
         <translation>Грешка в зареждането на wallet.dat: Портфейла изисква по-нова версия</translation>
     </message>
     <message>
@@ -5150,7 +5150,7 @@ Please be patient...</source>
         <translation>Информация</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. PIVX Core is shutting down.</source>
+        <source>Initialization sanity check failed. PCH Core is shutting down.</source>
         <translation>Стартирането на проверка на здравословното състояние на портфейла се провали. Изключваме Портфейла.</translation>
     </message>
     <message>
@@ -5254,8 +5254,8 @@ Please be patient...</source>
 </translation>
     </message>
     <message>
-        <source>Disable all PIVX specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Изключи PIVX специфичната функционалност (Главни възли, Zerocoin, SwiftX, Бюджетиране) (0-1, po podrazbirane: %u)</translation>
+        <source>Disable all PCH specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>Изключи PCH специфичната функционалност (Главни възли, Zerocoin, SwiftX, Бюджетиране) (0-1, po podrazbirane: %u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
@@ -5826,7 +5826,7 @@ Please be patient...</source>
         <translation>Портфейла %s е извън папката с данни %s</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart PIVX Core to complete</source>
+        <source>Wallet needed to be rewritten: restart PCH Core to complete</source>
         <translation>Портфейла трябва да се пренапише: рестартирайте програмата за завършване на процеса</translation>
     </message>
     <message>

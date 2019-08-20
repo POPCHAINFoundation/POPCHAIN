@@ -62,12 +62,12 @@
         <translation>Prijímacia adresa</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú vaše PIVX adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
+        <source>These are your PCH addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú vaše PCH adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše PIVX adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
+        <source>These are your PCH addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú vaše PCH adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PCHs from being stolen by malware infecting your computer.</source>
-        <translation>PIVX sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše PCH pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
+        <source>PCH will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PCHs from being stolen by malware infecting your computer.</source>
+        <translation>PCH sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše PCH pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -569,11 +569,11 @@
         <translation>Panel nástrojov Záložky</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>PCH Core</source>
+        <translation>PCH Core</translation>
     </message>
     <message>
-        <source>Send coins to a PIVX address</source>
+        <source>Send coins to a PCH address</source>
         <translation>Odoslať mince na adresu POPCHAIN</translation>
     </message>
     <message>
@@ -589,24 +589,24 @@
         <translation>Prezrieť masternody</translation>
     </message>
     <message>
-        <source>&amp;About PIVX Core</source>
-        <translation>O PIVX Core</translation>
+        <source>&amp;About PCH Core</source>
+        <translation>O PCH Core</translation>
     </message>
     <message>
-        <source>Show information about PIVX Core</source>
-        <translation>Zobraziť informácie o PIVX Core</translation>
+        <source>Show information about PCH Core</source>
+        <translation>Zobraziť informácie o PCH Core</translation>
     </message>
     <message>
         <source>Modify configuration options for POPCHAIN</source>
         <translation>Zmeňte možnosti konfigurácie pre POPCHAIN</translation>
     </message>
     <message>
-        <source>Sign messages with your PIVX addresses to prove you own them</source>
+        <source>Sign messages with your PCH addresses to prove you own them</source>
         <translation>Podpíšte správy pomocou adresy POPCHAIN, aby ste preukázali, že ich vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified PIVX addresses</source>
-        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými PIVX adresami</translation>
+        <source>Verify messages to ensure they were signed with specified PCH addresses</source>
+        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými PCH adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -649,12 +649,12 @@
         <translation>Okno blockchain prehliadača</translation>
     </message>
     <message>
-        <source>Show the PIVX Core help message to get a list with possible PIVX command-line options</source>
-        <translation>Zobraziť pomocnú správu programu PIVX Core a získajte zoznam možností príkazového riadka POPCHAIN</translation>
+        <source>Show the PCH Core help message to get a list with possible PCH command-line options</source>
+        <translation>Zobraziť pomocnú správu programu PCH Core a získajte zoznam možností príkazového riadka POPCHAIN</translation>
     </message>
     <message>
-        <source>PIVX Core client</source>
-        <translation>PIVX Core klient</translation>
+        <source>PCH Core client</source>
+        <translation>PCH Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -870,15 +870,15 @@ MultiSend: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>PCH Core</source>
+        <translation>PCH Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>PCH Core</source>
+        <translation>PCH Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -982,8 +982,8 @@ MultiSend: %1</translation>
         <translation>Suma</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>PCH Core</source>
+        <translation>PCH Core</translation>
     </message>
     </context>
 <context>
@@ -1117,7 +1117,7 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The PIVX address to sign the message with</source>
+        <source>The PCH address to sign the message with</source>
         <translation>Adresa POPCHAIN, ktorou chcete správu podpísať</translation>
     </message>
     <message>
@@ -1141,16 +1141,16 @@ MultiSend: %1</translation>
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PIVX address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto PIVX adresy</translation>
+        <source>Sign the message to prove you own this PCH address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto PCH adresy</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
-        <translation>PIVX adresa, ktorou bola správa podpísaná</translation>
+        <source>The PCH address the message was signed with</source>
+        <translation>PCH adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified PIVX address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou PIVX adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified PCH address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou PCH adresou</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1188,8 +1188,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>PCH Core</source>
+        <translation>PCH Core</translation>
     </message>
     </context>
 <context>

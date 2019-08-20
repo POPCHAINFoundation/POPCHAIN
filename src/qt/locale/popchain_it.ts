@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono gli indirizzi PIVX per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
+        <source>These are your PCH addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono gli indirizzi PCH per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono gli indirizzi PIVX per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
+        <source>These are your PCH addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono gli indirizzi PCH per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PCHs from being stolen by malware infecting your computer.</source>
-        <translation>PIVX verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi PCH dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>PCH will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PCHs from being stolen by malware infecting your computer.</source>
+        <translation>PCH verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi PCH dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -254,12 +254,12 @@
         <translation>Indirizzo:</translation>
     </message>
     <message>
-        <source>Enter a PIVX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Inserire un indirizzo PIVX da crittografare utilizzando BIP 38. Inserire una password nel campo centrale. Cliccare su "cripta" per generare la chiave privata crittografata.</translation>
+        <source>Enter a PCH Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Inserire un indirizzo PCH da crittografare utilizzando BIP 38. Inserire una password nel campo centrale. Cliccare su "cripta" per generare la chiave privata crittografata.</translation>
     </message>
     <message>
-        <source>The PIVX address to encrypt</source>
-        <translation>Indirizzo PIVX da crittografare</translation>
+        <source>The PCH address to encrypt</source>
+        <translation>Indirizzo PCH da crittografare</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,7 +290,7 @@
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this PIVX address</source>
+        <source>Encrypt the private key for this PCH address</source>
         <translation>Crittografa la chiave privata per questo indirizzo POPCHAIN</translation>
     </message>
     <message>
@@ -641,11 +641,11 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>PCH Core</source>
+        <translation>PCH Core</translation>
     </message>
     <message>
-        <source>Send coins to a PIVX address</source>
+        <source>Send coins to a PCH address</source>
         <translation>Invia valuta all'indirizzo POPCHAIN</translation>
     </message>
     <message>
@@ -665,24 +665,24 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>&amp;About PIVX Core</source>
-        <translation>&amp;Informazioni PIVX Core</translation>
+        <source>&amp;About PCH Core</source>
+        <translation>&amp;Informazioni PCH Core</translation>
     </message>
     <message>
-        <source>Show information about PIVX Core</source>
-        <translation>Visualizza informazioni su PIVX Core</translation>
+        <source>Show information about PCH Core</source>
+        <translation>Visualizza informazioni su PCH Core</translation>
     </message>
     <message>
         <source>Modify configuration options for POPCHAIN</source>
         <translation>Modifica le opzioni di configurazione per POPCHAIN</translation>
     </message>
     <message>
-        <source>Sign messages with your PIVX addresses to prove you own them</source>
-        <translation>Firma i messaggi con i tuoi indirizzi PIVX per dimostrare di essere il proprietario </translation>
+        <source>Sign messages with your PCH addresses to prove you own them</source>
+        <translation>Firma i messaggi con i tuoi indirizzi PCH per dimostrare di essere il proprietario </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified PIVX addresses</source>
-        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi PIVX specifici</translation>
+        <source>Verify messages to ensure they were signed with specified PCH addresses</source>
+        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi PCH specifici</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -725,12 +725,12 @@
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the PIVX Core help message to get a list with possible PIVX command-line options</source>
-        <translation>Mostra il messaggio di aiuto PIVX Core per ottenere un elenco con le possibili opzioni di riga di comando POPCHAIN</translation>
+        <source>Show the PCH Core help message to get a list with possible PCH command-line options</source>
+        <translation>Mostra il messaggio di aiuto PCH Core per ottenere un elenco con le possibili opzioni di riga di comando POPCHAIN</translation>
     </message>
     <message>
-        <source>PIVX Core client</source>
-        <translation>PIVX Core</translation>
+        <source>PCH Core client</source>
+        <translation>PCH Core</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1149,8 +1149,8 @@ MultiSend: %1</translation>
         <translation>Modifica indirizzo di invio</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid PIVX address.</source>
-        <translation>L'indirizzo inserito "%1" non è un indirizzo PIVX valido.</translation>
+        <source>The entered address "%1" is not a valid PCH address.</source>
+        <translation>L'indirizzo inserito "%1" non è un indirizzo PCH valido.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1206,16 +1206,16 @@ MultiSend: %1</translation>
         <translation>versione</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>PCH Core</source>
+        <translation>PCH Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About PIVX Core</source>
-        <translation>Informazioni su PIVX Core</translation>
+        <source>About PCH Core</source>
+        <translation>Informazioni su PCH Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1261,16 +1261,16 @@ MultiSend: %1</translation>
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>Welcome to PIVX Core.</source>
+        <source>Welcome to PCH Core.</source>
         <translation>Benvenuto in PCHIX Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where PIVX Core will store its data.</source>
-        <translation>Essendo il primo avvio dell'applicazione, puoi scegliere dove PIVX Core salverà i propri dati.</translation>
+        <source>As this is the first time the program is launched, you can choose where PCH Core will store its data.</source>
+        <translation>Essendo il primo avvio dell'applicazione, puoi scegliere dove PCH Core salverà i propri dati.</translation>
     </message>
     <message>
-        <source>PIVX Core will download and store a copy of the PIVX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>PIVX Core scaricherà e salverà una copia della blockchain POPCHAIN. Verranno salvati almeno %1GB di dati in questa cartella, che cresceranno nel tempo. In questa cartella verrà salvato anche il portafoglio.</translation>
+        <source>PCH Core will download and store a copy of the PCH block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>PCH Core scaricherà e salverà una copia della blockchain POPCHAIN. Verranno salvati almeno %1GB di dati in questa cartella, che cresceranno nel tempo. In questa cartella verrà salvato anche il portafoglio.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1281,8 +1281,8 @@ MultiSend: %1</translation>
         <translation>Utilizza una cartella dati personalizzata:</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>PCH Core</source>
+        <translation>PCH Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1423,12 +1423,12 @@ MultiSend: %1</translation>
         <translation>Inserire indirizzo destinatario</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PIVX addresses after it matures.
-To Add: enter percentage to give and PIVX address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PCH addresses after it matures.
+To Add: enter percentage to give and PCH address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend ti permette di inviare automaticamente ad una lista di indirizzi PIVX fino al 100% delle ricompense di stake o masternodi, dopo che queste sono mature.
-Per Aggiunger: inserisci la percentuale da inviare e l'indirizzo PIVX da aggiungere al vettore MultiSend.
+        <translation>MultiSend ti permette di inviare automaticamente ad una lista di indirizzi PCH fino al 100% delle ricompense di stake o masternodi, dopo che queste sono mature.
+Per Aggiunger: inserisci la percentuale da inviare e l'indirizzo PCH da aggiungere al vettore MultiSend.
 Per Eliminare: Inserisci l'indirizzo da eliminare e premi elimina.
 MultiSend non verrà attivato a meno che tu non prema su Attiva</translation>
     </message>
@@ -1729,8 +1729,8 @@ MultiSend non verrà attivato a meno che tu non prema su Attiva</translation>
         <translation>Saldo corrente bloccato in indirizzi sola-lettura.</translation>
     </message>
     <message>
-        <source>Your current PIVX balance, unconfirmed and immature transactions included</source>
-        <translation>Il tuo saldo PIVX corrente, incluse le transazioni non confermate e non mature</translation>
+        <source>Your current PCH balance, unconfirmed and immature transactions included</source>
+        <translation>Il tuo saldo PCH corrente, incluse le transazioni non confermate e non mature</translation>
     </message>
     <message>
         <source>zPCH Balance</source>
@@ -2148,8 +2148,8 @@ Per cambiare la percentuale (riavvio non necessario):
         <translation>Ammontare</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>PCH Core</source>
+        <translation>PCH Core</translation>
     </message>
     </context>
 <context>
@@ -2411,8 +2411,8 @@ Per cambiare la percentuale (riavvio non necessario):
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The PIVX address to sign the message with</source>
-        <translation>L'indirizzo PIVX per firmare il messaggio con</translation>
+        <source>The PCH address to sign the message with</source>
+        <translation>L'indirizzo PCH per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2435,16 +2435,16 @@ Per cambiare la percentuale (riavvio non necessario):
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PIVX address</source>
+        <source>Sign the message to prove you own this PCH address</source>
         <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo POPCHAIN</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
-        <translation>L'indirizzo PIVX con cui è stato firmato il messaggio</translation>
+        <source>The PCH address the message was signed with</source>
+        <translation>L'indirizzo PCH con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified PIVX address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo PIVX specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified PCH address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo PCH specificato </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2482,8 +2482,8 @@ Per cambiare la percentuale (riavvio non necessario):
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>PCH Core</source>
+        <translation>PCH Core</translation>
     </message>
     </context>
 <context>
