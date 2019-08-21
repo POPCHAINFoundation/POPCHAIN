@@ -2719,7 +2719,7 @@ Please be patient...</source>
         <translation>Не предоставляется адрес «Pay To», создающий местный платеж</translation>
     </message>
     <message>
-        <source>Invalid Pivx Address</source>
+        <source>Invalid Popchain Address</source>
         <translation>неправильный PCH адрес</translation>
     </message>
     <message>

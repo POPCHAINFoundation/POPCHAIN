@@ -2860,8 +2860,8 @@ Proszę być cierpliwym...</translation>
         <translation>Nie podano adresu "Zapłać do", tworząc płatność lokalną</translation>
     </message>
     <message>
-        <source>Invalid Pivx Address</source>
-        <translation>Nieprawidłowy adres Pivx</translation>
+        <source>Invalid Popchain Address</source>
+        <translation>Nieprawidłowy adres Popchain</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>

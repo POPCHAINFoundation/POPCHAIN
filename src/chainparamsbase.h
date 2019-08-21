@@ -11,7 +11,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between popchain-cli and popchaind)
- * of a given instance of the Pivx system.
+ * of a given instance of the Popchain system.
  */
 class CBaseChainParams
 {

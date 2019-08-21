@@ -14,7 +14,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.popchain.Pivx-Qt";
+        return @"io.popchain.Popchain-Qt";
     } else {
         return [self __bundleIdentifier];
     }

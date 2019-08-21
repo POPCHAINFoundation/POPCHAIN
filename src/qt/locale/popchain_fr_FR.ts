@@ -2864,8 +2864,8 @@ S'il vous plaît soyez patient ...</translation>
         <translation>Aucune adresse 'Payer à' de fournie, création d'un paiement local</translation>
     </message>
     <message>
-        <source>Invalid Pivx Address</source>
-        <translation>Adresse Pivx incorrecte</translation>
+        <source>Invalid Popchain Address</source>
+        <translation>Adresse Popchain incorrecte</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>

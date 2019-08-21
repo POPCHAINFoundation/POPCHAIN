@@ -2718,8 +2718,8 @@ Please be patient...</source>
         <translation>Nije dodijeljena adresa "Plati", stvarajući lokalnu uplatu</translation>
     </message>
     <message>
-        <source>Invalid Pivx Address</source>
-        <translation>Nevažeća Pivx Adresa</translation>
+        <source>Invalid Popchain Address</source>
+        <translation>Nevažeća Popchain Adresa</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>

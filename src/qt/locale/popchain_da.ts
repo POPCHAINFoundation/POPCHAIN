@@ -2734,7 +2734,7 @@ Vær tålmodig...</translation>
         <translation>Ingen 'Betal til' adresse, der er oprettet, skaber lokal betaling</translation>
     </message>
     <message>
-        <source>Invalid Pivx Address</source>
+        <source>Invalid Popchain Address</source>
         <translation> Ugyldig PCH adresse</translation>
     </message>
     <message>

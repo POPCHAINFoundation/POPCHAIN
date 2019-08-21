@@ -2767,7 +2767,7 @@ Por favor espere...</translation>
         <translation>No se especificó drección 'Pagar A', por lo que asumimos un pago local</translation>
     </message>
     <message>
-        <source>Invalid Pivx Address</source>
+        <source>Invalid Popchain Address</source>
         <translation>Dirección PCH Inválida</translation>
     </message>
     <message>

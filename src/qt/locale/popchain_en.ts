@@ -3690,7 +3690,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+4"/>
-        <source>Invalid Pivx Address</source>
+        <source>Invalid Popchain Address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

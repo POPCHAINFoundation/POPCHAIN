@@ -2896,8 +2896,8 @@ Ha lite tålamod...</translation>
         <translation>Ingen 'Betala Till' adress inmatad, skapar lokal betalning</translation>
     </message>
     <message>
-        <source>Invalid Pivx Address</source>
-        <translation>Ogiltig Pivx Adress</translation>
+        <source>Invalid Popchain Address</source>
+        <translation>Ogiltig Popchain Adress</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
