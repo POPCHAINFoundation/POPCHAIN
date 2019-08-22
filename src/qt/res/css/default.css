@@ -64,47 +64,44 @@ color:#333;
 }
 
 QToolBar {
-background-color: qlineargradient(y1:0, y2: 1, stop: 0 #372f44, stop: 0.75 #372f44, stop: 0.99 #ffffff, stop: 1 #ffffff);
-border:0px solid #333;
+background-color: #eeeeee;
+border:0px solid #eeeeee;
 padding:1;
 margin:0;
-width: 70px;
+width: 140px;
 }
 
 QToolBar > QToolButton {
 Alignment: left;
-background-color: #372f44;
+background-color: #eeeeee;
 selection-background-color:transparent;
-border:0.5px solid #888;
-border-left: 0px;
-border-right: 0px;
-border-top: 0px;
+border:0px solid #eeeeee;
 min-height:2.5em;
 padding: 0em 0em;
 font-size: 11px;
-color:#aaa;
-width: 80px;
-height: 60px;
+color:#000000;
+width: 140px;
+height: 30px;
 }
 
 QToolBar > QToolButton:checked {
-background-color: qlineargradient(x1:0, x2: 1, stop: 0 #ffffff, stop: 0.07 #ffffff, stop: 0.0701 #372f44, stop: 1 #372f44);
-color:#fff;
+background-color: #fff;
+color:#000000;
 }
 
 /* QToolBar > QToolButton:hover:!selected { */
 QToolBar > QToolButton:hover {
-background-color: qlineargradient(x1:0, x2: 1, stop: 0 #ffffff, stop: 0.07 #ffffff, stop: 0.0701 #372f44, stop: 1 #372f44);
-color:#fff;
+background-color: #fff;
+color:#000000;
 }
 
 QToolBar > QToolButton#ToolbarSpacer:hover:!selected {
-background-color: #372f44; /* Do not highlight placeholder on hover */
+background-color: #eeeeee; /* Do not highlight placeholder on hover */
 }
 
 QToolBar > QToolButton:pressed {
-background-color: qlineargradient(x1:0, x2: 1, stop: 0 #00a300, stop: 0.07 #00a300, stop: 0.0701 #372f44, stop: 1 #372f44);
-color:#fff;
+background-color: #fff;
+color:#000000;
 }
 
 QMessageBox {
@@ -881,12 +878,12 @@ QDialog#HelpMessageDialog QScrollBar:vertical, QDialog#HelpMessageDialog QScroll
 border:0;
 }
 
-/* About Popchain Dialog */
-QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Popchain Contents */
+/* About Pivx Dialog */
+QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Pivx Contents */
 margin-left:10px;
 }
 
-QDialog#AboutDialog QLabel#label_2 { /* Margin for About Popchain text */
+QDialog#AboutDialog QLabel#label_2 { /* Margin for About Pivx text */
 margin-right:10px;
 }
 
@@ -916,6 +913,15 @@ qproperty-alignment: 'AlignVCenter | AlignRight';
 background-image: url(':/images/popchain_logo_horizontal');
 background-repeat: no-repeat;
 }
+
+/* PCH Logo */
+QLabel#labelPCHLogo {
+qproperty-alignment: 'AlignVCenter | AlignCenter';
+border-image: url(:/images/popchain_logo) 0 0 0 0 stretch stretch;
+width: 140px;
+height: 140px;
+}
+
 
 QWidget .QFrame#frame_Header { /* Header with Page-Title and POPCHAIN-image */
 min-width:400px;
