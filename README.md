@@ -37,7 +37,7 @@ Basic usage resources:
 
 Contact us:
 
-* contact@popchain.org
+* contact@popchain.co
 
 
 Building PopChain
