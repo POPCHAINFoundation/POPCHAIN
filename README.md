@@ -1,5 +1,4 @@
 # PopChain
----------------
 ![](https://avatars3.githubusercontent.com/u/38804864?s=200&v=4)
 
 ### What is PopChain?
@@ -42,16 +41,12 @@ Basic usage resources:
 <tr><td>151201-259200</td><td>45% (22.5 PCH)</td><td>45% (22.5 PCH)</td><td>10% (5 PCH)</td></tr>
 </table>
 
--------------------
-
 Contact us:
 
 * contact@popchain.org
 
 
 Building PopChain
--------------------
-
 ### Build on Ubuntu(16.04 LTS)
 
     git clone https://github.com/PopchainOrg/PopChain.git
