@@ -7,8 +7,7 @@ POPCHAIN can be widely used for live broadcasts, content promotion, code sharing
 
 Basic usage resources:
 
-* [Official site](http://www.popchain.org/)
-* [Whitepaper](http://www.popchain.org/file/whitepaper_en.pdf)
+* [Official site](http://www.popchain.co/)
 
 
 ### Coin Specs
@@ -47,7 +46,7 @@ Contact us:
 Building PopChain
 ### Build on Ubuntu(16.04 LTS)
 
-    git clone https://github.com/PopchainOrg/PopChain.git
+    git clone https://github.com/PopchainFoundation/PopChain.git
 
 Install dependency
 
