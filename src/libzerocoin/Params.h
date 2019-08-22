@@ -10,6 +10,7 @@
 * @license    This project is released under the MIT license.
 **/
 // Copyright (c) 2017-2018 The PIVX developers
+// Copyright (c) 2018-2019 The Popchain developers
 
 #ifndef PARAMS_H_
 #define PARAMS_H_

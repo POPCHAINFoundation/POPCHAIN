@@ -17,7 +17,7 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "POPCHAIN"
-            VALUE "FileDescription",    "popchain-tx (CLI PIVX transaction editor utility)"
+            VALUE "FileDescription",    "popchain-tx (CLI Popchain transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "popchain-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR
