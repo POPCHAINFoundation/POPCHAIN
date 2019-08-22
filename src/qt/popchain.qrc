@@ -71,6 +71,7 @@
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
+        <file alias="popchain_logo">res/images/popchain_logo.png</file>
         <file alias="popchain_logo_horizontal">res/images/popchain_logo_horizontal.png</file>
         <file alias="downArrow">res/images/downArrow_dark.png</file>
         <file alias="downArrow_small">res/images/downArrow_small_dark.png</file>
