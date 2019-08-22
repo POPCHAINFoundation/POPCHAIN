@@ -16,8 +16,7 @@ Basic usage resources:
 <tr><td>Block Time</td><td>60 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
 <tr><td>Max Coin Supply (PoW Phase)</td><td>20,000,000,000 PCH</td></tr>
-<tr><td>PoW</td><td>4,000,000,000 PCH</td></tr>
-<tr><td>Masternode</td><td>4,000,000,000 PCH</td></tr>
+<tr><td>PoW (w/ Masternode)</td><td>8,000,000,000 PCH</td></tr>
 <tr><td>Premine</td><td>12,000,000,000 PCH*</td></tr>
 </table>
 
