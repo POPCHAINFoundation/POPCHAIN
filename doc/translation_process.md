@@ -1,14 +1,14 @@
 Translations
 ============
 
-The PIVX Core project has been designed to support multiple localisations. This makes adding new phrases, and completely new languages easily achievable. For managing all application translations, PIVX Core makes use of the Transifex online translation management tool.
+The Popchain Core project has been designed to support multiple localisations. This makes adding new phrases, and completely new languages easily achievable. For managing all application translations, Popchain Core makes use of the Transifex online translation management tool.
 
 ### Helping to translate (using Transifex)
 Transifex is setup to monitor the GitHub repo for updates, and when code containing new translations is found, Transifex will process any changes. It may take several hours after a pull-request has been merged, to appear in the Transifex web interface.
 
 Multiple language support is critical in assisting POPCHAIN's global adoption, and growth. One of POPCHAIN's greatest strengths is cross-border money transfers, any help making that easier is greatly appreciated.
 
-See the [Transifex PIVX project](https://www.transifex.com/popchain-project/popchain-project-translations/) to assist in translations.
+See the [Transifex Popchain project](https://www.transifex.com/popchain-project/popchain-project-translations/) to assist in translations.
 
 ### Writing code with translations
 We use automated scripts to help extract translations in both Qt, and non-Qt source files. It is rarely necessary to manually edit the files in `src/qt/locale/`. The translation source files must adhere to the following format:
@@ -43,7 +43,7 @@ git commit
 ### Creating a Transifex account
 Visit the [Transifex Signup](https://www.transifex.com/signup/) page to create an account. Take note of your username and password, as they will be required to configure the command-line tool.
 
-You can find the PIVX translation project at [https://www.transifex.com/popchain-project/popchain-project-translations/](https://www.transifex.com/popchain-project/popchain-project-translations/).
+You can find the Popchain translation project at [https://www.transifex.com/popchain-project/popchain-project-translations/](https://www.transifex.com/popchain-project/popchain-project-translations/).
 
 ### Installing the Transifex client command-line tool
 The client is used to fetch updated translations. If you are having problems, or need more details, see [https://docs.transifex.com/client/installing-the-client](https://docs.transifex.com/client/installing-the-client)
@@ -62,7 +62,7 @@ token =
 username = USERNAME
 ```
 
-The Transifex PIVX project config file is included as part of the repo. It can be found at `.tx/config`, however you shouldn’t need to change anything.
+The Transifex Popchain project config file is included as part of the repo. It can be found at `.tx/config`, however you shouldn’t need to change anything.
 
 ### Synchronising translations
 To assist in updating translations, we have created a script to help.
@@ -104,6 +104,6 @@ To create a new language template, you will need to edit the languages manifest 
 **Note:** that the language translation file **must end in `.qm`** (the compiled extension), and not `.ts`.
 
 ### Questions and general assistance
-The PIVX Core translation maintainers include *Fuzzbawls*. You can find them, and others, in the [PIVX Discord](https://discord.popchain.org).
+The Popchain Core translation maintainers include *Fuzzbawls*. You can find them, and others, in the [Popchain Discord](https://discord.popchain.org).
 
 Announcements will be posted during application pre-releases to notify translators to check for updates.

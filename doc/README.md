@@ -1,13 +1,13 @@
-PIVX Core
+Popchain Core
 =============
 
 Setup
 ---------------------
-[PIVX Core](http://popchain.org/wallet) is the original PIVX client and it builds the backbone of the network. However, it downloads and stores the entire history of PIVX transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[Popchain Core](http://popchain.org/wallet) is the original Popchain client and it builds the backbone of the network. However, it downloads and stores the entire history of Popchain transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run PIVX Core on your native platform.
+The following are some helpful notes on how to run Popchain Core on your native platform.
 
 ### Unix
 
@@ -26,14 +26,14 @@ Drag POPCHAIN-Qt to your applications folder, and then run POPCHAIN-Qt.
 
 ### Need Help?
 
-* See the documentation at the [PIVX Wiki](https://github.com/POPCHAIN-Project/POPCHAIN/wiki)
+* See the documentation at the [Popchain Wiki](https://github.com/POPCHAIN-Project/POPCHAIN/wiki)
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [PIVX Forum](http://forum.popchain.org/).
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [Popchain Forum](http://forum.popchain.org/).
 * Join our Discord server [Discord Server](https://discord.popchain.org)
 
 Building
 ---------------------
-The following are developer notes on how to build PIVX Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Popchain Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [Dependencies](dependencies.md)
 - [macOS Build Notes](build-osx.md)
@@ -43,7 +43,7 @@ The following are developer notes on how to build PIVX Core on your native platf
 
 Development
 ---------------------
-The PIVX repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The Popchain repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -57,7 +57,7 @@ The PIVX repo's [root README](/README.md) contains relevant information on the d
 
 ### Resources
 * Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [POPCHAIN](http://forum.popchain.org/) forum.
-* Join the [PIVX Discord](https://discord.popchain.org).
+* Join the [Popchain Discord](https://discord.popchain.org).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
