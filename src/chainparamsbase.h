@@ -1,5 +1,6 @@
 // Copyright (c) 2014 The Bitcoin developers
 // Copyright (c) 2017-2018 The PIVX developers
+// Copyright (c) 2018-2019 The Popchain developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -11,7 +12,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between popchain-cli and popchaind)
- * of a given instance of the Pivx system.
+ * of a given instance of the Popchain system.
  */
 class CBaseChainParams
 {

@@ -89,7 +89,7 @@
 
 using namespace std;
 
-// PIVX only features
+// Popchain only features
 // Masternode
 bool fMasterNode = false;
 string strMasterNodePrivKey = "";
@@ -409,9 +409,9 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-// Windows < Vista: C:\Documents and Settings\Username\Application Data\PIVX
-// Windows >= Vista: C:\Users\Username\AppData\Roaming\PIVX
-// Mac: ~/Library/Application Support/PIVX
+// Windows < Vista: C:\Documents and Settings\Username\Application Data\Popchain
+// Windows >= Vista: C:\Users\Username\AppData\Roaming\Popchain
+// Mac: ~/Library/Application Support/Popchain
 // Unix: ~/.popchain
 #ifdef WIN32
     // Windows
