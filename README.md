@@ -1,11 +1,9 @@
 # PopChain
 ![](./doc/img/logo.jpg)
 
-### What is PopChain?
-POPCHAIN is a live-streamable digital contents distribution service platform based on block chain technology which aims to create a pan entertainment ecosystem .
-PopChain-gho is the implement of Greedy Heaviest Observed Subtree (GHOST) protocol for popchain.
+POPCHAIN is a bottom-driven, open, public blockchain for content creators and consumers. Through a blockchain-based ecosystem, POPCHAIN provides a decentralized solution for the entertainment market by ensuring that creators are directly and fairly compensated for their work. 
 
-Resources may be helpful to know about Pop.
+POPCHAIN can be widely used for live broadcasts, content promotion, code sharing, online games and more, revolutionizing the field of entertainment. By allowing users to access content directly from creators, POPCHAIN cuts out intermediaries that currently dominate the industry as well as the fees that they charge, instead of giving that profit back to the creators.
 
 Basic usage resources:
 
