@@ -15,9 +15,9 @@ Basic usage resources:
 <tr><td>Algo</td><td>Quark</td></tr>
 <tr><td>Block Time</td><td>60 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
-<tr><td>Max Coin Supply (PoW Phase)</td><td>20,000,000,000 PCH</td></tr>
-<tr><td>PoW (w/ Masternode)</td><td>8,000,000,000 PCH</td></tr>
-<tr><td>Premine</td><td>12,000,000,000 PCH*</td></tr>
+<tr><td>Max Coin Supply (PoW Phase)</td><td>2,000,000,000 PCH</td></tr>
+<tr><td>PoW (w/ Masternode)</td><td>800,000,000 PCH</td></tr>
+<tr><td>Premine</td><td>1,200,000,000 PCH*</td></tr>
 </table>
 
 ### Reward Distribution
@@ -25,7 +25,7 @@ Basic usage resources:
 <table>
 <th colspan=4>Genesis Block</th>
 <tr><th>Block Height</th><th>Reward Amount</th><th>Notes</th></tr>
-<tr><td>1</td><td>12,000,000,000 PCH</td><td>Initial Pre-mine and distributed and swaped amount</td></tr>
+<tr><td>1</td><td>1,200,000,000 PCH</td><td>Initial Pre-mine and distributed and swaped amount</td></tr>
 </table>
 
 ### PoW Rewards Breakdown
