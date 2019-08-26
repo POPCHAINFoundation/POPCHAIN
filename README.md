@@ -1,4 +1,4 @@
-# PopChain
+# POPCHAIN
 ![](./doc/img/logo.jpg)
 
 POPCHAIN is a bottom-driven, open, public blockchain for content creators and consumers. Through a blockchain-based ecosystem, POPCHAIN provides a decentralized solution for the entertainment market by ensuring that creators are directly and fairly compensated for their work. 
@@ -8,7 +8,7 @@ POPCHAIN can be widely used for live broadcasts, content promotion, code sharing
 Basic usage resources:
 
 * [Official site](http://www.popchain.co/)
-
+* [Whitepaper](https://popchain.co/downloads/POPCHAIN_Whitepaper_v4.22(ENG)_190826.pdf)
 
 ### Coin Specs
 <table>
@@ -40,7 +40,8 @@ Contact us:
 * contact@popchain.co
 
 
-Building PopChain
+Building POPCHAIN
+
 ### Build on Ubuntu(16.04 LTS)
 
     git clone https://github.com/PopchainFoundation/PopChain.git
