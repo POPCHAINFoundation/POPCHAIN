@@ -299,12 +299,11 @@ public:
         assert(hashGenesisBlock == uint256("0x00000ba44c21da19e5b536372bb4565f78ef914eca13152ab8f288e0b6159268"));
         assert(genesis.hashMerkleRoot == uint256("0x6f2365be9a7637754a1d34032be19778b47c1dffb5a5fe4b382057fe69f4fb95"));
 
-        vSeeds.push_back(CDNSSeedData("example.com", "example.com"));
-        //vSeeds.push_back(CDNSSeedData("seed1.popchain.co", "seed1.popchain.co"));
-        //vSeeds.push_back(CDNSSeedData("seed2.popchain.co", "seed2.popchain.co"));
-        //vSeeds.push_back(CDNSSeedData("seed3.popchain.co", "seed3.popchain.co"));
-        //vSeeds.push_back(CDNSSeedData("seed4.popchain.co", "seed4.popchain.co"));
-        //vSeeds.push_back(CDNSSeedData("seed5.popchain.co", "seed5.popchain.co"));
+        vSeeds.push_back(CDNSSeedData("seed1.popchain.co", "seed1.popchain.co"));
+        vSeeds.push_back(CDNSSeedData("seed2.popchain.co", "seed2.popchain.co"));
+        vSeeds.push_back(CDNSSeedData("seed3.popchain.co", "seed3.popchain.co"));
+        vSeeds.push_back(CDNSSeedData("seed4.popchain.co", "seed4.popchain.co"));
+        vSeeds.push_back(CDNSSeedData("seed5.popchain.co", "seed5.popchain.co"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 56); // Start with P
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 63); // Start with S
@@ -326,7 +325,7 @@ public:
         fHeadersFirstSyncingActive = false;
 
         nPoolMaxTransactions = 3;
-        nBudgetCycleBlocks = 43200; //!< Amount of blocks in a months period of time (using 1 minutes per) = (60*24*30)
+        nBudgetCycleBlocks = 21600; //!< Amount of blocks in 15 days period of time (using 1 minutes per) = (60*24*30)
         strSporkKey = "0499A7AF4806FC6DE640D23BC5936C29B77ADF2174B4F45492727F897AE63CF8D27B2F05040606E0D14B547916379FA10716E344E745F880EDC037307186AA25B7";
         strSporkKeyOld = "04B433E6598390C992F4F022F20D3B4CBBE691652EE7C48243B81701CBDB7CC7D7BF0EE09E154E6FCBF2043D65AF4E9E97B89B5DBAF830D83B9B7F469A6C45A717";
         strObfuscationPoolDummyAddress = "D87q2gC9j6nNrnzCsg4aY6bHMLsT9nUhEw";

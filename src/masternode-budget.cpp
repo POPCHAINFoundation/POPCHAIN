@@ -532,7 +532,7 @@ void CBudgetManager::FillBlockPayee(CMutableTransaction& txNew, CAmount nFees, b
 {
     CBitcoinAddress address("PfundnC8jvM92sby9CGqNaCijYgwQwCzEU"); // TODO: NEED TO BE REPLACED
     CScript payee = GetScriptForDestination(address.Get());
-    CAmount nAmount = 8219178 * COIN; // Approx 100000000 PCH per year
+    CAmount nAmount = 4109590 * COIN; // Approx 100000000 PCH per year
 
     unsigned int i = txNew.vout.size();
     txNew.vout.resize(i + 1);
