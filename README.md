@@ -8,7 +8,7 @@ POPCHAIN can be widely used for live broadcasts, content promotion, code sharing
 Basic usage resources:
 
 * [Official site](http://www.popchain.co/)
-* [Whitepaper](https://popchain.co/downloads/POPCHAIN_Whitepaper_v4.22(ENG)_190826.pdf)
+* [Whitepaper](https://popchain.co/downloads/POPCHAIN_Whitepaper_EN.pdf)
 
 ### Coin Specs
 <table>
