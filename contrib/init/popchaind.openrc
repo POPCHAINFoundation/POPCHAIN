@@ -18,8 +18,8 @@ BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/popchaind}
 BITCOIND_NICE=${BITCOIND_NICE:-${NICELEVEL:-0}}
 BITCOIND_OPTS="${BITCOIND_OPTS:-${BITCOIN_OPTS}}"
 
-name="PIVX Core Daemon"
-description="PIVX crypto-currency p2p network daemon"
+name="Popchain Daemon"
+description="Popchain crypto-currency p2p network daemon"
 
 command="/usr/bin/popchaind"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \

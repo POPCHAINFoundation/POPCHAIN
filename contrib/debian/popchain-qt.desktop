@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
-Name=PIVX Core
-Comment=PIVX P2P Cryptocurrency
+Name=Popchain Core
+Comment=Popchain P2P Cryptocurrency
 Comment[fr]=POPCHAIN, monnaie virtuelle cryptographique pair à pair
 Comment[tr]=POPCHAIN, eşten eşe kriptografik sanal para birimi
 Exec=popchain-qt %u
@@ -10,4 +10,4 @@ Type=Application
 Icon=popchain128
 MimeType=x-scheme-handler/popchain;
 Categories=Office;Finance;
-StartupWMClass=Pivx-qt
+StartupWMClass=Popchain-qt

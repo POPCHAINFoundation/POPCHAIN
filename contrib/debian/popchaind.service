@@ -8,7 +8,7 @@
 # /etc/popchain/popchain.conf
 
 [Unit]
-Description=PIVX daemon
+Description=Popchain daemon
 After=network.target
 
 [Service]

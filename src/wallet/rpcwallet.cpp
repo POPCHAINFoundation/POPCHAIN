@@ -2894,7 +2894,7 @@ UniValue spendzerocoin(const UniValue& params, bool fHelp)
     EnsureWalletIsUnlocked();
 
     CAmount nAmount = AmountFromValue(params[0]);   // Spending amount
-    bool fMintChange = params[1].get_bool();        // Mint change to zPIV
+    bool fMintChange = params[1].get_bool();        // Mint change to zPCH
     if (fMintChange && Params().NetworkID() != CBaseChainParams::REGTEST)
         throw JSONRPCError(RPC_WALLET_ERROR, "zPCH minting is DISABLED, cannot mint change");
     bool fMinimizeChange = params[2].get_bool();    // Minimize change
