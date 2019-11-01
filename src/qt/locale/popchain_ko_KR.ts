@@ -2328,7 +2328,7 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in popchain.c
         <source>Available (mature and spendable) zPCH for spending
 
 zPCH are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>지출에 사용할 수있는 성숙한 소비재 zPIV
+        <translation>지출에 사용할 수있는 성숙한 소비재 zPCh
 
 zPCH는 성명서가 20 개 이상 있고 명칭이 동일하지 않은 2 개 이상의 민트가 작성되었을 때 성숙합니다.</translation>
     </message>
@@ -2422,7 +2422,7 @@ To change the status (restart required):
 - disable: add 'enablezeromint=0' to popchain.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zPIV
+- menu Settings-&gt;Options-&gt;Percentage of autominted zPCH
 
 </source>
         <translation>현재 zPCH 자동 생성 상태를 보여줍니다.

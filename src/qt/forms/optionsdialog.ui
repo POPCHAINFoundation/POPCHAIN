@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>576</width>
-    <height>442</height>
+    <height>531</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -133,7 +133,16 @@
        <item>
         <widget class="QWidget" name="verticalZpchOptionsWidget" native="true">
          <layout class="QVBoxLayout" name="verticalZpchOptionsLayout">
-          <property name="margin">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
            <number>0</number>
           </property>
           <item>
@@ -563,7 +572,16 @@ https://www.transifex.com/popchain-project/popchain-project-translations</string
        <item>
         <widget class="QWidget" name="verticalZpchDisplayWidget" native="true">
          <layout class="QVBoxLayout" name="verticalZpchDisplayLayout">
-          <property name="margin">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
            <number>0</number>
           </property>
           <item>

@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>769</width>
-    <height>485</height>
+    <height>589</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,7 +17,7 @@
    <item>
     <widget class="QTabWidget" name="tabWidget">
      <property name="currentIndex">
-      <number>3</number>
+      <number>0</number>
      </property>
      <widget class="QWidget" name="tab_info">
       <attribute name="title">
@@ -423,7 +423,7 @@
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="../popchain.qrc">
+            <iconset>
              <normaloff>:/icons/remove</normaloff>:/icons/remove</iconset>
            </property>
            <property name="shortcut">
@@ -1298,11 +1298,11 @@
        </item>
        <item row="3" column="0">
         <widget class="QLabel" name="wallet_custombackuppath_label">
-         <property name="text">
-          <string>Custom Backup Path:</string>
-         </property>
          <property name="visible">
           <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>Custom Backup Path:</string>
          </property>
         </widget>
        </item>
@@ -1311,6 +1311,9 @@
          <property name="cursor">
           <cursorShape>IBeamCursor</cursorShape>
          </property>
+         <property name="visible">
+          <bool>false</bool>
+         </property>
          <property name="text">
           <string>N/A</string>
          </property>
@@ -1320,18 +1323,15 @@
          <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
          </property>
-         <property name="visible">
-          <bool>false</bool>
-         </property>
         </widget>
        </item>
        <item row="4" column="0">
         <widget class="QLabel" name="wallet_customzpchbackuppath_label">
-         <property name="text">
-          <string>Custom zPCH Backup Path:</string>
-         </property>
          <property name="visible">
           <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>Custom zPCH Backup Path:</string>
          </property>
         </widget>
        </item>
@@ -1340,6 +1340,9 @@
          <property name="cursor">
           <cursorShape>IBeamCursor</cursorShape>
          </property>
+         <property name="visible">
+          <bool>false</bool>
+         </property>
          <property name="text">
           <string>N/A</string>
          </property>
@@ -1349,18 +1352,15 @@
          <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
          </property>
-         <property name="visible">
-          <bool>false</bool>
-         </property>
         </widget>
        </item>
        <item row="5" column="0">
         <widget class="QLabel" name="wallet_custombackupthreshold_label">
-         <property name="text">
-          <string>Custom Backups Threshold:</string>
-         </property>
          <property name="visible">
           <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>Custom Backups Threshold:</string>
          </property>
         </widget>
        </item>
@@ -1369,6 +1369,9 @@
          <property name="cursor">
           <cursorShape>IBeamCursor</cursorShape>
          </property>
+         <property name="visible">
+          <bool>false</bool>
+         </property>
          <property name="text">
           <string>N/A</string>
          </property>
@@ -1377,9 +1380,6 @@
          </property>
          <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
-         </property>
-         <property name="visible">
-          <bool>false</bool>
          </property>
         </widget>
        </item>
@@ -1636,8 +1636,6 @@
    </slots>
   </customwidget>
  </customwidgets>
- <resources>
-  <include location="../popchain.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

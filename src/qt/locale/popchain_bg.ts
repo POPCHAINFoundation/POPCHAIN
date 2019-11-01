@@ -2411,7 +2411,7 @@ To change the status (restart required):
 - disable: add 'enablezeromint=0' to popchain.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zPIV
+- menu Settings-&gt;Options-&gt;Percentage of autominted zPCH
 
 </source>
         <translation>Покажи състоянието на автоматичното zPCH емитиране.
@@ -2421,7 +2421,7 @@ To change the percentage (no restart required):
 - изключване: добавете 'enablezeromint=0' в popchain.conf
 
 За промяна в процентите (не изисква рестарт):
-- меню Настройки -&gt; Опции -&gt; Процент на автоемитиран zPIV
+- меню Настройки -&gt; Опции -&gt; Процент на автоемитиран zPCH
 </translation>
     </message>
     <message>
